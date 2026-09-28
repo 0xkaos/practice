@@ -2,7 +2,7 @@
 
 A lightweight Hebrew-first practice app built from 1,085 Tatoeba sentences and locally generated Tamar voice recordings.
 
-Type a complete English translation, check it locally, and see the closest accepted answer with differences highlighted. Google sign-in uses the existing `alephbetical-11f49` Firebase project. Signed-in answers are saved to Firestore; guest practice remains available without an account. There are no AI grading APIs or model downloads.
+Choose **Translate** or **Reveal** for each phrase. Translation inputs stay hidden until selected; checked answers show the closest accepted translation with differences highlighted. Points and accuracy accumulate across sets. Google sign-in uses the existing `alephbetical-11f49` Firebase project. Signed-in results are saved to Firestore; guests get browser-tab session progress. There are no AI grading APIs or model downloads.
 
 ## Local development
 
@@ -11,7 +11,7 @@ npm ci
 npm run dev
 ```
 
-Open the URL Vite prints. The app is served from the site root to support its custom domain.
+Open the URL Vite prints. The app is served from the site root to support its custom domain. For account access, copy `.env.example` to `.env.local` and set `VITE_FIREBASE_API_KEY` to the Firebase web-app key. `.env.local` is ignored by Git. A Codespaces secret named `APIKEY` also works for development. Without a key, development still supports guest practice; production builds require a key.
 
 ## Dataset updates
 
@@ -40,15 +40,19 @@ If the source CSV changes, review the changed data before updating `sourceSha256
 
 These are **canonical text-match scores**, not semantic judgments. An unlisted but valid paraphrase can score lower, and a meaning-changing word may still leave a high partial text match. No alternative's words are pooled with another's.
 
-An answer is checked once per card/set. Revealing a translation before checking permanently marks that attempt assisted, even if hidden again. Revealing it after checking does not change its status. Assisted results are saved but excluded from the recent-history average.
+Each card offers a mutually exclusive choice for the current set of five: Translate opens the answer field and disables Reveal; Reveal disables Translate, even if the translation is hidden again. A new set resets the choice when that phrase is revisited. Answers can only be checked once per card/set, and checking shows the reference translation automatically.
+
+Every submitted answer adds its score as points: 100% earns 100 points, 72% earns 72, and so on. Accuracy is total points divided by the number of submitted answers, displayed to one decimal place without rounding an imperfect average to 100%. Zero-score answers count; reveals do not. Legacy assisted attempts remain excluded. A previously attempted phrase displays its latest prior score (not its best score), which stays visible alongside the new result.
 
 ## Firebase
 
-The public web-app configuration is in `src/firebase.js`; it is not a private API credential. Authentication is Google sign-in, using the existing Firebase account pool. `phrases.alephbetical.com` is authorized. The frontend stays on GitHub Pages.
+The public web-app configuration is in `src/firebase.js`, with its browser key supplied at build time. This keeps the key out of tracked source, but **does not hide it from site visitors**: Firebase's browser SDK needs it in the delivered JavaScript. Firebase browser keys identify a project; Auth and security rules authorize access. See [Firebase's API key guidance](https://firebase.google.com/docs/projects/api-keys). Use a Firebase browser key, not a private Google/Gemini service credential. Authentication is Google sign-in, using the existing Firebase account pool. `phrases.alephbetical.com` is authorized. The frontend stays on GitHub Pages.
 
 Results live only under `phrasePractice/{uid}/attempts/{attemptId}`. Owner-only rules validate their shape and permit creation, reading and deletion, but not editing submitted attempts. No AI app collections, user profiles, storage, or existing Cloud Functions are written by this app. Client-side scoring is appropriate for personal practice, **not a tamper-proof competitive leaderboard**.
 
-The history displays the latest 20 saved attempts and their unaided average, not an all-time total. Guest answers are not uploaded retroactively after sign-in. Failed saves remain retryable while the set is open; retries use the same document ID and cannot double-count an attempt. The app warns before abandoning failed saves and waits for active saves before starting another set.
+Signed-in totals and prior scores use all saved attempts, not just the latest 20. Guest progress is stored in `sessionStorage`, survives new sets and reloads in the same tab, and normally ends when that tab closes. If storage is blocked, in-memory guest practice still works. No Firebase anonymous account is created. Guest answers stay separate from account results and are not uploaded retroactively after sign-in.
+
+Failed saves remain retryable while the set is open; retries use the same document ID and cannot double-count an attempt. Pending results update local totals immediately. The app warns before abandoning failed saves and waits for active saves before starting another set; deliberately discarded saves are removed from account totals.
 
 ### Shared-project rule deployment
 
@@ -72,10 +76,12 @@ npm run test:browser
 npm run build
 ```
 
-Emulator tests require Java 21 and the Firebase CLI. They use only the `demo-phrases` project with Firestore on `127.0.0.1:18080` and Auth on `127.0.0.1:19099`. The wrapper excludes unrelated environment credentials and debug flags. No real test accounts or attempts are created. Browser tests cover desktop and mobile layouts, audio requests, exact/partial scoring, assisted attempts, save/reload, and account isolation. Google OAuth itself should also be smoke-tested on the deployed domain after pushing.
+Emulator tests require Java 21 and the Firebase CLI. They use only the `demo-phrases` project with Firestore on `127.0.0.1:18080` and Auth on `127.0.0.1:19099`. The wrapper excludes unrelated environment credentials and debug flags. No real test accounts or attempts are created. Browser tests cover desktop and mobile layouts, audio requests, exact/partial scoring, reveal lockout and revisits, cumulative and prior scores, guest sessions, blocked storage, save/reload, offline retries and account isolation. Google OAuth itself should also be smoke-tested on the deployed domain after pushing.
 
 ## Deployment
 
 Push `main` to deploy through GitHub Actions. In the repository settings, choose **Settings → Pages → Build and deployment → GitHub Actions** as the publishing source.
+
+Add the Firebase browser key under **Settings → Secrets and variables → Actions → New repository secret**, named **`APIKEY`**. The workflow passes this to Vite as `VITE_FIREBASE_API_KEY`; no environment-specific secret is needed. Codespaces secrets are separate and are **not** available to the Pages build. A missing Actions key stops the build with an explicit error instead of publishing a broken login setup. See [GitHub's Actions secrets documentation](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets).
 
 The site is available at <https://phrases.alephbetical.com/>.

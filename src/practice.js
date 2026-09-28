@@ -1,9 +1,11 @@
-import { collection, doc, limit, onSnapshot, orderBy, query, runTransaction, serverTimestamp } from 'firebase/firestore'
+import { collection, doc, onSnapshot, orderBy, query, runTransaction, serverTimestamp } from 'firebase/firestore'
 import { db } from './firebase'
 
 export function watchAttempts(uid, onResults, onError) {
-  const recent = query(collection(db, 'phrasePractice', uid, 'attempts'), orderBy('createdAt', 'desc'), limit(20))
-  return onSnapshot(recent, (snapshot) => {
+  // All saved attempts are needed for genuine cumulative totals and previous
+  // scores. No migration or additional write permissions are required.
+  const attempts = query(collection(db, 'phrasePractice', uid, 'attempts'), orderBy('createdAt', 'desc'))
+  return onSnapshot(attempts, (snapshot) => {
     onResults(snapshot.docs.map((item) => ({ id: item.id, ...item.data() })))
   }, onError)
 }

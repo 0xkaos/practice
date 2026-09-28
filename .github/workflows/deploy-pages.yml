@@ -34,7 +34,13 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          VITE_FIREBASE_API_KEY: ${{ secrets.APIKEY }}
         run: |
+          if [ -z "$VITE_FIREBASE_API_KEY" ]; then
+            echo "::error::Add APIKEY under Settings > Secrets and variables > Actions > New repository secret. Codespaces secrets are not available to this workflow."
+            exit 1
+          fi
           npm run data
           npm test
           npm run build
