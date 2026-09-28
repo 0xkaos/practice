@@ -225,7 +225,7 @@ test('all-time totals include older history and latest saved score appears on th
       await saveAttempt(auth.currentUser.uid, {
         id: crypto.randomUUID(), sentenceId: phrase.id, answer: phrase.english,
         score, exact: score === 100, referenceIndex: 0, assisted: false,
-        translationVersion: phrase.translationVersion, gradingVersion: 'ordered-v1',
+        translationVersion: phrase.translationVersion, gradingVersion: 'ordered-v2',
       })
     }
   }, sentence)

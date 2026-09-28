@@ -39,6 +39,17 @@ test('missing, extra, substituted, and reordered words receive partial credit', 
   }
 })
 
+test('reordered matching words receive capped credit and remain highlighted accurately', () => {
+  const result = scoreTranslation('Bill and I are good friends.', ['I am good friends with Bill.'])
+  assert.equal(result.score, 67)
+  assert.equal(result.exact, false)
+  assert.equal(result.actualParts.find((part) => part.text === 'Bill').kind, 'equal')
+  assert.equal(result.actualParts.find((part) => part.text === 'good').kind, 'equal')
+  assert.equal(result.actualParts.find((part) => part.text === 'friends').kind, 'equal')
+  assert.equal(result.actualParts.find((part) => part.text === 'and').kind, 'extra')
+  assert.equal(result.expectedParts.find((part) => part.text === 'with').kind, 'missing')
+})
+
 test('whitespace is normalized; blank and unrelated answers do not pass', () => {
   assert.equal(scoreTranslation('  I  don\'t feel like going out today.  ', alternatives).score, 100)
   assert.equal(scoreTranslation('   ', alternatives).score, 0)

@@ -1,5 +1,6 @@
-export const GRADING_VERSION = 'ordered-v1'
+export const GRADING_VERSION = 'ordered-v2'
 export const MAX_ANSWER_LENGTH = 500
+const REORDERED_SCORE_CAP = 0.67
 
 // English copy/paste artifacts: soft hyphens, zero-width spacing/joiners,
 // bidirectional controls and BOM. Keep visible punctuation and accents intact.
@@ -89,6 +90,40 @@ function compare(answer, reference) {
   }
 }
 
+function compareReordered(answer, reference) {
+  const actual = tokenize(answer)
+  const expected = tokenize(reference)
+  const available = new Map()
+  for (const token of expected) available.set(token.text, (available.get(token.text) || 0) + 1)
+  let matchedWeight = 0
+  const actualParts = actual.map((token) => {
+    const count = available.get(token.text) || 0
+    if (!count) return { ...token, kind: 'extra' }
+    available.set(token.text, count - 1)
+    matchedWeight += weight(token)
+    return { ...token, kind: 'equal' }
+  })
+
+  const actualAvailable = new Map()
+  for (const token of actual) actualAvailable.set(token.text, (actualAvailable.get(token.text) || 0) + 1)
+  const expectedParts = expected.map((token) => {
+    const count = actualAvailable.get(token.text) || 0
+    if (!count) return { ...token, kind: 'missing' }
+    actualAvailable.set(token.text, count - 1)
+    return { ...token, kind: 'equal' }
+  })
+
+  const denominator = Math.max(actual.reduce((sum, token) => sum + weight(token), 0), expected.reduce((sum, token) => sum + weight(token), 0))
+  return {
+    score: Math.round(Math.min(REORDERED_SCORE_CAP, matchedWeight / denominator) * 100),
+    exact: false,
+    similarity: Math.min(REORDERED_SCORE_CAP, matchedWeight / denominator),
+    reference,
+    actualParts,
+    expectedParts,
+  }
+}
+
 export function scoreTranslation(answer, translations) {
   if (typeof answer !== 'string' || answer.length > MAX_ANSWER_LENGTH) throw new Error('Answer must be at most 500 characters.')
   if (!Array.isArray(translations) || translations.length < 1 || translations.length > 3 || translations.some((text) => typeof text !== 'string' || !normalizeWhitespace(text))) {
@@ -96,6 +131,11 @@ export function scoreTranslation(answer, translations) {
   }
   const normalized = normalizeWhitespace(answer)
   // Never align against a concatenation or a pool of words from multiple answers.
-  return translations.map((text, index) => ({ ...compare(normalized, normalizeWhitespace(text)), referenceIndex: index }))
+  return translations.map((text, index) => {
+    const reference = normalizeWhitespace(text)
+    const ordered = compare(normalized, reference)
+    const reordered = compareReordered(normalized, reference)
+    return { ...(reordered.similarity > ordered.similarity ? reordered : ordered), referenceIndex: index }
+  })
     .reduce((best, result) => result.exact && !best.exact || result.similarity > best.similarity ? result : best)
 }
