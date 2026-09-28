@@ -30,6 +30,7 @@ export default function SentenceCard({ sentence, number, playing, onPlay, user, 
   const saveInFlight = useRef(false)
   const checked = useRef(false)
   const previousScore = result ? result.previousScore : previousAttempt?.score
+  const normalizedAnswer = normalizeWhitespace(answer)
 
   const persist = async (submission) => {
     if (saveInFlight.current) return
@@ -51,14 +52,14 @@ export default function SentenceCard({ sentence, number, playing, onPlay, user, 
 
   const check = (event) => {
     event.preventDefault()
-    if (mode !== 'translate' || checked.current || !answer.trim() || !accountReady) return
+    if (mode !== 'translate' || checked.current || !normalizedAnswer || !accountReady) return
     checked.current = true
     const grade = scoreTranslation(answer, sentence.translations)
     setResult({ ...grade, previousScore: previousAttempt?.score })
     const attempt = {
       id: crypto.randomUUID(),
       sentenceId: sentence.id,
-      answer: normalizeWhitespace(answer),
+      answer: normalizedAnswer,
       score: grade.score,
       exact: grade.exact,
       referenceIndex: grade.referenceIndex,
@@ -111,7 +112,7 @@ export default function SentenceCard({ sentence, number, playing, onPlay, user, 
         {mode === 'translate' && !result && <form className="answer-form" onSubmit={check} dir="ltr">
           <label htmlFor={`answer-${sentence.id}`} className="sr-only">Your English translation</label>
           <textarea id={`answer-${sentence.id}`} value={answer} onChange={(event) => setAnswer(event.target.value)} maxLength={MAX_ANSWER_LENGTH} rows={2} spellCheck={false} autoCorrect="off" autoCapitalize="off" autoFocus lang="en" dir="ltr" placeholder="Your translation…" />
-          <div className="answer-actions"><button className="audio-button" type="submit" disabled={!answer.trim() || !accountReady}>Check</button></div>
+          <div className="answer-actions"><button className="audio-button" type="submit" disabled={!normalizedAnswer || !accountReady}>Check</button></div>
         </form>}
       </div>
 

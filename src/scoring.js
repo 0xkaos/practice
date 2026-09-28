@@ -1,9 +1,13 @@
 export const GRADING_VERSION = 'ordered-v1'
 export const MAX_ANSWER_LENGTH = 500
 
-// Whitespace is layout, but case and every punctuation character are significant.
+// English copy/paste artifacts: soft hyphens, zero-width spacing/joiners,
+// bidirectional controls and BOM. Keep visible punctuation and accents intact.
+const INVISIBLE_FORMATTING = /[\u00AD\u061C\u200B-\u200F\u202A-\u202E\u2060\u2066-\u2069\uFEFF]/gu
+
+// Normalize layout only; case and visible punctuation remain significant.
 export function normalizeWhitespace(value) {
-  return value.trim().replace(/\s+/gu, ' ')
+  return value.replace(INVISIBLE_FORMATTING, '').trim().replace(/\s+/gu, ' ')
 }
 
 function tokenize(text) {
@@ -87,7 +91,7 @@ function compare(answer, reference) {
 
 export function scoreTranslation(answer, translations) {
   if (typeof answer !== 'string' || answer.length > MAX_ANSWER_LENGTH) throw new Error('Answer must be at most 500 characters.')
-  if (!Array.isArray(translations) || translations.length < 1 || translations.length > 3 || translations.some((text) => typeof text !== 'string' || !text.trim())) {
+  if (!Array.isArray(translations) || translations.length < 1 || translations.length > 3 || translations.some((text) => typeof text !== 'string' || !normalizeWhitespace(text))) {
     throw new Error('Expected one to three complete canonical translations.')
   }
   const normalized = normalizeWhitespace(answer)

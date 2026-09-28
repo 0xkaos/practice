@@ -1,6 +1,7 @@
 import { expect, test } from '@playwright/test'
 import { readFileSync } from 'node:fs'
 import { scoreTranslation } from '../../src/scoring.js'
+import { GUEST_PROGRESS_KEY } from '../../src/progress.js'
 
 const sentences = JSON.parse(readFileSync('src/data/sentences.json', 'utf8'))
 const byId = new Map(sentences.map((sentence) => [sentence.id, sentence]))
@@ -40,6 +41,9 @@ test('five compact RTL cards, audio, hidden input, guest totals and new sets', a
   const errors = []
   page.on('pageerror', (error) => errors.push(error.message))
   await openPractice(page)
+  await expect(page.getByRole('heading', { name: 'חמש', exact: true })).toHaveCount(0)
+  await expect(page.locator('.hero-hebrew')).toHaveText('חמישה משפטים. בקצב שלך.')
+  await expect(page.locator('.hero-hebrew')).toBeVisible()
   await expect(page.locator('.sentence-card')).toHaveCount(5)
   await expect(page.getByRole('textbox')).toHaveCount(0)
   await expect(page.getByText('Capitalization and punctuation count.')).toHaveCount(0)
@@ -126,6 +130,39 @@ test('case and punctuation still affect the score without instructional text', a
   await expect(card.locator('mark').first()).toBeVisible()
   await expect(page.getByTestId('points')).toHaveText(String(expected))
   await expect(page.getByTestId('accuracy')).toHaveText(`${expected}%`)
+})
+
+test('invisible clipboard characters earn full points and are removed from saved guest answers', async ({ page }) => {
+  await openPractice(page)
+  const { card, sentence } = await firstSentence(page)
+  const pasted = `\u200F${sentence.english.replace(' ', ' \u200B\u200B')}\u2060`
+  await answerCard(card, pasted)
+  await expect(card.getByRole('status')).toContainText('100%Perfect')
+  await expect(card.locator('mark')).toHaveCount(0)
+  await expect(page.getByTestId('points')).toHaveText('100')
+  await expect(page.getByTestId('accuracy')).toHaveText('100%')
+  const saved = await page.evaluate((key) => JSON.parse(sessionStorage.getItem(key)), GUEST_PROGRESS_KEY)
+  expect(saved).toHaveLength(1)
+  expect(saved[0]).toMatchObject({ answer: sentence.english, score: 100, exact: true })
+  await page.reload()
+  await expect(page.getByTestId('points')).toHaveText('100')
+})
+
+test('invisible-only input cannot submit or consume the attempt', async ({ page }) => {
+  await openPractice(page)
+  const { card, sentence } = await firstSentence(page)
+  await card.getByRole('button', { name: 'Translate', exact: true }).click()
+  await card.getByRole('textbox').fill('\u200B\u200F \u2060')
+  await expect(card.getByRole('button', { name: 'Check', exact: true })).toBeDisabled()
+  // The submit handler must also reject invisible-only input independently of
+  // the disabled button (e.g. a programmatic or keyboard form submission).
+  await card.locator('form').evaluate((form) => form.requestSubmit())
+  await expect(card.getByRole('status')).toHaveCount(0)
+  await expect(page.getByTestId('answers')).toHaveText('0')
+  await card.getByRole('textbox').fill(sentence.english)
+  await card.getByRole('button', { name: 'Check', exact: true }).click()
+  await expect(page.getByTestId('points')).toHaveText('100')
+  await expect(page.getByTestId('answers')).toHaveText('1')
 })
 
 test('guest scoring still works when browser storage is blocked', async ({ page }) => {

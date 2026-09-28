@@ -36,7 +36,7 @@ If the source CSV changes, review the changed data before updating `sourceSha256
 
 ## Scoring
 
-`src/scoring.js` compares an answer against each accepted translation separately using weighted, ordered token edit distance, and chooses the best complete match. Word insertion, deletion, or substitution costs 1; capitalization-only changes cost 0.2 per word; punctuation changes cost 0.15. Order matters. Only surrounding/repeated whitespace is normalized; apostrophes, quote styles, capitalization, and punctuation remain significant. Non-exact results are capped at 99%, even if rounding would otherwise give 100%.
+`src/scoring.js` compares an answer against each accepted translation separately using weighted, ordered token edit distance, and chooses the best complete match. Word insertion, deletion, or substitution costs 1; capitalization-only changes cost 0.2 per word; punctuation changes cost 0.15. Order matters. Surrounding/repeated whitespace and common invisible clipboard formatting (zero-width spacing/joiners, bidirectional controls, soft hyphens and BOM) are normalized in both answers and references. Apostrophes, quote styles, capitalization, accents and visible punctuation remain significant. Non-exact results are capped at 99%, even if rounding would otherwise give 100%. Saved answers use the same normalization; invisible-only input cannot be submitted. Existing saved scores are not recalculated.
 
 These are **canonical text-match scores**, not semantic judgments. An unlisted but valid paraphrase can score lower, and a meaning-changing word may still leave a high partial text match. No alternative's words are pooled with another's.
 

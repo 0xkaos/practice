@@ -2,7 +2,7 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 import { readFileSync } from 'node:fs'
 import { createHash } from 'node:crypto'
-import { scoreTranslation } from '../../src/scoring.js'
+import { normalizeWhitespace, scoreTranslation } from '../../src/scoring.js'
 
 const alternatives = ["I'm not in the mood to go out today.", "I don't feel like going out today."]
 
@@ -39,12 +39,58 @@ test('missing, extra, substituted, and reordered words receive partial credit', 
   }
 })
 
-test('only whitespace is normalized; blank and unrelated answers do not pass', () => {
+test('whitespace is normalized; blank and unrelated answers do not pass', () => {
   assert.equal(scoreTranslation('  I  don\'t feel like going out today.  ', alternatives).score, 100)
   assert.equal(scoreTranslation('   ', alternatives).score, 0)
   assert.equal(scoreTranslation('purple', alternatives).score, 0)
   assert.throws(() => scoreTranslation('x'.repeat(501), alternatives))
   assert.throws(() => scoreTranslation('hello', []))
+})
+
+test('invisible zero-width spaces in the reported Canada answer do not cost points', () => {
+  const reference = 'What languages are spoken in Canada?'
+  const pasted = 'What languages \u200B\u200Bare spoken in Canada?'
+  for (const [answer, expected] of [[pasted, reference], [reference, pasted]]) {
+    const result = scoreTranslation(answer, [expected])
+    assert.equal(result.score, 100)
+    assert.equal(result.exact, true)
+    assert.equal(result.reference, reference)
+    assert.ok(result.actualParts.every((part) => part.kind === 'equal'))
+    assert.equal(normalizeWhitespace(answer), reference)
+  }
+})
+
+test('invisible clipboard formatting is removed before trimming and tokenization', () => {
+  const reference = 'What languages are spoken in Canada?'
+  const formatting = [0x00AD, 0x061C, 0x200B, 0x200C, 0x200D, 0x200E, 0x200F,
+    0x202A, 0x202B, 0x202C, 0x202D, 0x202E, 0x2060, 0x2066, 0x2067, 0x2068, 0x2069, 0xFEFF]
+  for (const codePoint of formatting) {
+    const marker = String.fromCodePoint(codePoint)
+    const pasted = `${marker}  What lan${marker}guages ${marker}are spoken in Canada?  ${marker}`
+    assert.equal(normalizeWhitespace(pasted), reference, `U+${codePoint.toString(16)}`)
+    assert.equal(scoreTranslation(pasted, [reference]).score, 100)
+  }
+})
+
+test('invisible formatting cannot mask visible spelling, case or punctuation differences', () => {
+  const reference = 'What languages are spoken in Canada?'
+  for (const answer of ['what languages are spoken in Canada?', 'What languages are spoken in Canada',
+    'What languages are spoken in Canada!', 'What language are spoken in Canada?',
+    'What languagés are spoken in Canada?', 'What languages-are spoken in Canada?']) {
+    const plain = scoreTranslation(answer, [reference])
+    assert.ok(plain.score < 100)
+    assert.equal(scoreTranslation(`\u200F${answer}\u200B`, [reference]).score, plain.score)
+  }
+})
+
+test('invisible-only input stays blank and cannot be a canonical reference', () => {
+  const blank = '\u200F \u200B\u200B\u2060 \uFEFF'
+  assert.equal(normalizeWhitespace(blank), '')
+  const result = scoreTranslation(blank, alternatives)
+  assert.equal(result.score, 0)
+  assert.equal(result.exact, false)
+  assert.deepEqual(result.actualParts, [])
+  assert.throws(() => scoreTranslation(blank, [blank]), /canonical translations/u)
 })
 
 test('alignment reconstructs both texts, preserving punctuation and case', () => {

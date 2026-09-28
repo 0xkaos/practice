@@ -70,24 +70,6 @@ summary:focus-visible {
   box-shadow: 0 0 0 4px rgba(220, 107, 68, 0.12);
 }
 
-.hero-heading {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 32px;
-  margin-top: 26px;
-}
-
-h1 {
-  margin: 0;
-  color: var(--ink);
-  font-family: "Arial Hebrew", "Noto Sans Hebrew", Arial, sans-serif;
-  font-size: clamp(5.5rem, 14vw, 9rem);
-  font-weight: 800;
-  letter-spacing: -0.08em;
-  line-height: 0.72;
-}
-
 .hero-hebrew {
   margin: 28px 0 0;
   color: var(--ink-soft);
@@ -465,15 +447,6 @@ button:disabled {
 
   .hero {
     margin-bottom: 28px;
-  }
-
-  .hero-heading {
-    display: block;
-    margin-top: 30px;
-  }
-
-  h1 {
-    font-size: 6.2rem;
   }
 
   .hero-rule {

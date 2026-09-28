@@ -84,12 +84,7 @@ export default function App() {
           <span className="eyebrow-dot" />
           SELF PRACTICE · {sentences.length.toLocaleString()} SENTENCES
         </div>
-        <div className="hero-heading">
-          <div>
-            <h1>חמש</h1>
-            <p className="hero-hebrew" lang="he">חמישה משפטים. בקצב שלך.</p>
-          </div>
-        </div>
+        <p className="hero-hebrew" lang="he">חמישה משפטים. בקצב שלך.</p>
         <div className="hero-rule" />
         <Scoreboard progress={progress} signedIn={Boolean(account.user)} />
       </header>
