@@ -350,6 +350,21 @@ summary:focus-visible {
   text-transform: uppercase;
 }
 
+.footer-meta {
+  text-align: right;
+}
+
+.footer-meta small {
+  display: block;
+  margin-top: 6px;
+  color: var(--ink-soft);
+  font-size: 0.68rem;
+}
+
+.footer-meta a {
+  color: inherit;
+}
+
 button:disabled {
   opacity: 0.55;
   cursor: default;
