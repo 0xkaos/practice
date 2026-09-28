@@ -9,7 +9,7 @@ npm ci
 npm run dev
 ```
 
-Open the URL Vite prints. The app is configured under the `/practice/` base path to match GitHub Pages.
+Open the URL Vite prints. The app is served from the site root to support its custom domain.
 
 ## Dataset updates
 
@@ -25,4 +25,4 @@ Each production build refreshes the index automatically. Audio files live in `na
 
 Push `main` to deploy through GitHub Actions. In the repository settings, choose **Settings → Pages → Build and deployment → GitHub Actions** as the publishing source.
 
-The site will be available at <https://0xkaos.github.io/practice/>.
+The site is available at <https://phrases.alephbetical.com/>.
