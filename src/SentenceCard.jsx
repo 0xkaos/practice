@@ -89,7 +89,6 @@ export default function SentenceCard({ sentence, number, playing, onPlay, user, 
       <div className="card-topline">
         <span className="card-number" aria-label={`Sentence ${number}`}>{String(number).padStart(2, '0')}</span>
         {Number.isFinite(previousScore) && <span className="previous-score" dir="ltr">Previous {previousScore}%</span>}
-        <span className="language-mark">עברית</span>
       </div>
 
       <button className="hebrew-line" type="button" onClick={onPlay} aria-label={`Play Hebrew sentence: ${sentence.hebrew}`}>

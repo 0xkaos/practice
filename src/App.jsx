@@ -3,6 +3,8 @@ import sentences from './data/sentences.json'
 import { AccountPanel, Scoreboard, useAccount } from './AccountPanel'
 import SentenceCard from './SentenceCard'
 import { useProgress } from './useProgress'
+import FontSelector from './FontSelector'
+import { DEFAULT_HEBREW_FONT, getHebrewFont, HEBREW_FONT_KEY } from './fonts'
 
 const SET_SIZE = 5
 
@@ -29,11 +31,21 @@ export default function App() {
   const [attempts, setAttempts] = useState([])
   const [saveStates, setSaveStates] = useState({})
   const [playingId, setPlayingId] = useState(null)
+  const [hebrewFont, setHebrewFont] = useState(() => {
+    try { return getHebrewFont(window.localStorage.getItem(HEBREW_FONT_KEY)).id }
+    catch { return DEFAULT_HEBREW_FONT }
+  })
+  const font = getHebrewFont(hebrewFont)
   const audioRef = useRef(null)
   const account = useAccount()
   const progress = useProgress(account.user)
   const saving = Object.values(saveStates).includes('saving')
   const unsaved = Object.values(saveStates).includes('failed')
+
+  useEffect(() => {
+    try { window.localStorage.setItem(HEBREW_FONT_KEY, hebrewFont) }
+    catch { /* Font switching still works when browser storage is blocked. */ }
+  }, [hebrewFont])
 
   useEffect(() => {
     if (!saving && !unsaved) return
@@ -78,7 +90,7 @@ export default function App() {
   }
 
   return (
-    <main className="app-shell">
+    <main className="app-shell" style={{ '--hebrew-font': font.family, '--hebrew-weight': font.weight }}>
       <header className="hero">
         <div className="eyebrow" dir="ltr">
           <span className="eyebrow-dot" />
@@ -116,6 +128,7 @@ export default function App() {
         <p dir="ltr">{attempts.length ? `${attempts.length}/${SET_SIZE} answered` : `Tamar · ${SET_SIZE} sentences`}</p>
       </footer>
       <AccountPanel account={account} />
+      <FontSelector value={hebrewFont} onChange={setHebrewFont} />
     </main>
   )
 }

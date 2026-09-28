@@ -4,6 +4,8 @@ A lightweight Hebrew-first practice app built from 1,085 Tatoeba sentences and l
 
 Choose **Translate** or **Reveal** for each phrase. Translation inputs stay hidden until selected; checked answers show the closest accepted translation with differences highlighted. Points and accuracy accumulate across sets. Google sign-in uses the existing `alephbetical-11f49` Firebase project. Signed-in results are saved to Firestore; guests get browser-tab session progress. There are no AI grading APIs or model downloads.
 
+The **Hebrew font** selector at the bottom offers Playpen Sans Hebrew (script), Varela Round (sans-serif, default), and Frank Ruhl Libre (serif). It changes the Hebrew sentences, subheading and preview, leaving English text and controls unchanged. The preference is stored locally in the browser, independently of accounts; font switching still works if storage is unavailable. Fonts load from Google Fonts with system fallbacks when offline or blocked.
+
 ## Local development
 
 ```bash

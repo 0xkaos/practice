@@ -45,6 +45,7 @@ test('five compact RTL cards, audio, hidden input, guest totals and new sets', a
   await expect(page.locator('.hero-hebrew')).toHaveText('חמישה משפטים. בקצב שלך.')
   await expect(page.locator('.hero-hebrew')).toBeVisible()
   await expect(page.locator('.sentence-card')).toHaveCount(5)
+  await expect(page.locator('.sentence-card').getByText('עברית', { exact: true })).toHaveCount(0)
   await expect(page.getByRole('textbox')).toHaveCount(0)
   await expect(page.getByText('Capitalization and punctuation count.')).toHaveCount(0)
   await expect(page.getByTestId('points')).toHaveText('0')
