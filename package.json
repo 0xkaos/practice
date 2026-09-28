@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "test": "node --test tests/unit/*.test.js",
+    "test:rules": "node scripts/run-emulators.js rules",
+    "test:browser": "node scripts/run-emulators.js browser",
     "data": "python3 scripts/export_frontend_data.py",
     "predev": "npm run data",
     "dev": "vite",
@@ -12,10 +15,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "12.19.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
   "devDependencies": {
+    "@firebase/rules-unit-testing": "5.0.2",
+    "@playwright/test": "1.58.2",
     "@vitejs/plugin-react": "4.4.1",
     "vite": "6.4.3"
   }

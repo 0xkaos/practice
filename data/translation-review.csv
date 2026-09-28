@@ -1,0 +1,1086 @@
+sentence_id,hebrew,source_english,canonical_english,alternative_1,alternative_2,decision,review_note
+329718,מה אתה עושה?,What are you doing?,What are you doing?,,,keep,Reviewed: retain the single canonical translation.
+329722,מה אתה רוצה לעשות?,What do you want to do?,What do you want to do?,,,keep,Reviewed: retain the single canonical translation.
+330501,לא ללכת על הדשא.,Don't walk on the grass.,Don't walk on the grass.,,,keep,Reviewed: retain the single canonical translation.
+337557,בימים אלה מחשיך בסביבות חמש וחצי.,It gets dark about half past five these days.,It gets dark about half past five these days.,,,keep,Reviewed: retain the single canonical translation.
+337727,האם אפשר לקבל עזרה?,Is there any help available?,Is there any help available?,,,keep,Reviewed: retain the single canonical translation.
+337785,הלכנו אל הנהר.,We went to the river.,We went to the river.,,,keep,Reviewed: retain the single canonical translation.
+337793,אני הולך ברגל לבית הספר בכל יום.,I walk to school every day.,I walk to school every day.,,,keep,Reviewed: retain the single canonical translation.
+337979,הוא חזר הביתה מאוחר בערב.,He came home late in the evening.,He came home late in the evening.,,,keep,Reviewed: retain the single canonical translation.
+338014,הכובע הזה קטן מדי בשבילי.,This hat is too small for me.,This hat is too small for me.,,,keep,Reviewed: retain the single canonical translation.
+469619,הוא אוהב לבשל בשביל המשפחה.,He likes cooking for his family.,He likes cooking for his family.,,,keep,Reviewed: retain the single canonical translation.
+500784,יש לי הרבה שיעורי בית לעשות היום.,I have a lot of homework to do today.,I have a lot of homework to do today.,,,keep,Reviewed: retain the single canonical translation.
+500789,הכתב שלך מאוד מסודר.,Your handwriting is very good.,Your handwriting is very neat.,,,corrected,"מסודר describes neatness, not general quality."
+502185,היא לוקחת שיעורי פסנתר פעם בשבוע.,She takes piano lessons once a week.,She takes piano lessons once a week.,,,keep,Reviewed: retain the single canonical translation.
+502453,כמה ספרים קראת?,How many books did you read?,How many books did you read?,,,keep,Reviewed: retain the single canonical translation.
+519942,האם תקחו אותי לשם?,Will you take me there?,Will you take me there?,,,keep,Reviewed: retain the single canonical translation.
+519961,ילדים קטנים יכולים לשחק במשחק הזה.,This game can be played by young children.,This game can be played by young children.,,,keep,Reviewed: retain the single canonical translation.
+520081,יש להם שני בנים ובת אחת.,They have two sons and one daughter.,They have two sons and one daughter.,,,keep,Reviewed: retain the single canonical translation.
+520981,אני הולך לבית הספר בשעה שבע.,I go to school at seven.,I go to school at seven.,,,keep,Reviewed: retain the single canonical translation.
+521652,לדעתי היא רקדנית טובה.,I think she is a good dancer.,I think she is a good dancer.,,,keep,Reviewed: retain the single canonical translation.
+523086,אני מתכנן להישאר בעיר.,I plan to stay in the city.,I plan to stay in the city.,,,keep,Reviewed: retain the single canonical translation.
+531974,כמה ילדים יש לך?,How many children do you have?,How many children do you have?,,,keep,Reviewed: retain the single canonical translation.
+533364,תודה רבה עבור עזרתך.,A big thanks for your help.,A big thanks for your help.,Thank you very much for your help.,,alternative,Common complete expression of thanks alongside the source's less usual wording.
+539055,זהו הבית שבו גרתי כאשר הייתי ילד.,This is the house where I lived when I was a child.,This is the house where I lived when I was a child.,,,keep,Reviewed: retain the single canonical translation.
+539483,התיישבתי ביניהם.,I sat among them.,I sat among them.,,,keep,Reviewed: retain the single canonical translation.
+553529,ביקשתי ממנו שלא ייסע מהר.,I asked him not to drive so fast.,I asked him not to drive so fast.,,,keep,Reviewed: retain the single canonical translation.
+553748,אני אוכל כאן.,I eat here.,I eat here.,,,keep,Reviewed: retain the single canonical translation.
+553837,אני סומך עליך.,I'm counting on you.,I'm counting on you.,I trust you.,,alternative,סומך עליך can express trust as well as counting on someone.
+553866,יש חיות רבות בפארק.,There are lots of animals in the park.,There are lots of animals in the park.,,,keep,Reviewed: retain the single canonical translation.
+553868,ישנם הרבה בעלי חיים בפארק.,There are lots of animals in the park.,There are lots of animals in the park.,,,keep,Reviewed: retain the single canonical translation.
+553873,אני זוכר שנעלתי את הדלת.,I remember locking the door.,I remember locking the door.,,,keep,Reviewed: retain the single canonical translation.
+554029,התחבאתי מתחת לשולחן.,I hid under the table.,I hid under the table.,,,keep,Reviewed: retain the single canonical translation.
+554045,הרומן החדש שלה הפך לרב-מכר.,Her new novel has become a best seller.,Her new novel has become a best seller.,,,keep,Reviewed: retain the single canonical translation.
+554087,אני חושבת שעומד לרדת גשם.,I think it's going to rain.,I think it's going to rain.,,,keep,Reviewed: retain the single canonical translation.
+554099,אמא קנתה לנו גור כלבים.,Our mother bought us a puppy.,Our mother bought us a puppy.,,,keep,Reviewed: retain the single canonical translation.
+554251,לא ראיתי אותך כבר הרבה זמן.,I haven't seen you for a long time.,I haven't seen you for a long time.,,,keep,Reviewed: retain the single canonical translation.
+554292,הייתי שם לעתים קרובות.,I was often there.,I was often there.,,,keep,Reviewed: retain the single canonical translation.
+554487,אתה יכול לנסוע לאט יותר?,Could you drive more slowly?,Could you drive more slowly?,,,keep,Reviewed: retain the single canonical translation.
+555659,אני בדרך כלל הולך.,I usually walk.,I usually walk.,,,keep,Reviewed: retain the single canonical translation.
+556046,איפה הספר שלה? הוא מונח על השולחן.,Where is her book? It is on the table.,Where is her book? It is on the table.,,,keep,Reviewed: retain the single canonical translation.
+556157,הוא שאל איך קוראים לי.,He asked me what my name was.,He asked me what my name was.,,,keep,Reviewed: retain the single canonical translation.
+556160,אפשר לעזור לך?,Can I help you?,Can I help you?,,,keep,Reviewed: retain the single canonical translation.
+556161,אני יכולה לעזור לך?,Can I help you?,Can I help you?,,,keep,Reviewed: retain the single canonical translation.
+556243,את אוהבת מוזיקה?,Do you like music?,Do you like music?,,,keep,Reviewed: retain the single canonical translation.
+556245,איפה אני יכולה למצוא משחת שיניים?,Where can I find toothpaste?,Where can I find toothpaste?,,,keep,Reviewed: retain the single canonical translation.
+556412,ההורים משחקים עם ילדיהם במשחק.,The parents are playing a game with their children.,The parents are playing a game with their children.,,,keep,Reviewed: retain the single canonical translation.
+556413,אני תוהה אם יירד גשם מחר.,I wonder if it will rain tomorrow.,I wonder if it will rain tomorrow.,,,keep,Reviewed: retain the single canonical translation.
+556436,הכול בסדר?,Is everything all right?,Is everything all right?,,,keep,Reviewed: retain the single canonical translation.
+556470,היא בחרה שלושה תפוחים נהדרים.,She picked out three beautiful apples.,She picked out three beautiful apples.,,,keep,Reviewed: retain the single canonical translation.
+557862,אתה אוהב לשיר?,Do you like singing?,Do you like singing?,,,keep,Reviewed: retain the single canonical translation.
+557864,אתם אוהבים לשיר?,Do you like singing?,Do you like singing?,,,keep,Reviewed: retain the single canonical translation.
+557901,הוא בראש הכיתה באנגלית.,He's the top of his English class.,He's the top of his English class.,,,keep,Reviewed: retain the single canonical translation.
+557902,הוא הראשון באנגלית בכיתתו.,He's the best in his class in English.,He's the best in his class in English.,,,keep,Reviewed: retain the single canonical translation.
+557946,אין עשן בלי אש.,There is no smoke without fire.,There is no smoke without fire.,,,keep,Reviewed: retain the single canonical translation.
+557951,אני זוכר את המילה הזאת.,I remember this word.,I remember this word.,,,keep,Reviewed: retain the single canonical translation.
+558170,הגיע הזמן ללכת לישון.,It's time for bed.,It's time for bed.,It's time to go to sleep.,,alternative,Literal activity alongside the idiomatic time for bed.
+558195,את צודקת לחלוטין.,You are absolutely correct.,You are absolutely correct.,,,keep,Reviewed: retain the single canonical translation.
+558544,אתה בטוח בכך?,Are you sure?,Are you sure?,,,keep,Reviewed: retain the single canonical translation.
+558604,כל הספרים האלה שלי.,All these books are mine.,All these books are mine.,,,keep,Reviewed: retain the single canonical translation.
+558700,אושר נראה על פניו.,He looked happy.,He looked happy.,,,keep,Reviewed: retain the single canonical translation.
+558749,מה קרה?,What is it?,What happened?,,,corrected,"מה קרה asks what happened, not what something is."
+558812,כבר אחרי השעה עשר.,It's already past ten o'clock.,It's already past ten o'clock.,,,keep,Reviewed: retain the single canonical translation.
+559600,הוא יחזור בעוד עשר דקות.,He will be back in ten minutes.,He will be back in ten minutes.,,,keep,Reviewed: retain the single canonical translation.
+560701,יש לי תור אצל הרופא.,I have a doctor's appointment.,I have a doctor's appointment.,,,keep,Reviewed: retain the single canonical translation.
+560887,יש להכות על הברזל בעודו חם.,Strike while the iron is hot.,Strike while the iron is hot.,,,keep,Reviewed: retain the single canonical translation.
+560892,בן כמה אתה?,How old are you?,How old are you?,,,keep,Reviewed: retain the single canonical translation.
+560893,בת כמה את?,How old are you?,How old are you?,,,keep,Reviewed: retain the single canonical translation.
+560900,היא ישבה על ידי.,She sat next to me.,She sat next to me.,,,keep,Reviewed: retain the single canonical translation.
+560919,מה היית עושה במקומי?,What would you do if you were in my place?,What would you do if you were in my place?,What would you do in my place?,,alternative,Direct rendering of במקומי alongside the longer hypothetical construction.
+561366,אני מקווה שאוכל לסייע לך באופן כלשהו.,I hope I can be of some help to you.,I hope I can be of some help to you.,,,keep,Reviewed: retain the single canonical translation.
+561613,המדע אינו פותר את כל בעיות החיים.,Science does not solve all the problems of life.,Science does not solve all the problems of life.,,,keep,Reviewed: retain the single canonical translation.
+561668,אצטרף אליך מאוחר יותר.,I'll join you later.,I'll join you later.,,,keep,Reviewed: retain the single canonical translation.
+562676,הוא צייר כלב.,He painted a picture of a dog.,He painted a picture of a dog.,,,keep,Reviewed: retain the single canonical translation.
+562685,את צריכה את עזרתנו?,Do you need our help?,Do you need our help?,,,keep,Reviewed: retain the single canonical translation.
+562688,אני שמחה שחזרת.,I'm glad to see you back.,I'm glad to see you back.,,,keep,Reviewed: retain the single canonical translation.
+562732,זוהי הרכבת המהירה בעולם.,That is the fastest train in the world.,That is the fastest train in the world.,,,keep,Reviewed: retain the single canonical translation.
+562826,רציתי שהיא תנצח.,I wanted her to win.,I wanted her to win.,,,keep,Reviewed: retain the single canonical translation.
+562882,איך אומרים את זה באיטלקית?,How do you say that in Italian?,How do you say that in Italian?,,,keep,Reviewed: retain the single canonical translation.
+563437,"תודה ששאלת, אולי בפעם הבאה.","Thank you for asking me, but maybe next time.","Thank you for asking me, but maybe next time.",,,keep,Reviewed: retain the single canonical translation.
+563507,מה העיר אותך?,What woke you up?,What woke you up?,,,keep,Reviewed: retain the single canonical translation.
+563528,הוא לקח ספר מהכוננית.,He took a book from the bookshelf.,He took a book from the bookshelf.,,,keep,Reviewed: retain the single canonical translation.
+563827,את מכירה אותם?,Do you know them?,Do you know them?,,,keep,Reviewed: retain the single canonical translation.
+564292,אני חושב שיהיה חם היום.,I think it will be hot today.,I think it will be hot today.,,,keep,Reviewed: retain the single canonical translation.
+564408,הוא כבר יצא.,He has already gone out.,He has already gone out.,,,keep,Reviewed: retain the single canonical translation.
+564630,המטוס הגיע בדיוק בתשע.,The plane arrived exactly at nine.,The plane arrived exactly at nine.,,,keep,Reviewed: retain the single canonical translation.
+565010,מה נשמע?,What's up?,What's up?,How's it going?,,alternative,Two established English greetings for מה נשמע.
+565070,הם קראו לבנם ג'ון.,They named their son John.,They named their son John.,,,keep,Reviewed: retain the single canonical translation.
+565103,אני רוצה לשאול שאלה.,I'd like to ask a question.,I'd like to ask a question.,,,keep,Reviewed: retain the single canonical translation.
+565195,יש לו ידיים גדולות.,He has big hands.,He has big hands.,,,keep,Reviewed: retain the single canonical translation.
+565197,שתיים ועוד שתיים שווה ארבע.,Twice two is equal to four.,Two plus two equals four.,,,corrected,"The Hebrew says addition, not multiplication."
+565200,מהו שמה של בתך?,What's your daughter's name?,What's your daughter's name?,,,keep,Reviewed: retain the single canonical translation.
+565208,"למרות גילו הצעיר, יש לו ניסיון רב.","Young as he is, he has much experience.","Young as he is, he has much experience.",,,keep,Reviewed: retain the single canonical translation.
+565223,אני רוצה לראות את הסרט.,I want to see the movie.,I want to see the movie.,,,keep,Reviewed: retain the single canonical translation.
+565369,אני מסיימת את שיעורי הבית שלי.,I'm finishing my homework.,I'm finishing my homework.,,,keep,Reviewed: retain the single canonical translation.
+565392,איך מגיעים לחוף הים?,Which way is the beach?,Which way is the beach?,How do you get to the beach?,,alternative,Directions question expressed as a route or a way of getting there.
+565406,איך מזג האוויר שם?,How's the weather there?,How's the weather there?,,,keep,Reviewed: retain the single canonical translation.
+565428,לאן אתה הולך?,Where are you going?,Where are you going?,,,keep,Reviewed: retain the single canonical translation.
+565430,לאן אתם הולכים?,Where are you going?,Where are you going?,,,keep,Reviewed: retain the single canonical translation.
+565441,ברוך הבא.,Welcome home.,Welcome.,,,corrected,"The source English adds home, which is absent from the Hebrew."
+565445,עשה לי טובה.,Will you do me a favor?,Will you do me a favor?,Do me a favor.,,alternative,Direct imperative alongside the source's idiomatic request.
+565475,נו כבר!,Please hurry up!,Please hurry up!,Come on!,,alternative,Common impatient exhortation for נו כבר.
+565560,בירכתי אותו להולדת בנו.,I congratulated him on the birth of his son.,I congratulated him on the birth of his son.,,,keep,Reviewed: retain the single canonical translation.
+565654,היו שתי עוגות.,There were two cakes.,There were two cakes.,,,keep,Reviewed: retain the single canonical translation.
+565664,אין אף אחד בגינה.,There's no one in the garden.,There's no one in the garden.,,,keep,Reviewed: retain the single canonical translation.
+565666,הכל היה טעים מאד!,All of it was delicious!,All of it was delicious!,,,keep,Reviewed: retain the single canonical translation.
+565667,הם תמיד היו חברים טובים.,They were always good friends.,They were always good friends.,,,keep,Reviewed: retain the single canonical translation.
+565739,הוא עמד לדבר.,He was about to talk.,He was about to talk.,,,keep,Reviewed: retain the single canonical translation.
+566114,כדור הארץ מסתובב סביב השמש.,The earth moves around the sun.,The earth moves around the sun.,,,keep,Reviewed: retain the single canonical translation.
+566515,מרי יכולה לדבר יפנית.,Mary can speak Japanese.,Mary can speak Japanese.,,,keep,Reviewed: retain the single canonical translation.
+566532,יש לי כל כך הרבה דברים להגיד לך.,I have so many things to tell you.,I have so many things to tell you.,,,keep,Reviewed: retain the single canonical translation.
+566557,אני צריך לצחצח את שיניי.,I have to brush my teeth.,I have to brush my teeth.,,,keep,Reviewed: retain the single canonical translation.
+566605,הוא הבן היחיד שלהם.,He is the only child they have.,He is their only son.,,,corrected,Only son does not imply only child.
+566646,אתה יודע את התשובה?,You know the answer?,Do you know the answer?,,,corrected,Use a standard English question as the canonical answer.
+566647,את יודעת מה התשובה?,You know the answer?,Do you know the answer?,,,corrected,Use a standard English question as the canonical answer.
+566649,אתם יודעים מה התשובה?,You know the answer?,Do you know the answer?,,,corrected,Use a standard English question as the canonical answer.
+566656,הוא שתה שלוש כוסות מים.,He drank three glasses of water.,He drank three glasses of water.,,,keep,Reviewed: retain the single canonical translation.
+566681,כל מה שאת אומרת נכון לגמרי.,All that you say is perfectly correct.,All that you say is perfectly correct.,,,keep,Reviewed: retain the single canonical translation.
+566737,זהו הכפר שבו הוא נולד.,This is the village where he was born.,This is the village where he was born.,,,keep,Reviewed: retain the single canonical translation.
+567052,היא דומה מאוד לאמה.,She looks a lot like her mother.,She looks a lot like her mother.,,,keep,Reviewed: retain the single canonical translation.
+567598,היא אוכלת את ארוחת הצהריים בבית.,She has lunch at home.,She has lunch at home.,,,keep,Reviewed: retain the single canonical translation.
+567602,יש לי עבודה בשבילכם.,I have a job for you.,I have a job for you.,,,keep,Reviewed: retain the single canonical translation.
+567716,היא סגרה את כל החלונות בחדר.,She closed all the windows in the room.,She closed all the windows in the room.,,,keep,Reviewed: retain the single canonical translation.
+567734,הבית יפה.,The house is pretty.,The house is pretty.,,,keep,Reviewed: retain the single canonical translation.
+567736,אני רואה את האיש.,I see the man.,I see the man.,,,keep,Reviewed: retain the single canonical translation.
+567737,כולם מסכימים אתכם.,Everybody agrees with you.,Everybody agrees with you.,,,keep,Reviewed: retain the single canonical translation.
+567884,עדיין יורד גשם?,Is it still raining?,Is it still raining?,,,keep,Reviewed: retain the single canonical translation.
+568155,בואו נעשה הפסקה קצרה.,Let's take a short break.,Let's take a short break.,,,keep,Reviewed: retain the single canonical translation.
+568157,בפינת החדר יש שולחן.,There is a table in the corner of the room.,There is a table in the corner of the room.,,,keep,Reviewed: retain the single canonical translation.
+568164,לא ראיתי אותו כבר זמן רב.,I haven't seen him for a long time.,I haven't seen him for a long time.,,,keep,Reviewed: retain the single canonical translation.
+568178,אולם הקולנוע היה מלא אנשים.,The movie theater was filled with people.,The movie theater was filled with people.,,,keep,Reviewed: retain the single canonical translation.
+569193,אתמול קניתי ספר.,Yesterday I bought a book.,Yesterday I bought a book.,,,keep,Reviewed: retain the single canonical translation.
+569470,אני חשבתי שהסיפור מעניין.,I found the story interesting.,I found the story interesting.,,,keep,Reviewed: retain the single canonical translation.
+569483,אנחנו הולכים הביתה.,We're going home.,We're going home.,,,keep,Reviewed: retain the single canonical translation.
+569505,נרדמתי תוך כדי קריאה.,I fell asleep while reading.,I fell asleep while reading.,,,keep,Reviewed: retain the single canonical translation.
+570606,מתי נגיע?,When do we arrive?,When do we arrive?,,,keep,Reviewed: retain the single canonical translation.
+570621,דבורים עפות בין הפרחים.,Bees are flying among the flowers.,Bees are flying among the flowers.,,,keep,Reviewed: retain the single canonical translation.
+570640,"תוכל לדבר בקול רם יותר, בבקשה?",Could you speak a little louder please?,Could you speak a little louder please?,,,keep,Reviewed: retain the single canonical translation.
+570835,יש לי אך ורק משאלה אחת.,I have but one wish.,I have but one wish.,,,keep,Reviewed: retain the single canonical translation.
+570851,שמעתי את הסיפור הזה.,I have heard the story.,I have heard the story.,,,keep,Reviewed: retain the single canonical translation.
+571447,הלכתי לקולנוע עם אחי.,I went to the movies with my brother.,I went to the movies with my brother.,,,keep,Reviewed: retain the single canonical translation.
+571550,זו תמונה חדשה?,Is it a recent picture?,Is it a recent picture?,,,keep,Reviewed: retain the single canonical translation.
+571572,אתקשר אליהם מחר כשאחזור.,I'll call them tomorrow when I come back.,I'll call them tomorrow when I come back.,,,keep,Reviewed: retain the single canonical translation.
+572068,היא המשיכה לעבוד.,She kept on working.,She kept on working.,,,keep,Reviewed: retain the single canonical translation.
+572194,"ערב טוב, מה שלומך?","Good evening, how are you?","Good evening, how are you?",,,keep,Reviewed: retain the single canonical translation.
+572211,נראה לי שזה יהיה בסדר גמור.,I guess that would be all right.,I guess that would be all right.,,,keep,Reviewed: retain the single canonical translation.
+572212,נראה לי שיהיה בסדר.,I guess that would be all right.,I guess that would be all right.,,,keep,Reviewed: retain the single canonical translation.
+572241,ענה על השאלה.,Answer the question.,Answer the question.,,,keep,Reviewed: retain the single canonical translation.
+572263,יש לנו שתי בנות.,We have two daughters.,We have two daughters.,,,keep,Reviewed: retain the single canonical translation.
+572266,תלמיד חדש נכנס לכיתה.,A new student came into the class.,A new student came into the class.,,,keep,Reviewed: retain the single canonical translation.
+574119,הוא נתן לזה שם חדש.,He gave it a new name.,He gave it a new name.,,,keep,Reviewed: retain the single canonical translation.
+574145,אל תרדו מהאוטובוס עד שהוא יעצור.,Don't get off the bus till it stops.,Don't get off the bus till it stops.,,,keep,Reviewed: retain the single canonical translation.
+574217,קראתי ספר בזמן שאכלתי.,I read a book while eating.,I read a book while eating.,,,keep,Reviewed: retain the single canonical translation.
+574239,יש לי שני אחים.,I have two brothers.,I have two brothers.,,,keep,Reviewed: retain the single canonical translation.
+574772,"מה תרצה להיות ""כשתהיה גדול""?",What would you like to be in the future?,What would you like to be when you grow up?,,,corrected,Preserve the explicit when-you-grow-up clause.
+575895,האם ארוחת הבוקר מוכנה?,Is breakfast ready?,Is breakfast ready?,,,keep,Reviewed: retain the single canonical translation.
+575924,אילו שפות מדברים בקנדה?,What languages are spoken in Canada?,What languages are spoken in Canada?,,,keep,Reviewed: retain the single canonical translation.
+575942,לפעמים הוא קורא סיפורי בלשות.,Sometimes he reads detective stories.,Sometimes he reads detective stories.,,,keep,Reviewed: retain the single canonical translation.
+575948,אני נשואה ויש לי שני ילדים.,I am married and have two children.,I am married and have two children.,,,keep,Reviewed: retain the single canonical translation.
+575954,אני רוצה להיות לבד.,I like being alone.,I want to be alone.,,,corrected,"Wants to be alone, not generally likes being alone."
+576012,כנראה הולך לרדת גשם.,It's probably going to rain.,It's probably going to rain.,,,keep,Reviewed: retain the single canonical translation.
+576176,אני רגיל למזג אויר קר.,I am accustomed to cold weather.,I am accustomed to cold weather.,,,keep,Reviewed: retain the single canonical translation.
+576328,האם זה המפתח שאתה מחפש?,Is this the key you are looking for?,Is this the key you are looking for?,,,keep,Reviewed: retain the single canonical translation.
+576437,הציפור נמצאת בקן שלה.,The bird is in its nest.,The bird is in its nest.,,,keep,Reviewed: retain the single canonical translation.
+576439,כמעט ולא יורד פה גשם אף פעם.,It barely ever rains here.,It barely ever rains here.,,,keep,Reviewed: retain the single canonical translation.
+576445,"מאחר שלא ידעתי מה לעשות, שאלתי לדעתו של המורה.","Not knowing what to do, I asked the teacher for advice.","Not knowing what to do, I asked the teacher for advice.",,,keep,Reviewed: retain the single canonical translation.
+576475,הספרים האלה חדשים.,These books are new.,These books are new.,,,keep,Reviewed: retain the single canonical translation.
+576764,תום הוא חבר שלי.,Tom is my friend.,Tom is my friend.,,,keep,Reviewed: retain the single canonical translation.
+576811,אני רואה טלוויזיה.,I watch television.,I watch television.,,,keep,Reviewed: retain the single canonical translation.
+576926,אני רוצה שתגיד לי את האמת.,I want you to tell me the truth.,I want you to tell me the truth.,,,keep,Reviewed: retain the single canonical translation.
+576933,"זו הרכבת האחרונה, אדוני.","This is the last train, sir.","This is the last train, sir.",,,keep,Reviewed: retain the single canonical translation.
+577901,השעה עשרה לתשע.,It's ten to nine.,It's ten to nine.,,,keep,Reviewed: retain the single canonical translation.
+577970,הנה המפתח שלך.,Here is your key.,Here is your key.,,,keep,Reviewed: retain the single canonical translation.
+578005,אני מאחל לך שנה טובה.,I wish you a Happy New Year.,I wish you a Happy New Year.,,,keep,Reviewed: retain the single canonical translation.
+578599,קרא כמה ספרים שרק אפשר.,Read as many books as possible.,Read as many books as possible.,,,keep,Reviewed: retain the single canonical translation.
+578666,שמך נמצא ראשון ברשימה.,Your name stands first in the list.,Your name stands first in the list.,,,keep,Reviewed: retain the single canonical translation.
+578684,האם הם קמים מוקדם בבוקר?,Do they get up early in the morning?,Do they get up early in the morning?,,,keep,Reviewed: retain the single canonical translation.
+578691,אין היום הרבה רוח.,There isn't much wind today.,There isn't much wind today.,,,keep,Reviewed: retain the single canonical translation.
+578700,היא אישה מקסימה.,She is a charming woman.,She is a charming woman.,,,keep,Reviewed: retain the single canonical translation.
+578723,שמעתי את הקולות המאושרים של הילדים.,I heard the children's happy voices.,I heard the children's happy voices.,,,keep,Reviewed: retain the single canonical translation.
+578733,הוא ישב ליד הנהר.,He sat next to the river.,He sat next to the river.,,,keep,Reviewed: retain the single canonical translation.
+578926,ארוחת הערב מוכנה.,Dinner is ready.,Dinner is ready.,,,keep,Reviewed: retain the single canonical translation.
+579365,פנה שמאלה.,Turn left.,Turn left.,,,keep,Reviewed: retain the single canonical translation.
+579396,אמי לא נמצאת תמיד בבית.,My mother is not always at home.,My mother is not always at home.,,,keep,Reviewed: retain the single canonical translation.
+579406,יש לנו חתול וכלב.,We have a cat and a dog.,We have a cat and a dog.,,,keep,Reviewed: retain the single canonical translation.
+579418,אשאל את זה בצורה אחרת.,Let me rephrase it.,Let me rephrase it.,I'll ask it another way.,,alternative,Direct rendering alongside the idiomatic rephrase it.
+579475,למה אתה לא יכול לבוא?,Why can't you come?,Why can't you come?,,,keep,Reviewed: retain the single canonical translation.
+579486,אמרתי לו לילה טוב.,I wished him a good night.,I wished him a good night.,,,keep,Reviewed: retain the single canonical translation.
+579526,החול בשפת הים היה לבן.,The sand on the beach was white.,The sand on the beach was white.,,,keep,Reviewed: retain the single canonical translation.
+579544,אני שומע אותה מנגנת בפסנתר לעיתים קרובות.,I often hear her play the piano.,I often hear her play the piano.,,,keep,Reviewed: retain the single canonical translation.
+579560,בכיתה שלנו יש 25 ילדים ו-20 ילדות.,Our class has twenty-five boys and twenty girls.,Our class has twenty-five boys and twenty girls.,,,keep,Reviewed: retain the single canonical translation.
+580256,הוא הגיע בעשר ושבע דקות.,He came at seven minutes after ten.,He came at seven minutes after ten.,,,keep,Reviewed: retain the single canonical translation.
+580888,הוא מסתפר פעם בחודש.,He gets his hair cut once a month.,He gets his hair cut once a month.,,,keep,Reviewed: retain the single canonical translation.
+580928,"לאחר שסיימתי את ארוחת הבוקר, מיהרתי לבית הספר.","Having finished breakfast, I hurried to school.","Having finished breakfast, I hurried to school.",,,keep,Reviewed: retain the single canonical translation.
+582329,אני מאוד אוהב לקרוא ספרים.,I love reading books.,I love reading books.,,,keep,Reviewed: retain the single canonical translation.
+582352,זה יכאב רק קצת.,It will only hurt a little.,It will only hurt a little.,,,keep,Reviewed: retain the single canonical translation.
+583871,היא עצמה את עיניה מפני האור החזק.,She shut her eyes because the light was so strong.,She shut her eyes because the light was so strong.,,,keep,Reviewed: retain the single canonical translation.
+583915,"לציפורים, למשל, יש מנגנון הגנה מיוחד.","Birds, for instance, have a special protective device.","Birds, for instance, have a special protective device.",,,keep,Reviewed: retain the single canonical translation.
+584000,הבא לי את המשקפיים.,Bring me my glasses.,Bring me the glasses.,,,corrected,The Hebrew does not specify that the glasses belong to the speaker.
+584399,איזו שפה מדוברת באמריקה?,What language is spoken in America?,What language is spoken in America?,,,keep,Reviewed: retain the single canonical translation.
+584437,אחותי הגדולה מנגנת טוב בגיטרה.,My older sister plays the guitar well.,My older sister plays the guitar well.,,,keep,Reviewed: retain the single canonical translation.
+584842,הוא השיב בקצרה.,He answered in brief.,He answered in brief.,,,keep,Reviewed: retain the single canonical translation.
+584850,לספר הזה היו הרבה דפים.,That book had a lot of pages.,That book had a lot of pages.,,,keep,Reviewed: retain the single canonical translation.
+584874,זה חזק מדי.,It's too loud.,It's too loud.,It's too strong.,,alternative,חזק can refer to strength or sound volume; no context disambiguates this short sentence.
+584880,הגשם ירד במשך חמישה ימים.,The rain lasted five days.,The rain lasted five days.,,,keep,Reviewed: retain the single canonical translation.
+584937,את לגמרי צודקת!!!,You're completely right!,You're completely right!,,,keep,Reviewed: retain the single canonical translation.
+586185,הראה לי כיצד זה עובד.,Show me how it works.,Show me how it works.,,,keep,Reviewed: retain the single canonical translation.
+586693,לוסי הגיעה מאמריקה.,Lucy is from America.,Lucy is from America.,,,keep,Reviewed: retain the single canonical translation.
+586778,הוא שוחה היטב.,He can swim well.,He can swim well.,,,keep,Reviewed: retain the single canonical translation.
+586813,לרגע שכחתי מה שמה.,For a moment I forgot what her name was.,For a moment I forgot what her name was.,,,keep,Reviewed: retain the single canonical translation.
+586815,היה פה פעם גשר.,There used to be a bridge here.,There used to be a bridge here.,,,keep,Reviewed: retain the single canonical translation.
+586823,שוב יורד גשם.,It's raining again!,It's raining again!,,,keep,Reviewed: retain the single canonical translation.
+587245,אני חושב שכבר הייתי כאן.,I think I was already here.,I think I was already here.,,,keep,Reviewed: retain the single canonical translation.
+587892,בדרך כלל אני הולך הביתה בשעה ארבע.,I usually go home at four.,I usually go home at four.,,,keep,Reviewed: retain the single canonical translation.
+587939,יש לי משפחה גדולה.,I have a large family.,I have a large family.,,,keep,Reviewed: retain the single canonical translation.
+587978,מה את לומדת בבית הספר?,What are you learning at school?,What are you learning at school?,,,keep,Reviewed: retain the single canonical translation.
+587996,יש לו בן ושתי בנות.,He has a son and two daughters.,He has a son and two daughters.,,,keep,Reviewed: retain the single canonical translation.
+588031,תוכל לסגור את החלון?,Would you close the window?,Would you close the window?,,,keep,Reviewed: retain the single canonical translation.
+588060,השולחן הזה עשוי מעץ.,This table is made of wood.,This table is made of wood.,,,keep,Reviewed: retain the single canonical translation.
+588061,השולחן הזה עשוי עץ.,This table is made of wood.,This table is made of wood.,,,keep,Reviewed: retain the single canonical translation.
+589114,היא בדיוק עמדה לצאת.,She was about to go out.,She was about to go out.,,,keep,Reviewed: retain the single canonical translation.
+589754,ציפורים עפות מעל העצים.,Birds are flying above the trees.,Birds are flying above the trees.,,,keep,Reviewed: retain the single canonical translation.
+590089,לפני זמן רב היה שם גשר.,"A long time ago, there was a bridge there.","A long time ago, there was a bridge there.",,,keep,Reviewed: retain the single canonical translation.
+590937,אין לנו בית ספר היום.,We have no school today.,We have no school today.,,,keep,Reviewed: retain the single canonical translation.
+590955,אחר-כך הוא הלך הביתה.,"After that, he went home.","After that, he went home.",,,keep,Reviewed: retain the single canonical translation.
+591499,אני חושבת שזה נכון.,I think that it's true.,I think that it's true.,,,keep,Reviewed: retain the single canonical translation.
+591500,עמדנו בכניסה כדי לקבל את פני אורחינו.,We stood at the door to welcome our guests.,We stood at the door to welcome our guests.,,,keep,Reviewed: retain the single canonical translation.
+591517,אני חייב לצאת עכשיו.,I must be leaving now.,I must be leaving now.,,,keep,Reviewed: retain the single canonical translation.
+592041,זה עתה חזרתי מהדואר.,I have just returned from the post office.,I have just returned from the post office.,,,keep,Reviewed: retain the single canonical translation.
+592479,את חדשה כאן?,Are you new here?,Are you new here?,,,keep,Reviewed: retain the single canonical translation.
+592506,עצים רבים נפלו.,Many trees fell down.,Many trees fell down.,,,keep,Reviewed: retain the single canonical translation.
+592514,אולי היא תבוא מחר.,Perhaps she will come tomorrow.,Perhaps she will come tomorrow.,,,keep,Reviewed: retain the single canonical translation.
+595027,יום ההולדת שלי חל ב-22 במרץ.,My birthday is on March 22.,My birthday is on March 22.,,,keep,Reviewed: retain the single canonical translation.
+596267,אל תשכח לשלוח את המכתב.,Don't forget to mail the letter.,Don't forget to mail the letter.,,,keep,Reviewed: retain the single canonical translation.
+597516,קראתי במשך שעה.,I had been reading for an hour.,I had been reading for an hour.,,,keep,Reviewed: retain the single canonical translation.
+597987,"לאחר שנשאר לבדו, הוא החל לקרוא ספר.","Left alone, he began to read a book.","Left alone, he began to read a book.",,,keep,Reviewed: retain the single canonical translation.
+601264,אני מקווה לראותך בקרוב.,I hope to see you soon.,I hope to see you soon.,,,keep,Reviewed: retain the single canonical translation.
+601289,הוא גבוה יותר מכל שאר הבנים.,He is taller than any other boy.,He is taller than any other boy.,,,keep,Reviewed: retain the single canonical translation.
+602175,אני לא יודע מה שמו.,I don't know his name.,I don't know his name.,,,keep,Reviewed: retain the single canonical translation.
+602276,שיעור היסטוריה מתחיל בתשע.,The history class starts at nine.,The history class starts at nine.,,,keep,Reviewed: retain the single canonical translation.
+602327,אני שמח לראות אותך.,I'm glad to see you.,I'm glad to see you.,,,keep,Reviewed: retain the single canonical translation.
+602330,מה דעתך על הסרט החדש?,What do you think of the new movie?,What do you think of the new movie?,,,keep,Reviewed: retain the single canonical translation.
+602690,"הסרט הזה הוא למבוגרים, לא לילדים.","This movie is for adults, not for children.","This movie is for adults, not for children.",,,keep,Reviewed: retain the single canonical translation.
+603924,המשחק רק התחיל והם כבר זכו בנקודה הראשונה שלהם.,The game had hardly started when they scored the first point.,The game had hardly started when they scored the first point.,,,keep,Reviewed: retain the single canonical translation.
+603961,"מה בא קודם, הביצה או התרנגולת?",What came first? The egg or the hen?,What came first? The egg or the hen?,"Which came first, the chicken or the egg?",,alternative,Established English form of this familiar question.
+604039,האגם עמוק מאוד.,The lake is very deep.,The lake is very deep.,,,keep,Reviewed: retain the single canonical translation.
+604126,אי אפשר לחיות בלי מים.,One can't live without water.,One can't live without water.,,,keep,Reviewed: retain the single canonical translation.
+604179,בסופו של דבר הוא השיג את מטרתו.,He reached his goal at last.,He reached his goal at last.,,,keep,Reviewed: retain the single canonical translation.
+605933,אני מצחצח שיניים פעמיים ביום.,I brush my teeth twice a day.,I brush my teeth twice a day.,,,keep,Reviewed: retain the single canonical translation.
+607215,אתה מצליח להבחין בין תום לבין אחיו התאום?,Can you tell Tom from his twin brother?,Can you tell Tom from his twin brother?,Can you tell the difference between Tom and his twin brother?,,alternative,Full distinguish-between construction alongside tell X from Y.
+607734,כתוב את שמך כאן.,Write down your name here.,Write down your name here.,,,keep,Reviewed: retain the single canonical translation.
+607884,הזמר החדש הזה באמת טוב.,This new singer is really great.,This new singer is really great.,,,keep,Reviewed: retain the single canonical translation.
+608034,"הסרט היה מעניין, כפי שציפיתי.","The movie was interesting, as I had expected.","The movie was interesting, as I had expected.",,,keep,Reviewed: retain the single canonical translation.
+608072,אני רוצה לדעת מי בא אתנו.,I want to know who is coming with us.,I want to know who is coming with us.,,,keep,Reviewed: retain the single canonical translation.
+609424,"ובכל זאת, הכמות לא נכונה.","However, the quantity is not correct.","However, the quantity is not correct.",,,keep,Reviewed: retain the single canonical translation.
+609511,למה קמת מוקדם כל כך?,Why did you get up so early?,Why did you get up so early?,,,keep,Reviewed: retain the single canonical translation.
+609550,ירד שלג במשך כל הלילה.,It's been snowing all night.,It's been snowing all night.,,,keep,Reviewed: retain the single canonical translation.
+609556,רוח חזקה נשבה.,A strong wind was blowing.,A strong wind was blowing.,,,keep,Reviewed: retain the single canonical translation.
+609565,הגשם ירד שעות על גבי שעות.,It rained for hours and hours.,It rained for hours and hours.,,,keep,Reviewed: retain the single canonical translation.
+611072,גם אני חושב ככה.,I also think so.,I also think so.,,,keep,Reviewed: retain the single canonical translation.
+612533,מה עשיתם בחופשה שלכם?,What did you do on your vacation?,What did you do on your vacation?,,,keep,Reviewed: retain the single canonical translation.
+612547,אתמול עזרתי לאבא שלי.,I helped my father yesterday.,I helped my father yesterday.,,,keep,Reviewed: retain the single canonical translation.
+612568,מדוע היא חזרה מוקדם הביתה?,Why did she come home early?,Why did she come home early?,,,keep,Reviewed: retain the single canonical translation.
+613200,בחיים יש עליות ומורדות.,In life there are ups and downs.,In life there are ups and downs.,,,keep,Reviewed: retain the single canonical translation.
+613202,לבסוף היא בחרה חתלתול אחר.,"Finally, she chose another kitten.","Finally, she chose another kitten.",,,keep,Reviewed: retain the single canonical translation.
+613629,מה אתה רוצה לעשות כשתהיה גדול?,What do you want to do when you grow up?,What do you want to do when you grow up?,,,keep,Reviewed: retain the single canonical translation.
+614694,בספרייה הזאת יש ספרים רבים.,The library has many books.,The library has many books.,,,keep,Reviewed: retain the single canonical translation.
+615225,אתה מדבר אלי?,Are you talking to me?,Are you talking to me?,,,keep,Reviewed: retain the single canonical translation.
+615500,אף פעם לא מאוחר ללמוד.,It is never too late to learn.,It is never too late to learn.,,,keep,Reviewed: retain the single canonical translation.
+615847,הוא סיפר סיפור מצחיק.,He told a funny story.,He told a funny story.,,,keep,Reviewed: retain the single canonical translation.
+616104,יש לי כאב ראש.,I have a headache.,I have a headache.,,,keep,Reviewed: retain the single canonical translation.
+616110,"הוא צעק: ""הצילו!""","He cried out, ""Help me.""","He cried out, ""Help me.""",,,keep,Reviewed: retain the single canonical translation.
+616690,הוא אחי הגדול.,He's my older brother.,He's my older brother.,,,keep,Reviewed: retain the single canonical translation.
+616837,הדברים האלה שייכים לך?,Are these your things?,Are these your things?,,,keep,Reviewed: retain the single canonical translation.
+617933,החצוצרה היא כלי נגינה.,The trumpet is a musical instrument.,The trumpet is a musical instrument.,,,keep,Reviewed: retain the single canonical translation.
+617939,אני עומד מאחוריו.,I'm behind him.,I'm behind him.,,,keep,Reviewed: retain the single canonical translation.
+617975,הצלחתי לעלות על הרכבת האחרונה.,I managed to catch the last train.,I managed to catch the last train.,,,keep,Reviewed: retain the single canonical translation.
+618626,היא למדה לרכוב על אופניים בשנה שעברה.,She learned to ride a bicycle last year.,She learned to ride a bicycle last year.,,,keep,Reviewed: retain the single canonical translation.
+619301,בדיוק סיימתי לקרוא את הספר.,I have just finished reading the book.,I have just finished reading the book.,,,keep,Reviewed: retain the single canonical translation.
+619305,הוא גר ממש מעבר לפינה.,He lives just around the corner.,He lives just around the corner.,,,keep,Reviewed: retain the single canonical translation.
+620549,היום יום שני.,It is Monday today.,It is Monday today.,,,keep,Reviewed: retain the single canonical translation.
+621946,יש להם דעות שונות בעניין.,Their views vary on the subject.,Their views vary on the subject.,,,keep,Reviewed: retain the single canonical translation.
+621955,האם אלה האופניים שלך?,Is this your bike?,Is this your bike?,,,keep,Reviewed: retain the single canonical translation.
+622063,אף פעם לא הרגשתי טוב יותר.,Never have I felt better.,Never have I felt better.,I've never felt better.,,alternative,Common expression alongside the source's emphatic inversion.
+622264,היא תמיד מנסה לעזור לאנשים אחרים.,She's always trying to help other people.,She's always trying to help other people.,,,keep,Reviewed: retain the single canonical translation.
+622520,"מחר יום הולדתי, אהיה בן שבע עשרה.",Tomorrow is my birthday and I will be seventeen.,Tomorrow is my birthday and I will be seventeen.,,,keep,Reviewed: retain the single canonical translation.
+623682,אני תמיד קם בשש.,I always get up at six.,I always get up at six.,,,keep,Reviewed: retain the single canonical translation.
+623914,היה לי צורך בדיוק בזה.,That's just what I needed.,That's just what I needed.,,,keep,Reviewed: retain the single canonical translation.
+625649,אני חוזר מיד.,I'll be right back.,I'll be right back.,,,keep,Reviewed: retain the single canonical translation.
+626811,אני כבר מרגיש הרבה יותר טוב.,I already feel much better.,I already feel much better.,,,keep,Reviewed: retain the single canonical translation.
+628465,אני כבר באה.,I am coming.,I am coming.,,,keep,Reviewed: retain the single canonical translation.
+628479,כל אחד מהם קיבל מתנה.,They each received a present.,They each received a present.,,,keep,Reviewed: retain the single canonical translation.
+628530,בוא תשיר איתי.,Come sing with me.,Come sing with me.,,,keep,Reviewed: retain the single canonical translation.
+628534,בואו תשירו איתי.,Come sing with me.,Come sing with me.,,,keep,Reviewed: retain the single canonical translation.
+628582,היא אדם שאפשר לסמוך עליו.,She is a reliable person.,She is a reliable person.,,,keep,Reviewed: retain the single canonical translation.
+628748,הוא ילד גדול.,He's a big boy.,He's a big boy.,,,keep,Reviewed: retain the single canonical translation.
+632078,מתי אתה יכול להגיע?,What time can you come?,What time can you come?,,,keep,Reviewed: retain the single canonical translation.
+633787,תראה לי את הדרך לתחנת האוטובוס.,Show me the way to the bus stop.,Show me the way to the bus stop.,,,keep,Reviewed: retain the single canonical translation.
+634084,איפה חדר האמבטיה?,Where is the bathroom?,Where is the bathroom?,,,keep,Reviewed: retain the single canonical translation.
+634090,הוא רוצה לנסוע לארצות הברית.,He wants to go to America.,He wants to go to America.,,,keep,Reviewed: retain the single canonical translation.
+635279,לא אכלתי דבר מאז הבוקר.,I have not had anything to eat since this morning.,I have not had anything to eat since this morning.,,,keep,Reviewed: retain the single canonical translation.
+635280,לא אכלתי שום דבר מאז הבוקר.,I have not had anything to eat since this morning.,I have not had anything to eat since this morning.,,,keep,Reviewed: retain the single canonical translation.
+637168,היו מספר תלמידים בחדר.,There were a number of students in the room.,There were a number of students in the room.,,,keep,Reviewed: retain the single canonical translation.
+638402,יש מישהו שיוכל לעזור לי?,Is there someone who could help me?,Is there someone who could help me?,,,keep,Reviewed: retain the single canonical translation.
+639399,יש לכם הרבה ספרים.,You have many books.,You have many books.,,,keep,Reviewed: retain the single canonical translation.
+639425,ביל ואני חברים טובים.,I am good friends with Bill.,I am good friends with Bill.,,,keep,Reviewed: retain the single canonical translation.
+639475,מדוע את ממהרת כל כך?,Why are you in such a hurry?,Why are you in such a hurry?,,,keep,Reviewed: retain the single canonical translation.
+640965,אין לנו מספיק זמן.,We don't have enough time.,We don't have enough time.,,,keep,Reviewed: retain the single canonical translation.
+641043,נראה שהוא לא ידע זאת.,He seems not to have known it.,He seems not to have known it.,,,keep,Reviewed: retain the single canonical translation.
+641450,הוא לבש מסיכה כך שאף אחד לא יוכל לזהות אותו.,He wore a mask so no one would recognize him.,He wore a mask so no one would recognize him.,,,keep,Reviewed: retain the single canonical translation.
+642439,הילדה מזכירה את אמה.,The girl resembles her mother.,The girl resembles her mother.,,,keep,Reviewed: retain the single canonical translation.
+644729,רוב האנשים אוהבים לצפות בטלוויזיה.,Most people like watching TV.,Most people like watching TV.,,,keep,Reviewed: retain the single canonical translation.
+644739,מי הגברת הזאת?,Who is that lady?,Who is that lady?,,,keep,Reviewed: retain the single canonical translation.
+646023,הוא יודע המון על בעלי חיים.,He knows a lot about animals.,He knows a lot about animals.,,,keep,Reviewed: retain the single canonical translation.
+646100,עוד מעט יירד גשם.,It is going to rain soon.,It is going to rain soon.,,,keep,Reviewed: retain the single canonical translation.
+646509,חבל שלא הלכת איתנו.,I wish you had come with us.,I wish you had come with us.,It's a pity you didn't come with us.,,alternative,Explicit regret alongside the source's wish construction.
+646556,השעה כבר שבע.,It's already seven.,It's already seven.,,,keep,Reviewed: retain the single canonical translation.
+646710,אמתין עוד חמש דקות.,I'll wait another five minutes.,I'll wait another five minutes.,,,keep,Reviewed: retain the single canonical translation.
+649934,אני קוראת ספר על בעלי חיים.,I am reading a book about animals.,I am reading a book about animals.,,,keep,Reviewed: retain the single canonical translation.
+651050,קראו מה שתרצו.,Read whatever you like.,Read whatever you like.,,,keep,Reviewed: retain the single canonical translation.
+651695,מישהו שכח לקחת את המטרייה שלו.,Somebody left his umbrella behind.,Somebody left his umbrella behind.,,,keep,Reviewed: retain the single canonical translation.
+651713,הוא ניסה לפתוח את הדלת.,He tried to open the door.,He tried to open the door.,,,keep,Reviewed: retain the single canonical translation.
+651719,אפשר לסמוך עליו.,You can rely on him.,You can rely on him.,You can count on him.,,alternative,Common idiom for being able to rely on someone.
+652214,פתאום הוא ראה אותי.,Suddenly he saw me.,Suddenly he saw me.,,,keep,Reviewed: retain the single canonical translation.
+652864,אחזור בתוך שעה.,I'll be back within an hour.,I'll be back within an hour.,,,keep,Reviewed: retain the single canonical translation.
+655096,דולפינים ולווייתנים אינם דגים.,Dolphins and whales are not fish.,Dolphins and whales are not fish.,,,keep,Reviewed: retain the single canonical translation.
+657137,מזג האוויר השתנה לפתע פתאום.,The weather changed suddenly.,The weather changed suddenly.,,,keep,Reviewed: retain the single canonical translation.
+657162,הספר הוא חברי הטוב ביותר.,The book is my best friend.,The book is my best friend.,,,keep,Reviewed: retain the single canonical translation.
+659061,הוא הרים את ידיו.,He raised his hands.,He raised his hands.,,,keep,Reviewed: retain the single canonical translation.
+660470,מהן חמש האותיות הראשונות בכתובת האימייל שלך?,What are the first five letters of your email?,What are the first five letters of your email?,,,keep,Reviewed: retain the single canonical translation.
+661207,יש להם מעט ספרים.,They have few books.,They have few books.,,,keep,Reviewed: retain the single canonical translation.
+662491,יש משהו שאני לא מבין.,There is something I don't understand.,There is something I don't understand.,,,keep,Reviewed: retain the single canonical translation.
+663461,נראה לך שדבר כזה אפשרי?,Do you think it likely?,Do you think something like that is possible?,,,corrected,"אפשרי means possible, not likely."
+663605,שבו בבקשה.,"Sit down, please.","Sit down, please.",,,keep,Reviewed: retain the single canonical translation.
+664524,הוא התיישב על המיטה.,He sat on the bed.,He sat on the bed.,,,keep,Reviewed: retain the single canonical translation.
+668266,תן לה את זה.,Give it to her.,Give it to her.,,,keep,Reviewed: retain the single canonical translation.
+668270,"בגלל שירד גשם, נשארתי בבית.","Since it rained, I stayed home.","Since it rained, I stayed home.",,,keep,Reviewed: retain the single canonical translation.
+668755,יש לו מספיק כסף כדי לקנות את זה.,He has enough money to buy it.,He has enough money to buy it.,,,keep,Reviewed: retain the single canonical translation.
+670110,שום דבר לא חסר.,Nothing is missing.,Nothing is missing.,,,keep,Reviewed: retain the single canonical translation.
+670147,אבי נסע לסין.,My father has gone to China.,My father has gone to China.,,,keep,Reviewed: retain the single canonical translation.
+671624,אני עומד לנסוע ברכבת של עשר וחצי.,I'm going to take the 10:30 train.,I'm going to take the 10:30 train.,,,keep,Reviewed: retain the single canonical translation.
+672936,מה יקרה אם תהיה עכשיו הפסקת חשמל?,What will happen if there's a power failure now?,What will happen if there's a power failure now?,,,keep,Reviewed: retain the single canonical translation.
+676735,נשאתי את התיק הכבד על גבי.,I carried the heavy bag on my back.,I carried the heavy bag on my back.,,,keep,Reviewed: retain the single canonical translation.
+682681,ארבע כפול שתיים שווה שמונה.,Four multiplied by two is eight.,Four multiplied by two is eight.,,,keep,Reviewed: retain the single canonical translation.
+683410,הדוד שלי נתן לי מתנה.,My uncle gave me a present.,My uncle gave me a present.,,,keep,Reviewed: retain the single canonical translation.
+683450,עמדנו פנים מול פנים.,We stood face to face.,We stood face to face.,,,keep,Reviewed: retain the single canonical translation.
+684331,לא יכולתי לישון.,I couldn't sleep.,I couldn't sleep.,,,keep,Reviewed: retain the single canonical translation.
+684464,הוא יכול לשחות מהר מאוד.,He can swim very fast.,He can swim very fast.,,,keep,Reviewed: retain the single canonical translation.
+684497,יש לי חוש ריח טוב.,I have a good sense of smell.,I have a good sense of smell.,,,keep,Reviewed: retain the single canonical translation.
+684933,"אף על פי שהוא עשיר, הוא אינו מאושר.","Though he is rich, he is not happy.","Though he is rich, he is not happy.",,,keep,Reviewed: retain the single canonical translation.
+685672,אני גר בעיר גדולה.,I live in a big city.,I live in a big city.,,,keep,Reviewed: retain the single canonical translation.
+686714,נתחיל כשהוא יבוא.,We will start when he comes.,We will start when he comes.,,,keep,Reviewed: retain the single canonical translation.
+686941,הוא יודע לדבר וגם לכתוב ברוסית.,He can both speak and write Russian.,He can both speak and write Russian.,,,keep,Reviewed: retain the single canonical translation.
+688480,הדרך ארוכה.,The road is long.,The road is long.,,,keep,Reviewed: retain the single canonical translation.
+688773,ייתכן שמה שאתה אומר נכון.,You may be right.,You may be right.,,,keep,Reviewed: retain the single canonical translation.
+689210,אנגלית אינה שפת האם שלי.,English is not my native language.,English is not my native language.,English is not my mother tongue.,,alternative,Established mother-tongue expression alongside native language.
+690189,ויקיפדיה היא האנציקלופדיה הטובה באינטרנט.,Wikipedia is the best encyclopedia on the Internet.,Wikipedia is the best encyclopedia on the Internet.,,,keep,Reviewed: retain the single canonical translation.
+691036,"דרך אגב, הכנת את שיעורי הבית שלך?","By the way, have you done your homework?","By the way, have you done your homework?",,,keep,Reviewed: retain the single canonical translation.
+691213,אני מגיעה עוד רגע.,I'll be there in a minute.,I'll be there in a minute.,,,keep,Reviewed: retain the single canonical translation.
+691233,עם מי אתה מדבר?,Who are you talking with?,Who are you talking with?,,,keep,Reviewed: retain the single canonical translation.
+692341,הרכבת שלנו עברה דרך מנהרה ארוכה.,Our train went through a long tunnel.,Our train went through a long tunnel.,,,keep,Reviewed: retain the single canonical translation.
+692348,של מי הספרים האלה?,Whose books are these?,Whose books are these?,,,keep,Reviewed: retain the single canonical translation.
+692411,זו הייתה אהבה ממבט ראשון.,It was love at first sight.,It was love at first sight.,,,keep,Reviewed: retain the single canonical translation.
+693515,הגעתי הביתה בשעה שבע.,I got home at seven.,I got home at seven.,,,keep,Reviewed: retain the single canonical translation.
+693623,אתה בוודאי מתלוצץ!,You must be joking!,You must be joking!,,,keep,Reviewed: retain the single canonical translation.
+693640,"ביל, פתח את הדלת!","Bill, open the door.","Bill, open the door.",,,keep,Reviewed: retain the single canonical translation.
+694353,התחלתי לכתוב את הספר.,I started writing the book.,I started writing the book.,,,keep,Reviewed: retain the single canonical translation.
+694360,הוא השר הממונה על איכות הסביבה.,He is the minister responsible for the environment.,He is the minister responsible for the environment.,,,keep,Reviewed: retain the single canonical translation.
+694541,בן כמה תהיה בשנה הבאה?,How old will you be next year?,How old will you be next year?,,,keep,Reviewed: retain the single canonical translation.
+695594,הייתי במהלך אפיית עוגה.,I was making a cake.,I was making a cake.,,,keep,Reviewed: retain the single canonical translation.
+695603,אני שמחה לשמוע את החדשות האלה.,I am glad to hear the news.,I am glad to hear the news.,,,keep,Reviewed: retain the single canonical translation.
+696878,בדרך כלל אני מתקלח בערב.,I usually shower at night.,I usually shower at night.,,,keep,Reviewed: retain the single canonical translation.
+697294,"בוקר טוב, מה שלומך?","Good morning, how are you?","Good morning, how are you?",,,keep,Reviewed: retain the single canonical translation.
+698867,במה אוכל לעזור לך?,How may I serve you?,How may I serve you?,How can I help you?,,alternative,Usual offer of help alongside the source's more formal serve you.
+698987,שיהיה לך יום נעים.,Have a nice day.,Have a nice day.,,,keep,Reviewed: retain the single canonical translation.
+701678,אתה נשאר בבית?,Will you stay at home?,Will you stay at home?,,,keep,Reviewed: retain the single canonical translation.
+701809,אני לא מכיר אותו.,I don't know him.,I don't know him.,,,keep,Reviewed: retain the single canonical translation.
+702768,"רק רגע, בבקשה.","Hold on a moment, please.","Hold on a moment, please.","Just a moment, please.",,alternative,Conventional request to wait alongside hold on a moment.
+703529,קמתי בערך בחמש.,I got up about five.,I got up about five.,,,keep,Reviewed: retain the single canonical translation.
+703530,קמתי לקראת השעה חמש.,I got up about five.,I got up about five.,,,keep,Reviewed: retain the single canonical translation.
+703601,הוא מבוגר ממני בשלוש שנים.,He's three years older than me.,He's three years older than me.,,,keep,Reviewed: retain the single canonical translation.
+703840,יש לה קול נעים.,She has an agreeable voice.,She has an agreeable voice.,,,keep,Reviewed: retain the single canonical translation.
+704602,יש לה מאות ספרים.,She has hundreds of books.,She has hundreds of books.,,,keep,Reviewed: retain the single canonical translation.
+704863,הוא מגיע לבית הספר באופניים.,He goes to school by bicycle.,He goes to school by bicycle.,,,keep,Reviewed: retain the single canonical translation.
+706734,תמיד יש הפעם הבאה.,There is always a next time.,There is always a next time.,,,keep,Reviewed: retain the single canonical translation.
+711307,האם יש מספיק כיסאות בשביל כולם?,Are there enough chairs for everyone?,Are there enough chairs for everyone?,,,keep,Reviewed: retain the single canonical translation.
+714811,"לפי דעתי, הוא צודק.","In my opinion, he is correct.","In my opinion, he is correct.",,,keep,Reviewed: retain the single canonical translation.
+725775,הוא נראה אדם טוב לב.,He seems like a good person.,He seems like a good person.,,,keep,Reviewed: retain the single canonical translation.
+725789,היא קראה את הספר במשך כל הלילה.,She read the book all night.,She read the book all night.,,,keep,Reviewed: retain the single canonical translation.
+732872,כמה זה עולה?,How much is it?,How much is it?,How much does it cost?,,alternative,Two established constructions for asking a price.
+733458,"שלום, עם מי אני מדבר?","Hello, who is this?","Hello, who is this?","Hello, who am I speaking to?",,alternative,Explicit telephone question alongside who is this.
+733921,איפה הכניסה?,Where's the entrance?,Where's the entrance?,,,keep,Reviewed: retain the single canonical translation.
+734116,הזמן עבר מהר מאוד.,Time has passed very fast.,Time has passed very fast.,,,keep,Reviewed: retain the single canonical translation.
+734764,איפה בית הספר שלך?,Where is your school?,Where is your school?,,,keep,Reviewed: retain the single canonical translation.
+738236,אתמול בערב קרה דבר מוזר.,A strange thing happened last night.,A strange thing happened last night.,,,keep,Reviewed: retain the single canonical translation.
+738249,כולנו בילינו נהדר.,We all had such a good time.,We all had such a good time.,,,keep,Reviewed: retain the single canonical translation.
+738905,אנחנו כאן כדי לעזור להם.,We're here to help them.,We're here to help them.,,,keep,Reviewed: retain the single canonical translation.
+738906,אנחנו כאן כדי לעזור להן.,We're here to help them.,We're here to help them.,,,keep,Reviewed: retain the single canonical translation.
+738974,מי מלמד אתכם צרפתית?,Who teaches you French?,Who teaches you French?,,,keep,Reviewed: retain the single canonical translation.
+741731,"הלוח הזה לא שחור, אלא ירוק.","This blackboard is not black, but green.","This blackboard is not black, but green.",,,keep,Reviewed: retain the single canonical translation.
+742994,את אוהבת שוקולד לבן?,Do you like white chocolate?,Do you like white chocolate?,,,keep,Reviewed: retain the single canonical translation.
+744682,הוא עשה זאת.,He made it.,He did it.,,,corrected,The Hebrew says did it; made it can imply arrival or success.
+746792,אל תשכח להיפגש אתו מחר.,Remember to see him tomorrow.,Remember to see him tomorrow.,Don't forget to meet him tomorrow.,,alternative,Negative reminder in the Hebrew alongside the source's positive reminder.
+746859,איך הגעת לכאן?,How did you come here?,How did you come here?,,,keep,Reviewed: retain the single canonical translation.
+751975,קפל את הנייר באמצע.,Fold the paper in the middle.,Fold the paper in the middle.,,,keep,Reviewed: retain the single canonical translation.
+763490,אנחנו רואים באמצעות העיניים שלנו.,We see with our eyes.,We see with our eyes.,,,keep,Reviewed: retain the single canonical translation.
+766884,האנשים שגרים כאן הם חברים שלנו.,The people who reside here are our friends.,The people who reside here are our friends.,,,keep,Reviewed: retain the single canonical translation.
+767359,אני חושב שאתם צודקים.,I think you're right.,I think you're right.,,,keep,Reviewed: retain the single canonical translation.
+767382,יום הולדת שמח!,Happy birthday to you!,Happy birthday to you!,,,keep,Reviewed: retain the single canonical translation.
+767987,מה את אומרת על זה?,How do you feel about it?,How do you feel about it?,,,keep,Reviewed: retain the single canonical translation.
+768120,אתה רץ כל יום?,Do you run every day?,Do you run every day?,,,keep,Reviewed: retain the single canonical translation.
+768174,אח שלי קנה לעצמו גיטרה חשמלית.,My brother bought an electric guitar.,My brother bought an electric guitar.,,,keep,Reviewed: retain the single canonical translation.
+768179,חתולים רואים בחושך.,Cats have the ability to see in the dark.,Cats have the ability to see in the dark.,,,keep,Reviewed: retain the single canonical translation.
+768222,את יכולה להגיד לי במה מדובר?,Can you tell me what this is about?,Can you tell me what this is about?,,,keep,Reviewed: retain the single canonical translation.
+768226,קל לראות את הזיקוקין משם.,It's easy to see the fireworks from over there.,It's easy to see the fireworks from over there.,,,keep,Reviewed: retain the single canonical translation.
+768423,אני זוכרת שראיתי אותה בעבר.,I remember seeing her before.,I remember seeing her before.,,,keep,Reviewed: retain the single canonical translation.
+768484,סיימת את העבודה?,Did you finish the job?,Did you finish the job?,,,keep,Reviewed: retain the single canonical translation.
+769077,אני צריכה לחזור הביתה.,I have to go home.,I have to go home.,,,keep,Reviewed: retain the single canonical translation.
+769174,האם היהלום הזה אמיתי?,Is this diamond real?,Is this diamond real?,,,keep,Reviewed: retain the single canonical translation.
+769394,הוא אמר לי שאבא שלו מורה.,He told me that his father was a teacher.,He told me that his father was a teacher.,,,keep,Reviewed: retain the single canonical translation.
+769458,"המורה שלנו אומרת: ""ברור שאתם מסוגלים.""","Our teacher says: ""Of course you can.""","Our teacher says: ""Of course you can.""",,,keep,Reviewed: retain the single canonical translation.
+786204,יש לה משפחה גדולה.,She has a big family.,She has a big family.,,,keep,Reviewed: retain the single canonical translation.
+786396,אני אוהבת את הטבע.,I love nature.,I love nature.,,,keep,Reviewed: retain the single canonical translation.
+789723,אני לא בטוחה בכך.,I am not certain about that.,I am not certain about that.,,,keep,Reviewed: retain the single canonical translation.
+789751,אחזור בשעה שש וחצי.,I will be back at half past six.,I will be back at half past six.,,,keep,Reviewed: retain the single canonical translation.
+801511,מי הבא בתור?,Whose turn is it next?,Whose turn is it next?,Who's next?,,alternative,Conventional queue/turn expression alongside whose turn is it next.
+803668,הקיפוד הוא חיה קטנה.,The hedgehog is a small animal.,The hedgehog is a small animal.,,,keep,Reviewed: retain the single canonical translation.
+826019,זה ארוך מדי.,This is too long.,This is too long.,,,keep,Reviewed: retain the single canonical translation.
+871253,הם בערך באותו גיל.,They are about the same age.,They are about the same age.,,,keep,Reviewed: retain the single canonical translation.
+996342,יש תפוז על השולחן.,There is an orange on the table.,There is an orange on the table.,,,keep,Reviewed: retain the single canonical translation.
+1015200,הכרטיס הזה תקף לשלושה חודשים.,This ticket is valid for three months.,This ticket is valid for three months.,,,keep,Reviewed: retain the single canonical translation.
+1017983,טום לא מסתכל עכשיו בטלוויזיה.,Tom isn't watching TV now.,Tom isn't watching TV now.,,,keep,Reviewed: retain the single canonical translation.
+1017989,תוכל לומר לי מה השעה?,Can you tell me the time?,Can you tell me the time?,,,keep,Reviewed: retain the single canonical translation.
+1034542,ספר לנו את הסיפור מההתחלה עד הסוף.,Tell us the story from beginning to end.,Tell us the story from beginning to end.,,,keep,Reviewed: retain the single canonical translation.
+1039052,אביו היה שוטר.,His father was a policeman.,His father was a policeman.,,,keep,Reviewed: retain the single canonical translation.
+1039115,אין שום דבר חשוב יותר מאשר חברות.,There is nothing more important than friendship.,There is nothing more important than friendship.,,,keep,Reviewed: retain the single canonical translation.
+1040214,"בכל פעם שהם נפגשים, הם רבים.","Every time they meet, they quarrel.","Every time they meet, they quarrel.",,,keep,Reviewed: retain the single canonical translation.
+1045276,"בדיוק כשיצאתי החוצה, התחיל לרדת גשם.","Just as I went to go out, it began to rain.","Just as I went to go out, it began to rain.",,,keep,Reviewed: retain the single canonical translation.
+1047281,מעולם לא ראיתי נהר יפה כל כך.,I've never seen a river so pretty.,I've never seen a river so pretty.,,,keep,Reviewed: retain the single canonical translation.
+1050431,הוא קרא ספר שנכתב באנגלית.,He read a book written in English.,He read a book written in English.,,,keep,Reviewed: retain the single canonical translation.
+1050534,היא חשבה שאני רופא.,She thought that I was a doctor.,She thought that I was a doctor.,,,keep,Reviewed: retain the single canonical translation.
+1050971,איזה ספר מעניין!,What an interesting book this is!,What an interesting book this is!,,,keep,Reviewed: retain the single canonical translation.
+1050992,אני אוהבת לחיות כאן.,I like living here.,I like living here.,,,keep,Reviewed: retain the single canonical translation.
+1053238,מה הם רוצים?,What are they after?,What are they after?,What do they want?,,alternative,Direct question alongside the idiom what are they after.
+1053389,האחיות די דומות זו לזו.,The sisters are quite alike.,The sisters are quite alike.,,,keep,Reviewed: retain the single canonical translation.
+1054937,התינוק חייך אליי.,The baby smiled at me.,The baby smiled at me.,,,keep,Reviewed: retain the single canonical translation.
+1054938,התינוקת חייכה אליי.,The baby smiled at me.,The baby smiled at me.,,,keep,Reviewed: retain the single canonical translation.
+1065620,שאלתי את הספר הזה ממנו.,I borrowed this book from him.,I borrowed this book from him.,,,keep,Reviewed: retain the single canonical translation.
+1068578,פתאום אמי התחילה לשיר.,"All of a sudden, my mother began to sing.","All of a sudden, my mother began to sing.",,,keep,Reviewed: retain the single canonical translation.
+1079919,האוכל הזה מלוח מדי.,This food is too salty.,This food is too salty.,,,keep,Reviewed: retain the single canonical translation.
+1085063,איפה אני צריך לשבת?,Where should I sit?,Where should I sit?,,,keep,Reviewed: retain the single canonical translation.
+1089576,אני אף פעם לא מאחר לבית הספר.,I'm never late for school.,I'm never late for school.,,,keep,Reviewed: retain the single canonical translation.
+1090285,איפה גר סבא שלך?,Where does your grandpa live?,Where does your grandpa live?,,,keep,Reviewed: retain the single canonical translation.
+1090688,קפצתי מרוב אושר.,I jumped for joy.,I jumped for joy.,,,keep,Reviewed: retain the single canonical translation.
+1101033,כמעט ואין מים בבקבוק הזה.,There is almost no water in this bottle.,There is almost no water in this bottle.,,,keep,Reviewed: retain the single canonical translation.
+1101708,מה שלום אמא שלך?,How's your mother?,How's your mother?,,,keep,Reviewed: retain the single canonical translation.
+1127376,הם בנו גשר.,They constructed a bridge.,They constructed a bridge.,,,keep,Reviewed: retain the single canonical translation.
+1160854,הילד הזה רץ.,That boy is running.,That boy is running.,,,keep,Reviewed: retain the single canonical translation.
+1164083,איטליה היא ארץ יפה מאוד.,Italy is a very beautiful country.,Italy is a very beautiful country.,,,keep,Reviewed: retain the single canonical translation.
+1177438,לתום יש שלושה עצי תפוח בחצר.,Tom has three apple trees in his yard.,Tom has three apple trees in his yard.,,,keep,Reviewed: retain the single canonical translation.
+1187300,המכונית שלך יקרה יותר משלי.,Your car is more expensive than mine.,Your car is more expensive than mine.,,,keep,Reviewed: retain the single canonical translation.
+1193602,אני הולכת עכשיו הביתה.,I'm going home now.,I'm going home now.,,,keep,Reviewed: retain the single canonical translation.
+1204203,"כן, אני באה!","Yes, I'm coming!","Yes, I'm coming!",,,keep,Reviewed: retain the single canonical translation.
+1208853,אני מקווה שזה ימצא חן בעיניך.,I hope you'll like it.,I hope you'll like it.,,,keep,Reviewed: retain the single canonical translation.
+1209688,יש כלב חום קטן מתחת לשולחן הזה.,There is a small brown dog under that table.,There is a small brown dog under that table.,,,keep,Reviewed: retain the single canonical translation.
+1215471,אני רוצה לגור בעיר גדולה.,I want to live in a big city.,I want to live in a big city.,,,keep,Reviewed: retain the single canonical translation.
+1215530,יש לי דעה שונה משלך.,My opinion is different from yours.,My opinion is different from yours.,,,keep,Reviewed: retain the single canonical translation.
+1232361,למה אתה מתכוון?,What do you mean?,What do you mean?,,,keep,Reviewed: retain the single canonical translation.
+1236596,נראה שיש לי חום.,I seem to have a temperature.,I seem to have a temperature.,I think I have a fever.,,alternative,Fever wording alongside the regional expression have a temperature.
+1254298,עלה במוחי רעיון.,An idea occurred to me.,An idea occurred to me.,An idea came to mind.,,alternative,Two common English idioms for an idea arising.
+1285190,אני מרגישה כאילו חלמתי.,I feel as if I were dreaming.,I feel as if I had been dreaming.,,,corrected,Preserve חלמתי as a past dream rather than a present one.
+1289932,זהו צילום של הציור שלי.,This is a photograph of my drawing.,This is a photograph of my drawing.,,,keep,Reviewed: retain the single canonical translation.
+1290772,צפיתי במשחק מתחילתו ועד סופו.,I watched the game from beginning to end.,I watched the game from beginning to end.,,,keep,Reviewed: retain the single canonical translation.
+1291012,הוא רק בן עשרים ושש וכבר מנהל חברות גדולות.,He is only twenty-six years old and already managing large companies.,He is only twenty-six years old and already managing large companies.,,,keep,Reviewed: retain the single canonical translation.
+1291400,היא נכנסה לפתע לחדר.,She burst into the room.,She burst into the room.,,,keep,Reviewed: retain the single canonical translation.
+1294702,"סוף טוב, הכול טוב.",All's well that ends well.,All's well that ends well.,,,keep,Reviewed: retain the single canonical translation.
+1304001,על טעם ועל ריח אין להתווכח.,Tastes differ.,Tastes differ.,There's no accounting for taste.,,alternative,Established English proverb corresponding to the Hebrew saying.
+1312602,התפוח הזה אדום מאוד.,This apple is very red.,This apple is very red.,,,keep,Reviewed: retain the single canonical translation.
+1329605,אני מקווה שמחר יירד גשם.,I hope it rains tomorrow.,I hope it rains tomorrow.,,,keep,Reviewed: retain the single canonical translation.
+1347058,זה מה שאנחנו רוצים לדעת.,This is what we want to know.,This is what we want to know.,,,keep,Reviewed: retain the single canonical translation.
+1349435,אני עדיין לא מוכן.,I'm not ready yet.,I'm not ready yet.,,,keep,Reviewed: retain the single canonical translation.
+1349705,בואי נסתכל בטלוויזיה.,Let's watch TV.,Let's watch TV.,,,keep,Reviewed: retain the single canonical translation.
+1358766,הם הולכים ללא נעליים.,They're walking without shoes.,They're walking without shoes.,They're walking barefoot.,,alternative,Barefoot expresses the whole without-shoes phrase.
+1361361,המים האלו טעימים.,This water tastes good.,This water tastes good.,,,keep,Reviewed: retain the single canonical translation.
+1361504,אן שחתה לצד השני של הנהר.,Ann swam across the river.,Ann swam across the river.,,,keep,Reviewed: retain the single canonical translation.
+1361648,היא שמעה אותו שר.,She heard him sing.,She heard him sing.,,,keep,Reviewed: retain the single canonical translation.
+1361692,חברי משפט עם שלושה פעלים.,Write a sentence containing three verbs.,Write a sentence containing three verbs.,,,keep,Reviewed: retain the single canonical translation.
+1362335,ישנתי רק שעתיים.,I slept only two hours.,I slept only two hours.,,,keep,Reviewed: retain the single canonical translation.
+1363802,הוא הביט בי בהפתעה.,He looked at me in surprise.,He looked at me in surprise.,,,keep,Reviewed: retain the single canonical translation.
+1363941,כדור הארץ קטן מהשמש.,The earth is smaller than the sun.,The earth is smaller than the sun.,,,keep,Reviewed: retain the single canonical translation.
+1363958,מה את רוצה לעשות?,What do you want to do?,What do you want to do?,,,keep,Reviewed: retain the single canonical translation.
+1363994,הוא הבטיח שלא לאחר שוב.,He promised not to be late again.,He promised not to be late again.,,,keep,Reviewed: retain the single canonical translation.
+1364116,היא שרה היטב.,She sings well.,She sings well.,,,keep,Reviewed: retain the single canonical translation.
+1364223,הצלחתי להיכנס.,I managed to get in.,I managed to get in.,,,keep,Reviewed: retain the single canonical translation.
+1364243,אלו האופניים שלי.,This is my bike.,This is my bike.,,,keep,Reviewed: retain the single canonical translation.
+1364330,מה משמעות המשפט הזה?,What does this sentence mean?,What does this sentence mean?,,,keep,Reviewed: retain the single canonical translation.
+1364937,פריז היא אחת מהערים בהן ביקרתי בשנה שעברה.,Paris is one of the cities I visited last year.,Paris is one of the cities I visited last year.,,,keep,Reviewed: retain the single canonical translation.
+1365703,החיים מלאי הרפתקאות.,Life is full of adventure.,Life is full of adventure.,,,keep,Reviewed: retain the single canonical translation.
+1366317,הוא מסתפר שלוש פעמים בחודש.,He gets a haircut three times a month.,He gets a haircut three times a month.,,,keep,Reviewed: retain the single canonical translation.
+1366549,הוא נכנס לחדר.,He entered the room.,He entered the room.,,,keep,Reviewed: retain the single canonical translation.
+1366590,מה שלום אחותך היום?,How's your sister today?,How's your sister today?,,,keep,Reviewed: retain the single canonical translation.
+1366741,אבי ואמי ישבו תחת העץ.,My father and mother were sitting under a tree.,My father and mother were sitting under a tree.,,,keep,Reviewed: retain the single canonical translation.
+1366748,אכלנו יחד ארוחת צהרים.,We were eating lunch together.,We were eating lunch together.,,,keep,Reviewed: retain the single canonical translation.
+1367200,מהירות האור עולה על מהירות הקול.,Light travels faster than sound.,Light travels faster than sound.,,,keep,Reviewed: retain the single canonical translation.
+1367447,שילמתי לו ארבעה דולר.,I paid him four dollars.,I paid him four dollars.,,,keep,Reviewed: retain the single canonical translation.
+1367670,להתראות בשבוע הבא.,See you next week.,See you next week.,,,keep,Reviewed: retain the single canonical translation.
+1367710,הוא עכשיו מכין שיעורי בית.,He is doing his homework now.,He is doing his homework now.,,,keep,Reviewed: retain the single canonical translation.
+1369057,עשר פחות שתיים שווה שמונה.,Two from ten leaves eight.,Two from ten leaves eight.,Ten minus two equals eight.,,alternative,Standard arithmetic expression alongside two from ten leaves eight.
+1370714,הנחש הזה חי או מת?,Is the snake alive or dead?,Is the snake alive or dead?,,,keep,Reviewed: retain the single canonical translation.
+1372276,מה קורה פה?,What is going on?,What is going on here?,,,corrected,"Preserve פה, here."
+1384302,"כיוון שירד גשם, נשארנו בבית.","Since it was raining, we stayed at home.","Since it was raining, we stayed at home.",,,keep,Reviewed: retain the single canonical translation.
+1385919,באוטובוס הזה יש מקום לחמישים איש.,This bus can hold fifty people.,This bus can hold fifty people.,,,keep,Reviewed: retain the single canonical translation.
+1386151,הבית נצבע על ידי אבא שלי.,The house was being painted by my father.,The house was being painted by my father.,,,keep,Reviewed: retain the single canonical translation.
+1388101,היתה לו בת אחת.,He had one daughter.,He had one daughter.,,,keep,Reviewed: retain the single canonical translation.
+1391102,מה אתה מנסה לעשות?,What are you trying to do?,What are you trying to do?,,,keep,Reviewed: retain the single canonical translation.
+1391419,"סיימתי הכל, חוץ מהעמוד האחרון.",I've finished all except the last page.,I've finished all except the last page.,,,keep,Reviewed: retain the single canonical translation.
+1391881,טום לא מצא את המשקפיים שלו.,Tom couldn't find his glasses.,Tom couldn't find his glasses.,,,keep,Reviewed: retain the single canonical translation.
+1391883,טום לא הצליח למצוא את משקפיו.,Tom couldn't find his glasses.,Tom couldn't find his glasses.,,,keep,Reviewed: retain the single canonical translation.
+1392194,מה עלי לעשות?,What do I have to do?,What do I have to do?,,,keep,Reviewed: retain the single canonical translation.
+1393889,הוא פתח את הדלת.,He opened the door.,He opened the door.,,,keep,Reviewed: retain the single canonical translation.
+1393914,נתתי את זה לילד הקטן.,I gave it to the little boy.,I gave it to the little boy.,,,keep,Reviewed: retain the single canonical translation.
+1396009,בקהל היו בעיקר בני נוער.,The audience were mostly adolescents.,The audience were mostly adolescents.,,,keep,Reviewed: retain the single canonical translation.
+1396064,טום הוא נהג אוטובוס.,Tom is a bus driver.,Tom is a bus driver.,,,keep,Reviewed: retain the single canonical translation.
+1397816,מה העניין?,What's the matter?,What's the matter?,What's the problem?,,alternative,Common complete expression alongside what's the matter.
+1397968,אנו זזים קדימה.,Here we go.,We are moving forward.,,,corrected,"The Hebrew describes moving forward, not here we go."
+1398975,הוא קם על רגליו.,He stood up.,He stood up.,,,keep,Reviewed: retain the single canonical translation.
+1399171,נהג בצורה בטוחה.,Drive safely.,Drive safely.,,,keep,Reviewed: retain the single canonical translation.
+1399419,היא בת שמונה.,She is eight.,She is eight.,,,keep,Reviewed: retain the single canonical translation.
+1399436,היא מכירה אותי.,She knows me.,She knows me.,,,keep,Reviewed: retain the single canonical translation.
+1399461,אנו מאושרים.,We are happy.,We are happy.,,,keep,Reviewed: retain the single canonical translation.
+1399518,הוא לומד ברגע זה.,He's studying now.,He's studying now.,,,keep,Reviewed: retain the single canonical translation.
+1399523,"טוב, ואתה?",Fine. And you?,Fine. And you?,,,keep,Reviewed: retain the single canonical translation.
+1399653,שמור על קשר!,Keep in touch!,Keep in touch!,,,keep,Reviewed: retain the single canonical translation.
+1399670,אני יכול להיכנס?,May I come in?,May I come in?,,,keep,Reviewed: retain the single canonical translation.
+1400053,כריש הוא דג ואילו דולפין הוא יונק.,A shark is a fish while a dolphin is a mammal.,A shark is a fish while a dolphin is a mammal.,,,keep,Reviewed: retain the single canonical translation.
+1401897,איזה לילה יפה!,What a beautiful night!,What a beautiful night!,,,keep,Reviewed: retain the single canonical translation.
+1403787,יש לה עיניים יפות.,She has beautiful eyes.,She has beautiful eyes.,,,keep,Reviewed: retain the single canonical translation.
+1403810,נא לפנות שמאלה בפנייה הראשונה.,Please turn left at the first corner.,Please turn left at the first corner.,,,keep,Reviewed: retain the single canonical translation.
+1404198,הארנב התחבא מאחורי העץ.,The hare hid behind the tree.,The rabbit hid behind the tree.,,,corrected,ארנב is a rabbit; hare is normally ארנבת.
+1404725,תוכל לעזור לי לשמור על הילדים?,Can you help look after the kids?,Can you help look after the kids?,,,keep,Reviewed: retain the single canonical translation.
+1404843,העץ הזה ירוק כל השנה.,The tree is green all year round.,The tree is green all year round.,,,keep,Reviewed: retain the single canonical translation.
+1404997,אני רצה כל יום.,I run every day.,I run every day.,,,keep,Reviewed: retain the single canonical translation.
+1407331,התוכל ללמד אותי לשחק שחמט?,Can you teach me to play chess?,Can you teach me to play chess?,,,keep,Reviewed: retain the single canonical translation.
+1407525,התחיל לרדת גשם לפני שהגעתי הביתה.,It began to rain before I got home.,It began to rain before I got home.,,,keep,Reviewed: retain the single canonical translation.
+1407594,יש לצחצח שיניים לפחות פעמיים ביום.,You should brush your teeth at least twice a day.,You should brush your teeth at least twice a day.,,,keep,Reviewed: retain the single canonical translation.
+1407676,הייתי עייף מדי מכדי להמשיך לעבוד.,I was too tired to go on working.,I was too tired to go on working.,,,keep,Reviewed: retain the single canonical translation.
+1407716,טום צריך לקנות מעיל גשם חדש.,Tom needs to buy a new raincoat.,Tom needs to buy a new raincoat.,,,keep,Reviewed: retain the single canonical translation.
+1407949,"ובכן, אני חייב ללכת.","Well, I must be going.","Well, I must be going.",,,keep,Reviewed: retain the single canonical translation.
+1408201,אור הירח חלש.,The light from the moon is weak.,The light from the moon is weak.,,,keep,Reviewed: retain the single canonical translation.
+1410329,טום רוצה לנסות שמפו חדש.,Tom wants to try a new shampoo.,Tom wants to try a new shampoo.,,,keep,Reviewed: retain the single canonical translation.
+1410921,אני סתם מתלוצץ.,I'm just kidding.,I'm just kidding.,,,keep,Reviewed: retain the single canonical translation.
+1411380,אתה מבין מה שאני אומר?,Do you understand what I'm saying?,Do you understand what I'm saying?,,,keep,Reviewed: retain the single canonical translation.
+1411589,לאורך הרחוב נטעו עצים.,Trees are planted along the street.,Trees were planted along the street.,,,corrected,"נטעו is past tense, not a present statement."
+1411837,תמונה שווה אלף מילים.,A picture is worth a thousand words.,A picture is worth a thousand words.,,,keep,Reviewed: retain the single canonical translation.
+1411899,פגשתי בו בדרכי חזרה הביתה.,I met him while going back home.,I met him while going back home.,,,keep,Reviewed: retain the single canonical translation.
+1412682,מרי הסתכלה על עצמה במראה.,Mary looked at herself in the mirror.,Mary looked at herself in the mirror.,,,keep,Reviewed: retain the single canonical translation.
+1412981,הוא לחץ את ידו של ראש העיר.,He shook hands with the mayor.,He shook hands with the mayor.,,,keep,Reviewed: retain the single canonical translation.
+1413993,טום הסתכל על עצמו במראה.,Tom looked at himself in the mirror.,Tom looked at himself in the mirror.,,,keep,Reviewed: retain the single canonical translation.
+1414041,אני מקנא בה.,I envy her.,I envy her.,,,keep,Reviewed: retain the single canonical translation.
+1414140,נהניתי לדבר איתו במסיבה.,I enjoyed talking with him at the party.,I enjoyed talking with him at the party.,,,keep,Reviewed: retain the single canonical translation.
+1414171,אתה צודק בהחלט.,You are absolutely right.,You are absolutely right.,,,keep,Reviewed: retain the single canonical translation.
+1414274,קח ספר וקרא בו!,Take a book and read it.,Take a book and read it.,,,keep,Reviewed: retain the single canonical translation.
+1414341,אני שמח שנהנית מזה.,I'm glad you liked it.,I'm glad you liked it.,,,keep,Reviewed: retain the single canonical translation.
+1416966,קלפו את תפוחי האדמה ואת הגזרים.,Peel the potatoes and carrots.,Peel the potatoes and carrots.,,,keep,Reviewed: retain the single canonical translation.
+1419877,אנחנו חברים טובים.,We are good friends.,We are good friends.,,,keep,Reviewed: retain the single canonical translation.
+1420575,מגרד לי בכל הגוף.,My body itches all over.,My body itches all over.,,,keep,Reviewed: retain the single canonical translation.
+1420737,הוא עמד ליד השער עם היד בכיס.,He was standing by the gate with his hand in his pocket.,He was standing by the gate with his hand in his pocket.,,,keep,Reviewed: retain the single canonical translation.
+1421027,תן לי רגע לחשוב.,Let me think for a while.,Let me think for a while.,,,keep,Reviewed: retain the single canonical translation.
+1421358,בואו נשים את כל הקלפים על השולחן.,Let's put all the cards on the table.,Let's put all the cards on the table.,,,keep,Reviewed: retain the single canonical translation.
+1423679,בוא נעיף מבט.,Let's take a look.,Let's take a look.,,,keep,Reviewed: retain the single canonical translation.
+1423715,היא התחילה לשיר.,She began to sing.,She began to sing.,,,keep,Reviewed: retain the single canonical translation.
+1423742,אני צריכה ללכת כעת.,I have to leave now.,I have to leave now.,,,keep,Reviewed: retain the single canonical translation.
+1423762,פגשתי אותו במקרה.,I met him by chance.,I met him by chance.,I ran into him.,,alternative,Established idiom for meeting someone by chance.
+1423766,אכלתי במהירות ארוחת צהריים.,I quickly ate lunch.,I quickly ate lunch.,,,keep,Reviewed: retain the single canonical translation.
+1423788,אנסה את זה פעם נוספת.,I will try it again.,I will try it again.,,,keep,Reviewed: retain the single canonical translation.
+1424059,כולנו עושים טעויות.,We all make mistakes.,We all make mistakes.,,,keep,Reviewed: retain the single canonical translation.
+1424065,אנחנו צריכים ללכת לבית הספר.,We must go to school.,We must go to school.,,,keep,Reviewed: retain the single canonical translation.
+1424084,אנחנו מוכנים לצאת.,We're ready to leave.,We're ready to leave.,,,keep,Reviewed: retain the single canonical translation.
+1424700,בוא ואציג את עצמי.,Let me introduce myself.,Let me introduce myself.,,,keep,Reviewed: retain the single canonical translation.
+1424753,דוד שלי נתן לי ספר.,My uncle gave me a book.,My uncle gave me a book.,,,keep,Reviewed: retain the single canonical translation.
+1424764,"אף אחד לא הגיע, מלבד מרי.",No one came except Mary.,No one came except Mary.,,,keep,Reviewed: retain the single canonical translation.
+1424823,השאלה הזאת לא קלה.,This question isn't easy.,This question isn't easy.,,,keep,Reviewed: retain the single canonical translation.
+1424861,בוא הנה ותצטרף אלינו.,Come over here and join us.,Come over here and join us.,,,keep,Reviewed: retain the single canonical translation.
+1424897,אתה מתכנן לנסוע לחוץ לארץ?,Do you plan to go overseas?,Do you plan to go overseas?,,,keep,Reviewed: retain the single canonical translation.
+1425131,מרי סגרה את הדלת בשקט.,Mary closed the door quietly.,Mary closed the door quietly.,,,keep,Reviewed: retain the single canonical translation.
+1425158,אחי עדיין ישן.,My brother is still sleeping.,My brother is still sleeping.,,,keep,Reviewed: retain the single canonical translation.
+1425466,הכאב כמעט נעלם לגמרי.,The pain has mostly gone away.,The pain has mostly gone away.,,,keep,Reviewed: retain the single canonical translation.
+1426750,נדמה לי שנגמר לנו הקפה.,I'm afraid I've run short of coffee.,I think we've run out of coffee.,,,corrected,"Preserve לנו, we, and נדמה לי, I think; do not change the subject to I."
+1428792,הגעתי לפני האחרים.,I arrived ahead of the others.,I arrived ahead of the others.,,,keep,Reviewed: retain the single canonical translation.
+1429722,תן לי דף נייר חלק.,Give me a blank sheet of paper.,Give me a blank sheet of paper.,,,keep,Reviewed: retain the single canonical translation.
+1430717,יטפלו בהם היטב.,They will be taken good care of.,They will be taken good care of.,,,keep,Reviewed: retain the single canonical translation.
+1430735,מרוב עצים לא רואים את היער.,You can't see the forest for the trees.,You can't see the forest for the trees.,,,keep,Reviewed: retain the single canonical translation.
+1432760,מה היית עושה אילו היית במקומי?,What would you do if you were in my place?,What would you do if you were in my place?,What would you do in my place?,,alternative,Same accepted construction as the equivalent sentence 560919.
+1433188,היא דיברה בקול רם וברור.,She spoke loud and clear.,She spoke loud and clear.,,,keep,Reviewed: retain the single canonical translation.
+1433320,"אימא, אני יכול ללכת לשחות?","Mommy, may I go swimming?","Mommy, may I go swimming?",,,keep,Reviewed: retain the single canonical translation.
+1433563,מה שם הרחוב הזה?,What's this street called?,What's this street called?,,,keep,Reviewed: retain the single canonical translation.
+1436121,אני חושב שאני פשוט עייף.,I think I'm just tired.,I think I'm just tired.,,,keep,Reviewed: retain the single canonical translation.
+1437375,שתי הילדות לובשות חליפות לבנות.,Both of the girls are wearing white suits.,Both of the girls are wearing white suits.,,,keep,Reviewed: retain the single canonical translation.
+1437465,בינתיים למדנו משגיאותינו.,"In the meantime, we learnt from our mistakes.","In the meantime, we learnt from our mistakes.",,,keep,Reviewed: retain the single canonical translation.
+1437664,הוא ענה על כל השאלות בעשר דקות.,He answered all the questions in ten minutes.,He answered all the questions in ten minutes.,,,keep,Reviewed: retain the single canonical translation.
+1437747,הוא בדיוק עמד לצאת כשהיא טלפנה.,He was just about to leave when she telephoned.,He was just about to leave when she telephoned.,,,keep,Reviewed: retain the single canonical translation.
+1437748,אספר לך מה שקרה.,Let me tell you about what happened.,Let me tell you about what happened.,,,keep,Reviewed: retain the single canonical translation.
+1438234,הוא הגיע ליפן בגיל 10.,He came to Japan when he was 10 years old.,He came to Japan when he was 10 years old.,,,keep,Reviewed: retain the single canonical translation.
+1439821,זה חשוב לקרוא ספרים.,It's important to read books.,It's important to read books.,,,keep,Reviewed: retain the single canonical translation.
+1440110,הוא הלך לישון בגלל שהיה עייף.,He went to bed because he was tired.,He went to bed because he was tired.,,,keep,Reviewed: retain the single canonical translation.
+1441464,המעלית עולה ויורדת.,The elevator is moving up and down.,The elevator is moving up and down.,,,keep,Reviewed: retain the single canonical translation.
+1443333,הוא לא הצליח להבין את המשפט.,He couldn't understand the sentence.,He couldn't understand the sentence.,,,keep,Reviewed: retain the single canonical translation.
+1445226,הפרפרים האלה נדירים בארץ.,These butterflies are rare in our country.,These butterflies are rare in our country.,,,keep,Reviewed: retain the single canonical translation.
+1445460,הוא למד אנגלית ואחר כך מתמטיקה.,He studied English and then math.,He studied English and then math.,,,keep,Reviewed: retain the single canonical translation.
+1445498,זאת אינה שאלה קלה.,This is not an easy question.,This is not an easy question.,,,keep,Reviewed: retain the single canonical translation.
+1447484,הוא אדם חשוב מאד.,He's a very important person.,He's a very important person.,,,keep,Reviewed: retain the single canonical translation.
+1449061,היא הרימה את ידה.,She raised her hand.,She raised her hand.,,,keep,Reviewed: retain the single canonical translation.
+1451156,זו העיר שבה הוא נולד.,This is his hometown.,This is his hometown.,This is the city where he was born.,,alternative,Explicit birthplace construction alongside hometown.
+1451450,מה אתה אמרת?,What did you say?,What did you say?,,,keep,Reviewed: retain the single canonical translation.
+1451457,תרצי לבקר בגן החיות היום אחר הצהריים?,Would you like to go to the zoo this afternoon?,Would you like to go to the zoo this afternoon?,,,keep,Reviewed: retain the single canonical translation.
+1451471,כל האנשים שהיו כאן הלכו.,All the people who were here have left.,All the people who were here have left.,,,keep,Reviewed: retain the single canonical translation.
+1451893,היא קנתה מברשת שיער ומברשת שיניים.,She bought a hair brush and a tooth brush.,She bought a hairbrush and a toothbrush.,,,corrected,Use the standard closed spellings of these compound nouns.
+1453254,כמה שנים לקח לבנות את הפירמידות?,How many years did it take to build the pyramids?,How many years did it take to build the pyramids?,,,keep,Reviewed: retain the single canonical translation.
+1456528,ראיתי אותה לפני שבוע בדיוק.,I saw her a week ago today.,I saw her a week ago today.,,,keep,Reviewed: retain the single canonical translation.
+1458764,העוּבדות לא ייעלמו בגלל שמתעלמים מהן.,Facts do not cease to exist because they are ignored.,Facts do not cease to exist because they are ignored.,,,keep,Reviewed: retain the single canonical translation.
+1460135,זה לא היה פשוט לפתור את הבעיה הזו.,It wasn't simple to solve this problem.,It wasn't simple to solve this problem.,,,keep,Reviewed: retain the single canonical translation.
+1463408,אני יכול לראות במכונית גברת ושני כלבים.,I can see a lady and two dogs in the car.,I can see a lady and two dogs in the car.,,,keep,Reviewed: retain the single canonical translation.
+1464130,השנים הקרובות לא יהיו משחק ילדים.,The next few years won't be easy for us.,The next few years won't be easy.,The next few years won't be child's play.,,corrected+alternative,Keep both the idiom and its meaning; remove the source's unsupported for us.
+1464543,אביב זו עונה נעימה.,Spring is a pleasant season.,Spring is a pleasant season.,,,keep,Reviewed: retain the single canonical translation.
+1464920,כבר קראתי את הספר הזה לפני כן.,I have read this book before.,I have read this book before.,,,keep,Reviewed: retain the single canonical translation.
+1465007,אסור לך לדבר כאן.,You should not talk here.,You are not allowed to talk here.,,,corrected,"אסור is a prohibition, not merely advice."
+1465597,הם עברו לגור כאן לאחרונה.,They moved in just the other day.,They moved in just the other day.,,,keep,Reviewed: retain the single canonical translation.
+1465762,אכפת לך אם אדליק את הרדיו?,Do you mind if I turn on the radio?,Do you mind if I turn on the radio?,,,keep,Reviewed: retain the single canonical translation.
+1466266,חברי הוועד כולם גברים.,The members of the committee are all men.,The members of the committee are all men.,,,keep,Reviewed: retain the single canonical translation.
+1468835,אדם הוא חלק מהטבע.,Man is part of nature.,Man is part of nature.,,,keep,Reviewed: retain the single canonical translation.
+1468975,לא היינו בבית אתמול.,We weren't at home yesterday.,We weren't at home yesterday.,,,keep,Reviewed: retain the single canonical translation.
+1469022,הוא רצה לקנות את הספר.,He wanted to buy the book.,He wanted to buy the book.,,,keep,Reviewed: retain the single canonical translation.
+1469412,מספר טיסות איחרו בשל רעש אדמה.,A couple of flights were delayed on account of the earthquake.,A couple of flights were delayed on account of the earthquake.,,,keep,Reviewed: retain the single canonical translation.
+1469500,הוא במיוחד אוהב שחייה.,He especially likes swimming.,He especially likes swimming.,,,keep,Reviewed: retain the single canonical translation.
+1470874,יש הרבה קופים בתוך ההר.,There are many monkeys on the mountain.,There are many monkeys inside the mountain.,,,corrected,"Unusual but literal: the Hebrew says בתוך, inside, not on. Hebrew and audio are preserved."
+1471887,אנחנו לא מכירים אחד את השני.,We don't know each other.,We don't know each other.,,,keep,Reviewed: retain the single canonical translation.
+1473686,ועכשיו מה?,"And now, what?","And now, what?",,,keep,Reviewed: retain the single canonical translation.
+1473870,קיבלתי ממנה מכתב.,I got a letter from her.,I got a letter from her.,,,keep,Reviewed: retain the single canonical translation.
+1475228,הם הגיעו ליעדם.,They reached their goal.,They reached their goal.,,,keep,Reviewed: retain the single canonical translation.
+1476827,הוא שמע את הרעש.,He heard the noise.,He heard the noise.,,,keep,Reviewed: retain the single canonical translation.
+1476835,יד שמאל שלי נרדמה.,My left hand fell asleep.,My left hand fell asleep.,My left hand went numb.,,alternative,Explicit physical meaning alongside the fell-asleep idiom.
+1478997,אינני יודע מה אני צריך לעשות.,I don't know what to do.,I don't know what to do.,,,keep,Reviewed: retain the single canonical translation.
+1479344,הפיל הזה אהוב על ילדים קטנים.,This elephant is adored by small children.,This elephant is adored by small children.,,,keep,Reviewed: retain the single canonical translation.
+1479385,יש ספק אם זה יעבוד.,It is doubtful whether this will work.,It is doubtful whether this will work.,,,keep,Reviewed: retain the single canonical translation.
+1484491,כעבור כמה דקות הטלפון צלצל.,A few minutes later the telephone rang.,A few minutes later the telephone rang.,,,keep,Reviewed: retain the single canonical translation.
+1485761,סבתא שלי שלחה את המכתב הבוקר.,My grandmother mailed the letter this morning.,My grandmother mailed the letter this morning.,,,keep,Reviewed: retain the single canonical translation.
+1486096,השינוי מצא חן בעיניו.,He loved the change.,He loved the change.,,,keep,Reviewed: retain the single canonical translation.
+1486639,אני מרגישה את האביב באוויר.,I feel spring in the air.,I feel spring in the air.,,,keep,Reviewed: retain the single canonical translation.
+1486688,כל אחד בכיתה למד את השיר בעל פה.,Everyone in the class learned the poem by heart.,Everyone in the class learned the poem by heart.,Everyone in the class memorized the poem.,,alternative,Memorized expresses the complete learned-by-heart phrase.
+1486752,זה רחוק מכאן?,Is it far from here?,Is it far from here?,,,keep,Reviewed: retain the single canonical translation.
+1488552,החברה של טום הונפקה בבורסה.,Tom's company went public.,Tom's company went public.,,,keep,Reviewed: retain the single canonical translation.
+1492214,אביה הוא שוטר.,Her father is a policeman.,Her father is a policeman.,,,keep,Reviewed: retain the single canonical translation.
+1493697,הוא היה ראוי לכך.,He deserved it.,He deserved it.,,,keep,Reviewed: retain the single canonical translation.
+1494330,הוא נראה כמו אבא שלו.,He looks like his father.,He looks like his father.,,,keep,Reviewed: retain the single canonical translation.
+1495444,הוא שם את הספר על המדף.,He put the book on the shelf.,He put the book on the shelf.,,,keep,Reviewed: retain the single canonical translation.
+1496693,תבקש מטום להביא את הגיטרה שלו.,Ask Tom to bring his guitar.,Ask Tom to bring his guitar.,,,keep,Reviewed: retain the single canonical translation.
+1499058,זה סיפור אמיתי.,This story is true.,This story is true.,,,keep,Reviewed: retain the single canonical translation.
+1499509,יש לי אח אחד.,I have one brother.,I have one brother.,,,keep,Reviewed: retain the single canonical translation.
+1499900,איפה הבנות האחרות?,Where are the other girls?,Where are the other girls?,,,keep,Reviewed: retain the single canonical translation.
+1500922,אנשים רבים מנסים כיום למכור את ביתם.,A lot of people are now trying to sell their houses.,A lot of people are now trying to sell their houses.,,,keep,Reviewed: retain the single canonical translation.
+1501333,ראיתי אותה שוחה.,I saw her swim.,I saw her swim.,,,keep,Reviewed: retain the single canonical translation.
+1501444,"היה קר מאד, לכן האגם קפא.","It was very cold, so the lake froze.","It was very cold, so the lake froze.",,,keep,Reviewed: retain the single canonical translation.
+1502090,כתבתי שיר עבורך.,I wrote a song for you.,I wrote a song for you.,,,keep,Reviewed: retain the single canonical translation.
+1504484,אתקשר אליה מיד.,I'll call her immediately.,I'll call her immediately.,,,keep,Reviewed: retain the single canonical translation.
+1505800,בחגים של המדינה אנחנו מניפים דגלים.,We put up the flags on national holidays.,We put up the flags on national holidays.,,,keep,Reviewed: retain the single canonical translation.
+1506757,הוא הביט מבעד לחלון.,He was looking out the window.,He was looking out the window.,,,keep,Reviewed: retain the single canonical translation.
+1506758,הוא הסתכל מבעד לחלון.,He was looking out the window.,He was looking out the window.,,,keep,Reviewed: retain the single canonical translation.
+1509331,אנחנו צריכים לנקות את המטבח.,We must clean up the kitchen.,We must clean up the kitchen.,,,keep,Reviewed: retain the single canonical translation.
+1509337,תבחר איזו דרך שתרצה.,You can take either road.,Choose whichever path you like.,,,corrected,The Hebrew does not limit the choice to two roads.
+1511169,הוא אחי הצעיר.,He's my younger brother.,He's my younger brother.,,,keep,Reviewed: retain the single canonical translation.
+1511425,הילדה בתמונה מחייכת.,The girl in the picture is smiling.,The girl in the picture is smiling.,,,keep,Reviewed: retain the single canonical translation.
+1515362,הרי זה מגוחך!,That's ridiculous!,That's ridiculous!,,,keep,Reviewed: retain the single canonical translation.
+1517842,"ודאי, הדברים האלה נכונים.","Certainly, these things are true.","Certainly, these things are true.",,,keep,Reviewed: retain the single canonical translation.
+1524802,זה נורא מצחיק.,This is hilarious.,This is hilarious.,,,keep,Reviewed: retain the single canonical translation.
+1524830,טום הוא חברי הטוב ביותר.,Tom is my best friend.,Tom is my best friend.,,,keep,Reviewed: retain the single canonical translation.
+1527451,טום יצא מן האמבטיה.,Tom got out of the bathtub.,Tom got out of the bathtub.,,,keep,Reviewed: retain the single canonical translation.
+1540709,אני לא רואה כלום!,I can't see anything!,I can't see anything!,,,keep,Reviewed: retain the single canonical translation.
+1545750,אנשי הכפר הזה חיים בהרמוניה עם הטבע.,The people of this village live in harmony with nature.,The people of this village live in harmony with nature.,,,keep,Reviewed: retain the single canonical translation.
+1548944,יש לי כלב בצבעים שחור ולבן.,I have a black and white dog.,I have a black and white dog.,,,keep,Reviewed: retain the single canonical translation.
+1558116,אני יוצא עכשיו.,I'm taking off now.,I'm taking off now.,I'm leaving now.,,alternative,Direct departure wording alongside taking off.
+1558193,שים את הכובע על הראש.,Put your hat on.,Put your hat on.,,,keep,Reviewed: retain the single canonical translation.
+1558220,היא נכנסה פנימה.,She went inside.,She went inside.,,,keep,Reviewed: retain the single canonical translation.
+1562276,"וכל המרבה, הרי זה משובח.","The more, the merrier.","The more, the merrier.",,,keep,Reviewed: retain the single canonical translation.
+1562282,שאר הילדים חייכו.,The other boys smiled.,The other children smiled.,,,corrected,ילדים does not necessarily specify boys.
+1563925,היא ישבה על כיסא קשה.,She sat on a hard chair.,She sat on a hard chair.,,,keep,Reviewed: retain the single canonical translation.
+1575501,הוא משחק בחוץ.,He is playing outdoors.,He is playing outdoors.,,,keep,Reviewed: retain the single canonical translation.
+1576317,רוץ מהר ככל שתוכל.,Run as fast as you can.,Run as fast as you can.,,,keep,Reviewed: retain the single canonical translation.
+1579366,חשבתי שאין אף אחד במטבח.,I thought there was nobody in the kitchen.,I thought there was nobody in the kitchen.,,,keep,Reviewed: retain the single canonical translation.
+1580942,הוא הסתובב לאחור.,He turned around.,He turned around.,,,keep,Reviewed: retain the single canonical translation.
+1580993,הוא שוחה כמו דג במים.,He swims like a fish.,He swims like a fish.,,,keep,Reviewed: retain the single canonical translation.
+1582905,קניתי כרטיס הלוך ושוב.,I bought a round-trip ticket.,I bought a round-trip ticket.,I bought a return ticket.,,alternative,Established British and American expressions for a two-way ticket.
+1591421,יש לנו חצי תריסר ביצים.,We have half a dozen eggs.,We have half a dozen eggs.,,,keep,Reviewed: retain the single canonical translation.
+1591715,סבא שלי אהב לקרוא.,My grandfather used to love reading.,My grandfather used to love reading.,,,keep,Reviewed: retain the single canonical translation.
+1594556,מי כוכב הקולנוע האהוב עליך?,Who's your favorite movie star?,Who's your favorite movie star?,,,keep,Reviewed: retain the single canonical translation.
+1594860,הכלב שלך כאן.,Your dog is here.,Your dog is here.,,,keep,Reviewed: retain the single canonical translation.
+1610542,הוא גאה בכך שאף פעם לא איחר לבית הספר.,He's proud of never being late to school.,He's proud of never being late to school.,,,keep,Reviewed: retain the single canonical translation.
+1615031,זה לא מוצא חן בעיני.,I don't like this.,I don't like this.,,,keep,Reviewed: retain the single canonical translation.
+1615101,היא בעלת אופי חזק.,She has a strong character.,She has a strong character.,,,keep,Reviewed: retain the single canonical translation.
+1615779,אני אוהב שיער קצר.,I like short hair.,I like short hair.,,,keep,Reviewed: retain the single canonical translation.
+1615793,ראיתי אותו רץ.,I saw him running.,I saw him running.,,,keep,Reviewed: retain the single canonical translation.
+1615892,זה של אח שלי.,It's my brother's.,It's my brother's.,,,keep,Reviewed: retain the single canonical translation.
+1615926,היא הביטה סביב.,She looked around.,She looked around.,,,keep,Reviewed: retain the single canonical translation.
+1615927,היא הסתכלה מסביב.,She looked around.,She looked around.,,,keep,Reviewed: retain the single canonical translation.
+1616180,זה היה כמעט בלתי אפשרי.,It used to be nearly impossible.,It was almost impossible.,,,corrected,The Hebrew states a past condition without the source's used-to implication.
+1621090,יש להן גישה לספרייה.,They have access to the library.,They have access to the library.,,,keep,Reviewed: retain the single canonical translation.
+1625074,מתי מתחיל הסרט?,When does the movie start?,When does the movie start?,,,keep,Reviewed: retain the single canonical translation.
+1625076,יש לי משהו לתת לך.,I have something to give you.,I have something to give you.,,,keep,Reviewed: retain the single canonical translation.
+1627756,באיזה מהם כדאי להשתמש?,Which one should I use?,Which one should I use?,,,keep,Reviewed: retain the single canonical translation.
+1629410,מי בעל המכונית הזו?,Who is the owner of this car?,Who is the owner of this car?,,,keep,Reviewed: retain the single canonical translation.
+1630217,הוא ירד למטה.,He came downstairs.,He came downstairs.,,,keep,Reviewed: retain the single canonical translation.
+1630296,הוא בטח יבוא.,He is sure to come.,He is sure to come.,,,keep,Reviewed: retain the single canonical translation.
+1641303,שלחתי לך מכתב.,I sent you a letter.,I sent you a letter.,,,keep,Reviewed: retain the single canonical translation.
+1642380,הלוואי והיה לי רכב.,I wish I had a car.,I wish I had a car.,,,keep,Reviewed: retain the single canonical translation.
+1644149,יש לה שיער קצר.,She has short hair.,She has short hair.,,,keep,Reviewed: retain the single canonical translation.
+1644161,היא נראתה נרגשת.,She looked excited.,She looked excited.,,,keep,Reviewed: retain the single canonical translation.
+1644863,טום מאחר לעתים רחוקות.,Tom is rarely late.,Tom is rarely late.,,,keep,Reviewed: retain the single canonical translation.
+1644894,מה זה שם?,What is over there?,What is over there?,,,keep,Reviewed: retain the single canonical translation.
+1645035,גם אני מורה.,"I am a teacher, too.","I am a teacher, too.",,,keep,Reviewed: retain the single canonical translation.
+1645052,אני זוכר אותו היטב.,I remember him well.,I remember him well.,,,keep,Reviewed: retain the single canonical translation.
+1675685,היא שפשפה את עיניה.,She rubbed her eyes.,She rubbed her eyes.,,,keep,Reviewed: retain the single canonical translation.
+1677467,זה טבעי להיות עצבני בעת המראה של מטוס.,It's natural to be nervous when the plane takes off.,It's natural to be nervous when the plane takes off.,,,keep,Reviewed: retain the single canonical translation.
+1685529,טום לא רואה מה כתוב על הלוח.,Tom can't see what's written on the blackboard.,Tom can't see what's written on the blackboard.,,,keep,Reviewed: retain the single canonical translation.
+1705806,אתה יכול לסמוך עליה.,You can rely on her.,You can rely on her.,You can count on her.,,alternative,Same reliance idiom as the masculine sentence 651719.
+1705972,הוא נראה מאושר למדי.,He seems quite happy.,He seems quite happy.,,,keep,Reviewed: retain the single canonical translation.
+1708719,אני יודע למה אתה מתכוון.,I know what you mean.,I know what you mean.,,,keep,Reviewed: retain the single canonical translation.
+1708736,שילמתי לו את הכסף.,I paid him the money.,I paid him the money.,,,keep,Reviewed: retain the single canonical translation.
+1708988,"ניצחתי, אני במקום הראשון.",I've won first prize!,I won. I'm in first place.,,,corrected,First place does not specify a first prize.
+1710005,היא החברה הכי טובה שלי.,She's my best friend.,She's my best friend.,,,keep,Reviewed: retain the single canonical translation.
+1711637,תנחש מה הוא סיפר לי.,Guess what he told me.,Guess what he told me.,,,keep,Reviewed: retain the single canonical translation.
+1711661,הוא יודע לקרוא ולכתוב.,He can read and write.,He can read and write.,,,keep,Reviewed: retain the single canonical translation.
+1711962,אני בקושי שומע אותו.,I can hardly hear him.,I can hardly hear him.,,,keep,Reviewed: retain the single canonical translation.
+1712058,זה קרוב לבית שלך?,Is it near your house?,Is it near your house?,,,keep,Reviewed: retain the single canonical translation.
+1714301,אפשר לעשות זאת תיכף ומיד?,May I do it right now?,Can this be done right away?,,,corrected,"The Hebrew asks generally whether it can be done, without specifying I."
+1722148,השיער שלך ארוך מדי.,Your hair is too long.,Your hair is too long.,,,keep,Reviewed: retain the single canonical translation.
+1724067,היה להם כיף אצלנו.,They had fun with us.,They had fun with us.,,,keep,Reviewed: retain the single canonical translation.
+1724327,אתה בטוח שהם יכולים לעשות את זה?,Are you sure they can do this?,Are you sure they can do this?,,,keep,Reviewed: retain the single canonical translation.
+1729027,היא קשרה את שערה בסרט.,She bound her hair with a ribbon.,She bound her hair with a ribbon.,,,keep,Reviewed: retain the single canonical translation.
+1733780,אין צורך למהר.,You don't have to hurry.,You don't have to hurry.,There's no need to hurry.,,alternative,Impersonal construction alongside you don't have to hurry.
+1735869,תראה את החתול שעל הגג.,Look at that cat on the roof.,Look at that cat on the roof.,,,keep,Reviewed: retain the single canonical translation.
+1745218,היא ידעה לקרוא כשהיתה בת ארבע.,"When she was four, she knew how to read.","When she was four, she knew how to read.",,,keep,Reviewed: retain the single canonical translation.
+1746296,אין מצב שזה אמיתי.,That can't possibly be true.,That can't possibly be true.,There's no way that's real.,,alternative,Common emphatic impossibility construction for אין מצב.
+1746315,אנחנו משגיחים עליהם היטב.,We take good care of them.,We take good care of them.,,,keep,Reviewed: retain the single canonical translation.
+1746344,אני מתגעגע למקום הזה.,I miss that place.,I miss that place.,,,keep,Reviewed: retain the single canonical translation.
+1747028,יש לך שאלה?,Do you have a question?,Do you have a question?,,,keep,Reviewed: retain the single canonical translation.
+1747096,האם הוא כבר הגיע?,Has he come yet?,Has he come yet?,,,keep,Reviewed: retain the single canonical translation.
+1747143,יש לו שלוש בנות.,He has three daughters.,He has three daughters.,,,keep,Reviewed: retain the single canonical translation.
+1747413,צלצל אליו בבקשה.,Please give him a call.,Please give him a call.,,,keep,Reviewed: retain the single canonical translation.
+1758892,טום עלה בריצה במדרגות.,Tom ran up the stairs.,Tom ran up the stairs.,,,keep,Reviewed: retain the single canonical translation.
+1762665,זה רק עניין של זמן.,It's only a matter of time.,It's only a matter of time.,,,keep,Reviewed: retain the single canonical translation.
+1767030,אני אוהבת את הקיץ.,I love summer.,I love summer.,,,keep,Reviewed: retain the single canonical translation.
+1767775,היום יום הולדתה של אחותי הקטנה.,Today is my little sister's birthday.,Today is my little sister's birthday.,,,keep,Reviewed: retain the single canonical translation.
+1768115,כלומר אתה יודע את התשובה?,You mean to say that you know the answer?,You mean to say that you know the answer?,,,keep,Reviewed: retain the single canonical translation.
+1769055,הוא אזרח שומר חוק.,He's a law-abiding citizen.,He's a law-abiding citizen.,,,keep,Reviewed: retain the single canonical translation.
+1770665,"למעשה, אני לא יודע.",I don't really know.,"Actually, I don't know.",,,corrected,"למעשה means actually, not the hedge don't really know."
+1770670,"למען האמת, אני לא יודע.",I don't really know.,"To be honest, I don't know.",,,corrected,Preserve the explicit to-be-honest phrase.
+1771572,אפילו מורה יכול לעשות טעויות.,Even a teacher can make mistakes.,Even a teacher can make mistakes.,,,keep,Reviewed: retain the single canonical translation.
+1771935,אני רוצה משהו נוסף.,I want something more.,I want something more.,,,keep,Reviewed: retain the single canonical translation.
+1772716,אתה נראה בן אדם ישר.,You seem to be an honest man.,You seem to be an honest man.,,,keep,Reviewed: retain the single canonical translation.
+1774767,לך לאמבטיה ואז לישון.,Take a bath and then go to bed.,Take a bath and then go to bed.,,,keep,Reviewed: retain the single canonical translation.
+1777819,שכחתי להביא בגדים חמים.,I forgot to bring warm clothes.,I forgot to bring warm clothes.,,,keep,Reviewed: retain the single canonical translation.
+1777822,הייתי בסרט הזה.,I saw the movie.,I saw the movie.,,,keep,Reviewed: retain the single canonical translation.
+1778708,האם הדבר הזה ניתן לאכילה?,Is this thing edible?,Is this thing edible?,,,keep,Reviewed: retain the single canonical translation.
+1787383,תבחר בין השניים.,Choose between these two.,Choose between these two.,,,keep,Reviewed: retain the single canonical translation.
+1789649,הוא רץ לתוך הכיתה.,He ran into the classroom.,He ran into the classroom.,,,keep,Reviewed: retain the single canonical translation.
+1795322,אמרתי לעצמי: זה רעיון טוב.,"I said to myself, ""That's a good idea.""","I said to myself, ""That's a good idea.""",,,keep,Reviewed: retain the single canonical translation.
+1798736,האם המקום הזה פנוי?,Is this seat available?,Is this seat available?,Is this seat free?,,alternative,Conventional vacant-seat question alongside available.
+1800338,הוא הוסיף חלב לתה ובחש.,He put milk into his tea and stirred it.,He put milk into his tea and stirred it.,,,keep,Reviewed: retain the single canonical translation.
+1808761,בכמה בתי ספר שונים למדת?,How many different schools have you attended?,How many different schools have you attended?,,,keep,Reviewed: retain the single canonical translation.
+1809723,הם משחקים שחמט.,They are playing chess.,They are playing chess.,,,keep,Reviewed: retain the single canonical translation.
+1810180,הגברת הקשישה חייכה אל נכדתה.,The old lady smiled at her granddaughter.,The old lady smiled at her granddaughter.,,,keep,Reviewed: retain the single canonical translation.
+1810181,הגברת הזקנה חייכה אל הנכדה שלה.,The old lady smiled at her granddaughter.,The old lady smiled at her granddaughter.,,,keep,Reviewed: retain the single canonical translation.
+1810212,אתה לא יכול להיכנס משום שאתה קטין.,"Because you're a minor, you can't enter.","Because you're a minor, you can't enter.",,,keep,Reviewed: retain the single canonical translation.
+1810874,השוטר שרק במשרוקית שלו.,The police officer blew his whistle.,The police officer blew his whistle.,,,keep,Reviewed: retain the single canonical translation.
+1811472,הוא גר ברחוב הזה.,He lives on this street.,He lives on this street.,,,keep,Reviewed: retain the single canonical translation.
+1812899,אבא שלכם נראה נחמד מאוד.,Your father seems very nice.,Your father seems very nice.,,,keep,Reviewed: retain the single canonical translation.
+1820027,היא לא הכניסה אותו.,She wouldn't let him in.,She wouldn't let him in.,,,keep,Reviewed: retain the single canonical translation.
+1821832,נולדתי לפני עשרים שנה.,I was born 20 years ago.,I was born 20 years ago.,,,keep,Reviewed: retain the single canonical translation.
+1823773,אני יכול לשאול למה?,May I ask why?,May I ask why?,,,keep,Reviewed: retain the single canonical translation.
+1825442,אל תשים את הכוס בקצה השולחן.,Don't put the glass near the edge of the table.,Don't put the glass near the edge of the table.,,,keep,Reviewed: retain the single canonical translation.
+1827224,האדם צעד על הירח.,Mankind has walked on the Moon.,Mankind has walked on the Moon.,,,keep,Reviewed: retain the single canonical translation.
+1831563,בארנק שלה יש כל מיני דברים.,There are all kind of things in her wallet.,There are all kinds of things in her wallet.,,,corrected,Correct the source English's all kind plural agreement.
+1836595,אתה מסוגל לשמוע אותי?,Can you hear me?,Can you hear me?,,,keep,Reviewed: retain the single canonical translation.
+1836602,יש ילדה חדשה בבית הספר.,There's a new girl in school.,There's a new girl in school.,,,keep,Reviewed: retain the single canonical translation.
+1838657,נשמח אם תוכלו לבוא אתנו.,We'd be happy if you could come with us.,We'd be happy if you could come with us.,,,keep,Reviewed: retain the single canonical translation.
+1840053,אתה יודע מה הוא אמר?,Do you know what he said?,Do you know what he said?,,,keep,Reviewed: retain the single canonical translation.
+1840068,אל תשחק ברחוב.,Don't play in the street.,Don't play in the street.,,,keep,Reviewed: retain the single canonical translation.
+1840092,הוא נעדר מבית הספר.,He is absent from school.,He is absent from school.,,,keep,Reviewed: retain the single canonical translation.
+1840145,מה דעתכם שנלך לשחות?,How about going swimming?,How about going swimming?,,,keep,Reviewed: retain the single canonical translation.
+1846453,אתן לך כל דבר חוץ מזה.,I'll give you anything but this.,I'll give you anything but this.,,,keep,Reviewed: retain the single canonical translation.
+1849486,אני רוצה לחשוב על זה.,I want to think about it.,I want to think about it.,,,keep,Reviewed: retain the single canonical translation.
+1849511,אני אשאר כאן עד עשר.,I'll stay here until ten.,I'll stay here until ten.,,,keep,Reviewed: retain the single canonical translation.
+1849624,נא לפנות לעמוד עשר.,Please refer to page ten.,Please refer to page ten.,,,keep,Reviewed: retain the single canonical translation.
+1849631,המחירים המשיכו לעלות.,Prices continued to rise.,Prices continued to rise.,,,keep,Reviewed: retain the single canonical translation.
+1849661,היא הביטה למעלה לשמיים.,She looked up at the sky.,She looked up at the sky.,,,keep,Reviewed: retain the single canonical translation.
+1849860,הדלת הזאת אינה נפתחת.,This door would not open.,This door won't open.,,,corrected,"The Hebrew describes a present problem, not a past one."
+1849967,איפה נמצאת הכיתה של טום?,Where is Tom's classroom?,Where is Tom's classroom?,,,keep,Reviewed: retain the single canonical translation.
+1850017,אני הילד האמצעי מבין שלושה ילדים.,I'm the middle child of three.,I'm the middle child of three.,,,keep,Reviewed: retain the single canonical translation.
+1853540,היה לו מזל והוא זכה בתחרות.,He was lucky and won the competition.,He was lucky and won the competition.,,,keep,Reviewed: retain the single canonical translation.
+1856616,הבוקר החלו הציפורים לשיר.,"In the morning, the birds started to sing.",The birds started singing this morning.,,,corrected,"הבוקר means this morning, rather than a generic in the morning."
+1856822,ציפורים עפות בעזרת כנפיהן.,Birds fly with their wings.,Birds fly with their wings.,,,keep,Reviewed: retain the single canonical translation.
+1856839,הציפור טבלה ראשה במים.,The bird dipped its head into the water.,The bird dipped its head into the water.,,,keep,Reviewed: retain the single canonical translation.
+1862904,"בשל את הביצים קשות, בבקשה.","Boil my eggs hard, please.","Hard-boil the eggs, please.",,,corrected,Use natural English and remove the unsupported possessive my.
+1863684,כמה אנשים באו לגן החיות אתמול?,How many people came to the zoo yesterday?,How many people came to the zoo yesterday?,,,keep,Reviewed: retain the single canonical translation.
+1866104,הרי היו לך שיעורי בית להכין.,You had homework to do after all.,You had homework to do after all.,,,keep,Reviewed: retain the single canonical translation.
+1870766,הוא נעץ את מבטו במדרון התלול.,He stared at the steep slope.,He stared at the steep slope.,,,keep,Reviewed: retain the single canonical translation.
+1882689,נא לא להפריע לי כשאני מדברת.,Please don't interrupt me while I'm talking.,Please don't interrupt me while I'm talking.,,,keep,Reviewed: retain the single canonical translation.
+1884801,רחץ את הפנים ואת הידיים.,Wash your face and hands.,Wash your face and hands.,,,keep,Reviewed: retain the single canonical translation.
+1885806,בוב אמר מילות תודה בשם חבריו לכיתה.,Bob expressed words of thanks on behalf of his classmates.,Bob expressed words of thanks on behalf of his classmates.,,,keep,Reviewed: retain the single canonical translation.
+1891651,אני אוהבת את בתי.,I love my daughter.,I love my daughter.,,,keep,Reviewed: retain the single canonical translation.
+1891730,"זה זול, אבל מצד שני זה לא טוב.","It is cheap, but on the other hand it is not good.","It is cheap, but on the other hand it is not good.",,,keep,Reviewed: retain the single canonical translation.
+1891738,הסיפור הועבר מאב לבן.,The story was handed down from father to son.,The story was handed down from father to son.,,,keep,Reviewed: retain the single canonical translation.
+1899294,החברים שלי לא משחקים טניס.,My friends don't play tennis.,My friends don't play tennis.,,,keep,Reviewed: retain the single canonical translation.
+1902995,השוקולד ימס אם תחזיק אותו מחוץ למקרר.,The chocolate is going to melt if you keep it out of the fridge.,The chocolate is going to melt if you keep it out of the fridge.,,,keep,Reviewed: retain the single canonical translation.
+1919059,ירד אתמול גשם קל.,There was a light rain yesterday.,There was a light rain yesterday.,,,keep,Reviewed: retain the single canonical translation.
+1919216,ירד אתמול שלג רב.,It snowed hard yesterday.,It snowed hard yesterday.,,,keep,Reviewed: retain the single canonical translation.
+1923305,הוא הלך לאורך החוף.,He walked along the shore.,He walked along the shore.,,,keep,Reviewed: retain the single canonical translation.
+1926343,אבי נהג לומר שהכסף הוא לא הכול.,My father used to say that money is not everything.,My father used to say that money is not everything.,,,keep,Reviewed: retain the single canonical translation.
+1930236,למה שלא נלך הביתה?,Why don't we go home?,Why don't we go home?,,,keep,Reviewed: retain the single canonical translation.
+1939302,אמנם היא צעירה אך היא נבונה.,"It is true she is young, but she is wise.","It is true she is young, but she is wise.",,,keep,Reviewed: retain the single canonical translation.
+1939625,היא הייתה אמיצה.,She was brave.,She was brave.,,,keep,Reviewed: retain the single canonical translation.
+1939684,נער בן שבע עשרה לרוב משתווה בגובהו לאביו.,A boy of seventeen is usually as tall as his father.,A boy of seventeen is usually as tall as his father.,,,keep,Reviewed: retain the single canonical translation.
+1945488,אני לא מסוגל להסביר את ההבדל בין השניים.,I can't explain the difference between those two.,I can't explain the difference between those two.,,,keep,Reviewed: retain the single canonical translation.
+1945686,מוסיקה זו פופולרית בקרב הנוער.,This music is popular with young people.,This music is popular with young people.,,,keep,Reviewed: retain the single canonical translation.
+1945777,האישה רוחצת פניה.,The woman washes her face.,The woman washes her face.,,,keep,Reviewed: retain the single canonical translation.
+1949614,שמחתי שהייתי שם.,I was glad I was there.,I was glad I was there.,,,keep,Reviewed: retain the single canonical translation.
+1950538,תודה רבה על עזרתך.,Thank you very much for your help.,Thank you very much for your help.,,,keep,Reviewed: retain the single canonical translation.
+1954005,היא סקרנית לגלות מי שלח את הפרחים.,She's curious to find out who sent the flowers.,She's curious to find out who sent the flowers.,,,keep,Reviewed: retain the single canonical translation.
+1954287,האישה חיבקה את התינוק.,The woman hugged the baby.,The woman hugged the baby.,,,keep,Reviewed: retain the single canonical translation.
+1962659,הטלפון המשיך לצלצל.,The phone kept ringing.,The phone kept ringing.,,,keep,Reviewed: retain the single canonical translation.
+1972950,אני צריך לחפש את העט שלי.,I need to search for my pen.,I need to search for my pen.,,,keep,Reviewed: retain the single canonical translation.
+1974436,היא אמרה לו משהו.,She said something to him.,She said something to him.,,,keep,Reviewed: retain the single canonical translation.
+1974447,היא טיילה ברחבי יפן.,She traveled around Japan.,She traveled around Japan.,,,keep,Reviewed: retain the single canonical translation.
+1977374,הרוח העיפה לה את הכובע.,The wind blew her hat off.,The wind blew her hat off.,,,keep,Reviewed: retain the single canonical translation.
+1978433,כשהם יצאו לחופש השכנים דאגו לכלב.,"While they were away on holiday, their neighbours looked after the dog.","While they were away on holiday, their neighbours looked after the dog.",,,keep,Reviewed: retain the single canonical translation.
+1980132,עלינו להיות מאד זהירים.,We should be very careful.,We should be very careful.,,,keep,Reviewed: retain the single canonical translation.
+1980249,תכתוב על כל שורה שנייה.,Write on every other line.,Write on every other line.,,,keep,Reviewed: retain the single canonical translation.
+1988142,יש לו יותר ספרים מאשר לי.,He has more books than I do.,He has more books than I do.,,,keep,Reviewed: retain the single canonical translation.
+1988158,הוא החליט מהר.,He made up his mind quickly.,He made up his mind quickly.,He decided quickly.,,alternative,Direct verb alongside made up his mind.
+1988178,החלום שלה הוא לבקר בפריז.,Her dream is to visit Paris.,Her dream is to visit Paris.,,,keep,Reviewed: retain the single canonical translation.
+1990097,אני מאחל לך הרבה מזל.,I wish you the best of luck.,I wish you the best of luck.,,,keep,Reviewed: retain the single canonical translation.
+1992534,אני אוכל פירות משום שאני רעב.,I eat fruits because I am hungry.,I eat fruits because I am hungry.,,,keep,Reviewed: retain the single canonical translation.
+1993406,זה קרה מזמן.,It happened a long time ago.,It happened a long time ago.,,,keep,Reviewed: retain the single canonical translation.
+1993585,היא קראה את הספר כל הלילה.,She read the book all night.,She read the book all night.,,,keep,Reviewed: retain the single canonical translation.
+1993661,הימים מתארכים והולכים.,The days are growing longer.,The days are growing longer.,,,keep,Reviewed: retain the single canonical translation.
+1994149,איזה מין עבודה אתה עושה?,What sort of work do you do?,What sort of work do you do?,,,keep,Reviewed: retain the single canonical translation.
+1994152,באיזו שעה מתחילים הלימודים בבית הספר?,What time does school begin?,What time does school begin?,,,keep,Reviewed: retain the single canonical translation.
+1994169,בידי מי נכתב הספר?,Who was the book written by?,Who was the book written by?,Who wrote the book?,,alternative,Natural active question alongside the source's passive authorship question.
+1994172,מאת מי הספר הזה?,Who was the book written by?,Who was the book written by?,Who is this book by?,,alternative,Direct authorship question corresponding to מאת מי.
+1995252,שקט אחרי הסערה.,After a storm comes a calm.,After a storm comes a calm.,,,keep,Reviewed: retain the single canonical translation.
+1996048,הוא נראה צעיר.,He appeared young.,He appeared young.,,,keep,Reviewed: retain the single canonical translation.
+1996142,הוא היה בבית.,He was at home.,He was at home.,,,keep,Reviewed: retain the single canonical translation.
+1996187,זה כולו לבן.,It's all white.,It's all white.,,,keep,Reviewed: retain the single canonical translation.
+2001956,טום מאוד אדיב.,Tom is very kind.,Tom is very kind.,,,keep,Reviewed: retain the single canonical translation.
+2002811,הוא העמיד פנים שהוא נרדם.,He pretended to be asleep.,He pretended to be asleep.,,,keep,Reviewed: retain the single canonical translation.
+2002857,שים את הספרים שלך בצד.,Put your books away.,Put your books away.,,,keep,Reviewed: retain the single canonical translation.
+2002858,היא מרגישה רע היום.,She feels bad today.,She feels bad today.,,,keep,Reviewed: retain the single canonical translation.
+2003997,הוא מנהל הרבה בתי מלון.,He runs a lot of hotels.,He runs a lot of hotels.,,,keep,Reviewed: retain the single canonical translation.
+2004019,פגשתי אותו לפני ימים אחדים.,I met him the other day.,I met him the other day.,,,keep,Reviewed: retain the single canonical translation.
+2008576,ייתכן שכבר קראת את הספר הזה.,You may have read this book already.,You may have read this book already.,,,keep,Reviewed: retain the single canonical translation.
+2010512,אני שומעת קולות צחוק.,I hear laughing.,I hear laughing.,,,keep,Reviewed: retain the single canonical translation.
+2017477,לא רצינו לעמוד בדרכו.,We didn't want to get in his way.,We didn't want to get in his way.,,,keep,Reviewed: retain the single canonical translation.
+2024834,הוא פגע בראשו במדף.,He hit his head on the shelf.,He hit his head on the shelf.,,,keep,Reviewed: retain the single canonical translation.
+2028589,לא שמתי לב עד אשר אמרת.,I hadn't noticed until you said.,I hadn't noticed until you said.,,,keep,Reviewed: retain the single canonical translation.
+2029123,האם זהו זהב טהור?,Is that pure gold?,Is that pure gold?,,,keep,Reviewed: retain the single canonical translation.
+2035293,יש לי חברה שאביה הוא שחקן מפורסם.,I have a friend whose father is a famous actor.,I have a friend whose father is a famous actor.,,,keep,Reviewed: retain the single canonical translation.
+2037316,זה לא יהיה קל.,That won't be easy.,That won't be easy.,,,keep,Reviewed: retain the single canonical translation.
+2047216,האם שמעת אי פעם מוסיקה יפה כזאת?,Have you ever heard such beautiful music before?,Have you ever heard such beautiful music before?,,,keep,Reviewed: retain the single canonical translation.
+2053584,שמישהו יגיד לי מה קורה פה?,Would someone tell me what's going on?,Would someone tell me what's going on?,,,keep,Reviewed: retain the single canonical translation.
+2055089,"מיקה אמרה לעצמה: ""אני ממש בת מזל"".","Mika said to herself, ""I am really lucky.""","Mika said to herself, ""I am really lucky.""",,,keep,Reviewed: retain the single canonical translation.
+2059247,כל החברים שלי אוהבים כדורגל.,All of my friends like soccer.,All of my friends like soccer.,,,keep,Reviewed: retain the single canonical translation.
+2060403,הוא עשיר אבל הוא לא מאושר.,"He's rich, but he's not happy.","He's rich, but he's not happy.",,,keep,Reviewed: retain the single canonical translation.
+2060476,זאת המכונית שלי.,This is my car.,This is my car.,,,keep,Reviewed: retain the single canonical translation.
+2060529,האם זה חתול או כלב?,Is that a cat or a dog?,Is that a cat or a dog?,,,keep,Reviewed: retain the single canonical translation.
+2060553,אף פעם לא ראיתי פרה אמיתית.,I've never seen a real cow.,I've never seen a real cow.,,,keep,Reviewed: retain the single canonical translation.
+2060585,מה שלום אבא שלך?,How is your dad?,How is your dad?,,,keep,Reviewed: retain the single canonical translation.
+2060900,יש לי הרבה מה לעשות היום.,I have a lot to do today.,I have a lot to do today.,,,keep,Reviewed: retain the single canonical translation.
+2060953,זה כיף לנגן בגיטרה.,Playing the guitar is fun.,Playing the guitar is fun.,,,keep,Reviewed: retain the single canonical translation.
+2063454,"ועם זאת, ההפך תמיד נכון גם כן.","And yet, the contrary is always true as well.","And yet, the contrary is always true as well.",,,keep,Reviewed: retain the single canonical translation.
+2065623,אם היה לי כסף הייתי יכול לקנות את זה.,"If I had money, I could buy it.","If I had money, I could buy it.",,,keep,Reviewed: retain the single canonical translation.
+2066689,ההורים שלי הרשו לי ללכת לשם.,My parents let me go there.,My parents let me go there.,,,keep,Reviewed: retain the single canonical translation.
+2067787,את מאוד אמיצה.,You are very brave.,You are very brave.,,,keep,Reviewed: retain the single canonical translation.
+2067821,שכבנו על הדשא.,We lay on the grass.,We lay on the grass.,,,keep,Reviewed: retain the single canonical translation.
+2068697,אני אוכלת תפוח.,I am eating an apple.,I am eating an apple.,,,keep,Reviewed: retain the single canonical translation.
+2073045,אני מדברת עם תום.,I am talking with Tom.,I am talking with Tom.,,,keep,Reviewed: retain the single canonical translation.
+2073121,אני כל כך שמחה.,I'm so happy.,I'm so happy.,,,keep,Reviewed: retain the single canonical translation.
+2073135,היא קראה לו.,She called him.,She called him.,,,keep,Reviewed: retain the single canonical translation.
+2074482,"חברה, תנו לי לשאול אתכם משהו.",Let me ask you guys something.,Let me ask you guys something.,,,keep,Reviewed: retain the single canonical translation.
+2074506,אני רעבה כי לא אכלתי ארוחת צהריים.,I am hungry because I did not eat lunch.,I am hungry because I did not eat lunch.,,,keep,Reviewed: retain the single canonical translation.
+2074508,אני רעב מכיוון שלא אכלתי ארוחת צהריים.,I am hungry because I did not eat lunch.,I am hungry because I did not eat lunch.,,,keep,Reviewed: retain the single canonical translation.
+2074558,"מצאת משהו, הלא כן?","You found something, didn't you?","You found something, didn't you?",,,keep,Reviewed: retain the single canonical translation.
+2078028,סיימתי את העבודה כעבור פחות משעה.,I finished the work in less than an hour.,I finished the work in less than an hour.,,,keep,Reviewed: retain the single canonical translation.
+2078396,יש משהו על הרצפה.,There's something on the floor.,There's something on the floor.,,,keep,Reviewed: retain the single canonical translation.
+2078619,התעוררתי מוקדם כדי להיות בישיבה.,I got up early in order to attend the meeting.,I got up early in order to attend the meeting.,,,keep,Reviewed: retain the single canonical translation.
+2078812,הייתי רוצה עוד שמיכה אחת.,I'd like one more blanket.,I'd like one more blanket.,,,keep,Reviewed: retain the single canonical translation.
+2078840,קניתי עט אך איבדתי אותו.,"I bought a pen, but I lost it.","I bought a pen, but I lost it.",,,keep,Reviewed: retain the single canonical translation.
+2078913,"הוא היה חולה, אז הוא לא יצא החוצה.","He was sick, so he did not go out.","He was sick, so he did not go out.",,,keep,Reviewed: retain the single canonical translation.
+2079097,לך ותראה מי זה.,Go and see who it is.,Go and see who it is.,,,keep,Reviewed: retain the single canonical translation.
+2082356,לתום התגלה עולם חדש.,Tom became aware of a brand new world.,Tom became aware of a brand new world.,,,keep,Reviewed: retain the single canonical translation.
+2094097,כל אדם הוא מיוחד.,Every person is unique.,Every person is unique.,,,keep,Reviewed: retain the single canonical translation.
+2095850,האם יש למישהו שאלות אחרות?,Does anyone have any other questions?,Does anyone have any other questions?,,,keep,Reviewed: retain the single canonical translation.
+2097376,זה לא השם שלי.,It is not my name.,It is not my name.,,,keep,Reviewed: retain the single canonical translation.
+2098370,הוא מסוגל לרוץ מאה מטרים בפחות מעשר שניות.,He can run a hundred meters in less than ten seconds.,He can run a hundred meters in less than ten seconds.,,,keep,Reviewed: retain the single canonical translation.
+2118673,השמים לא יהיו בהירים.,The skies won't be clear.,The skies won't be clear.,,,keep,Reviewed: retain the single canonical translation.
+2124609,כולם עמדו.,Everyone stood.,Everyone stood.,,,keep,Reviewed: retain the single canonical translation.
+2134235,האם תוכל להתקשר בחזרה אחר כך?,"Could you call again later, please?","Could you call again later, please?",,,keep,Reviewed: retain the single canonical translation.
+2134906,האם הם אמרו מדוע?,Did they say why?,Did they say why?,,,keep,Reviewed: retain the single canonical translation.
+2141285,קיבלתי חיסון נגד שפעת.,I had a flu shot.,I had a flu shot.,,,keep,Reviewed: retain the single canonical translation.
+2141834,אתה זוכר אותנו?,Do you remember us?,Do you remember us?,,,keep,Reviewed: retain the single canonical translation.
+2164754,הוא פיטר את המזכירה שלו.,He let his secretary go.,He let his secretary go.,He fired his secretary.,,alternative,Direct dismissal wording alongside the euphemism let go.
+2168040,עלינו להתחיל בהתחלה.,We must start at the beginning.,We must start at the beginning.,,,keep,Reviewed: retain the single canonical translation.
+2177709,טום נפל ונפצע בידו.,Tom fell and hurt his hand.,Tom fell and hurt his hand.,,,keep,Reviewed: retain the single canonical translation.
+2199252,מה את עושה עכשיו?,What are you doing now?,What are you doing now?,,,keep,Reviewed: retain the single canonical translation.
+2200814,רצתי במורד המדרגות.,I ran downstairs.,I ran downstairs.,,,keep,Reviewed: retain the single canonical translation.
+2205412,התלמידים צחקו.,The students laughed.,The students laughed.,,,keep,Reviewed: retain the single canonical translation.
+2206598,חשבתי שאולי תרצה ללכת איתי.,I thought you might want to come along.,I thought you might want to come along.,,,keep,Reviewed: retain the single canonical translation.
+2213066,זה הספר הטוב ביותר שקראתי עד כה.,This is the best book I've read so far.,This is the best book I've read so far.,,,keep,Reviewed: retain the single canonical translation.
+2226512,היא חיבבה אותו מיד בהתחלה.,She liked him right off.,She liked him right off.,She liked him from the start.,,alternative,Direct time expression alongside right off.
+2232555,שְׁמה תִקווה והיא אוהבת חתולים.,Her name is Hope and she loves cats.,Her name is Tikva and she loves cats.,,,corrected,Transliterate the person's Hebrew name rather than translating its meaning as Hope.
+2247371,האניה פונה לעבר הנמל.,The ship is turning toward the port.,The ship is turning toward the port.,,,keep,Reviewed: retain the single canonical translation.
+2253621,לבסוף הבנתי.,I finally understand.,I finally understood.,,,corrected,הבנתי is past tense.
+2274302,תום לא חשב כך.,Tom didn't think so.,Tom didn't think so.,,,keep,Reviewed: retain the single canonical translation.
+2292735,שאלתי איפה תום נמצא.,I asked where Tom was.,I asked where Tom was.,,,keep,Reviewed: retain the single canonical translation.
+2294224,מי הנער הזה?,Who is that boy?,Who is that boy?,,,keep,Reviewed: retain the single canonical translation.
+2308476,אל דאגה. זה לא יקרה שוב.,Don't worry. This won't happen again.,Don't worry. This won't happen again.,,,keep,Reviewed: retain the single canonical translation.
+2313820,בחרתי את התשובה הלא נכונה.,I chose the wrong answer.,I chose the wrong answer.,,,keep,Reviewed: retain the single canonical translation.
+2340022,זה היה היום הטוב ביותר בחיי.,That was the best day of my life.,That was the best day of my life.,,,keep,Reviewed: retain the single canonical translation.
+2354247,הוא דובר שפה אחת בלבד.,He only speaks one language.,He only speaks one language.,,,keep,Reviewed: retain the single canonical translation.
+2375201,רק רציתי ללמד אותך לקח.,I just wanted to teach you a lesson.,I just wanted to teach you a lesson.,,,keep,Reviewed: retain the single canonical translation.
+2380084,לאיזה כיוון אתה הולך?,Where are you heading?,Where are you heading?,,,keep,Reviewed: retain the single canonical translation.
+2382628,אני יודע שתעשו מה שצריך.,I know you'll do what needs to be done.,I know you'll do what needs to be done.,,,keep,Reviewed: retain the single canonical translation.
+2386188,כבר חלפו חמש שנים מאז הם שבו מיפן.,It's already been five years since they returned from Japan.,It's already been five years since they returned from Japan.,,,keep,Reviewed: retain the single canonical translation.
+2566232,מה הוא עשה לאחר מכן?,What did he do after that?,What did he do after that?,,,keep,Reviewed: retain the single canonical translation.
+2567981,אני לא מוצא את הגרב השנייה.,I'm not finding the second sock.,I can't find the other sock.,,,corrected,Use natural English for the missing second member of a pair.
+2569147,ים המלח הוא המקום הכי נמוך בעולם.,The Dead Sea is the lowest place on earth.,The Dead Sea is the lowest place on earth.,,,keep,Reviewed: retain the single canonical translation.
+2593329,אני חושבת שכן.,I think so.,I think so.,,,keep,Reviewed: retain the single canonical translation.
+2597099,הלכנו בעקבות טום.,We followed Tom.,We followed Tom.,,,keep,Reviewed: retain the single canonical translation.
+2671449,"אכן, היינו שבעה אנשים.","Indeed, there were seven of us.","Indeed, there were seven of us.",,,keep,Reviewed: retain the single canonical translation.
+2676122,הם שמו את כל הבנים ביחד.,They put all the boys together.,They put all the boys together.,,,keep,Reviewed: retain the single canonical translation.
+2689120,הוא צלצל והיא ענתה.,He would ring and she would respond.,He called and she answered.,,,corrected,The Hebrew states a past event without an explicit habitual would.
+2694878,הוא יושב על הספסל.,He's sitting on the bench.,He's sitting on the bench.,,,keep,Reviewed: retain the single canonical translation.
+2754057,אתה יכול לסמוך עליהם.,You can trust them.,You can trust them.,You can count on them.,,alternative,Trust/reliance construction consistent with the related singular sentences.
+2783873,לא הבנתי את השאלה שלך.,I didn't understand your question.,I didn't understand your question.,,,keep,Reviewed: retain the single canonical translation.
+2857220,גדלת ליד חוף הים?,Did you grow up near a beach?,Did you grow up near a beach?,,,keep,Reviewed: retain the single canonical translation.
+2908545,"אחריו, אני הרץ הכי מהיר בכיתתי.","Next to him, I'm the fastest runner in our class.","Next to him, I'm the fastest runner in our class.",,,keep,Reviewed: retain the single canonical translation.
+2909537,"תגביר את הקול, בבקשה.",Please speak more loudly.,Please speak more loudly.,,,keep,Reviewed: retain the single canonical translation.
+2960424,תום הגביר את קולו.,Tom raised his voice.,Tom raised his voice.,,,keep,Reviewed: retain the single canonical translation.
+3001502,מובן שגם זה אפשרי.,Of course this is also possible.,Of course this is also possible.,,,keep,Reviewed: retain the single canonical translation.
+3011734,הוא בטח ישאיל לך ספר.,I'm sure he will lend you a book.,I'm sure he will lend you a book.,,,keep,Reviewed: retain the single canonical translation.
+3027160,תום דיבר צרפתית.,Tom spoke French.,Tom spoke French.,,,keep,Reviewed: retain the single canonical translation.
+3028019,"סליחה, אפשר לעבור?",Excuse me. May I get by?,Excuse me. May I get by?,"Excuse me, may I pass?",,alternative,Conventional request to pass alongside get by.
+3065743,עדיף מאוחר מאשר לעולם לא.,Better late than never.,Better late than never.,,,keep,Reviewed: retain the single canonical translation.
+3095501,מי רוצה שוקו חם?,Who wants some hot chocolate?,Who wants some hot chocolate?,,,keep,Reviewed: retain the single canonical translation.
+3097451,זה ממש טוב.,This is very good.,This is very good.,,,keep,Reviewed: retain the single canonical translation.
+3097624,אני הולכת ברגל לבית הספר בכל יום.,I walk to school every day.,I walk to school every day.,,,keep,Reviewed: retain the single canonical translation.
+3097687,יש להם עכשיו שלושה ילדים.,They now have three kids.,They now have three kids.,,,keep,Reviewed: retain the single canonical translation.
+3191737,אני אוהבת גם חתולים וגם כלבים.,I like both cats and dogs.,I like both cats and dogs.,,,keep,Reviewed: retain the single canonical translation.
+3191753,אני לומדת אנגלית כבר חמש שנים.,I have been studying English for five years.,I have been studying English for five years.,,,keep,Reviewed: retain the single canonical translation.
+3191967,הוא ישב ליד הנחל.,He sat next to the stream.,He sat next to the stream.,,,keep,Reviewed: retain the single canonical translation.
+3192176,התה הזה מר מדי.,This tea is too bitter.,This tea is too bitter.,,,keep,Reviewed: retain the single canonical translation.
+3192180,במסיבה היו יותר ממאה אנשים.,There were more than a hundred people at the party.,There were more than a hundred people at the party.,,,keep,Reviewed: retain the single canonical translation.
+3192231,"במקום ללכת לבית הספר, הוא נשאר בבית.","Instead of going to school, he stayed at home.","Instead of going to school, he stayed at home.",,,keep,Reviewed: retain the single canonical translation.
+3192296,המורה שאלה אותי איזה ספר אני אוהבת.,The teacher asked me which book I liked.,The teacher asked me which book I liked.,,,keep,Reviewed: retain the single canonical translation.
+3195381,אני קוראת את פרק ג' בספר.,I'm reading chapter three of the book.,I'm reading chapter three of the book.,,,keep,Reviewed: retain the single canonical translation.
+3195509,הוא ספר עד המספר מאה.,He counted to one hundred.,He counted to one hundred.,,,keep,Reviewed: retain the single canonical translation.
+3195747,מה זה הדבר הזה?,What is that?,What is that?,,,keep,Reviewed: retain the single canonical translation.
+3195748,שנהיה לראש ולא לזנב.,May we be made the head and not the tail.,May we be the head and not the tail.,,,corrected,Natural English for the traditional blessing without the unsupported made.
+3195789,אני רואה עשרה ילדים.,I can see ten kids.,I can see ten kids.,,,keep,Reviewed: retain the single canonical translation.
+3195937,הם בחרו בי לוועד הכיתה.,They elected me to the student body class.,They elected me to the class committee.,,,corrected,וועד הכיתה is the class committee; student body class is not an English equivalent.
+3196919,קיבלתי ציון מצוין במבחן וזה מאוד משמח אותי.,"I got an excellent grade on the test, and that makes me very happy.","I got an excellent grade on the test, and that makes me very happy.",,,keep,Reviewed: retain the single canonical translation.
+3196931,טום פתח את עיניו והביט סביבו.,Tom opened his eyes and looked around.,Tom opened his eyes and looked around.,,,keep,Reviewed: retain the single canonical translation.
+3197062,אני מלמדת אותן לשחות.,I'm teaching them to swim.,I'm teaching them to swim.,,,keep,Reviewed: retain the single canonical translation.
+3197100,"המורה שלנו אמרה: ""כמובן שאתם יכולים"".","Our teacher said: ""Of course you can"".","Our teacher said: ""Of course you can"".",,,keep,Reviewed: retain the single canonical translation.
+3197244,זה נחמד מצדו להביא מתנות כאלה.,It's nice of him to bring such presents.,It's nice of him to bring such presents.,,,keep,Reviewed: retain the single canonical translation.
+3197331,שלומי טוב. ומה שלומך?,I'm fine. And how are you?,I'm fine. And how are you?,,,keep,Reviewed: retain the single canonical translation.
+3197343,המלך הזמין את כולם למסיבה.,The king invited everyone to a party.,The king invited everyone to a party.,,,keep,Reviewed: retain the single canonical translation.
+3197394,אני דווקא חושבת שזה רעיון טוב מאוד.,I actually think it's a great idea.,I actually think it's a great idea.,,,keep,Reviewed: retain the single canonical translation.
+3197623,העיר בה נולדתי היא תל אביב.,My hometown is Tel Aviv.,My hometown is Tel Aviv.,The city where I was born is Tel Aviv.,,alternative,"Explicit birthplace construction, as in sentence 1451156."
+3197624,הוא מספר את השיער של הילד.,He is cutting the boy's hair.,He is cutting the boy's hair.,,,keep,Reviewed: retain the single canonical translation.
+3197625,הוא מספר מה עשה בחופש הגדול.,He is telling us what he did in the summer vacation.,He is telling us what he did in the summer vacation.,,,keep,Reviewed: retain the single canonical translation.
+3197635,היא אוהבת לעבוד קשה.,She likes working hard.,She likes working hard.,,,keep,Reviewed: retain the single canonical translation.
+3197636,זאת שאלה קשה.,This is a difficult question.,This is a difficult question.,,,keep,Reviewed: retain the single canonical translation.
+3197637,זה מבחן קשה מאוד.,This is a very difficult exam.,This is a very difficult exam.,,,keep,Reviewed: retain the single canonical translation.
+3197638,איש לא ידע מי היא.,No one knew who she was.,No one knew who she was.,,,keep,Reviewed: retain the single canonical translation.
+3197639,יש צלחות נקיות בתוך הארון ועל השולחן.,There are clean plates inside the closet and on the table.,There are clean plates inside the closet and on the table.,,,keep,Reviewed: retain the single canonical translation.
+3197642,מר כהן לימד אותנו חשבון.,Mr. Cohen taught us math.,Mr. Cohen taught us math.,,,keep,Reviewed: retain the single canonical translation.
+3197766,אני מכירה חלק מהילדים בכיתה.,I know some of the kids in the class.,I know some of the kids in the class.,,,keep,Reviewed: retain the single canonical translation.
+3197833,הכנתי לכן הפתעה.,I prepared a surprise for you.,I prepared a surprise for you.,,,keep,Reviewed: retain the single canonical translation.
+3199737,אולי אהיה רופא ואם כן אעזור לרפא אנשים חולים.,Perhaps I will be a doctor and if yes I will help cure sick people.,"Perhaps I will be a doctor, and if so, I will help cure sick people.",,,corrected,Correct the source's unnatural if yes conditional.
+3199738,המורה שלנו למתמטיקה ציירה מעגל על הלוח.,Our math teacher drew a circle on the blackboard.,Our math teacher drew a circle on the blackboard.,,,keep,Reviewed: retain the single canonical translation.
+3199750,הם יושבים אחד אחרי השני.,They are sitting one after the other.,They are sitting one behind the other.,,,corrected,"Describe the spatial arrangement, not a sequence of taking turns sitting."
+3199757,את יכולה להגיד לי מה השעה?,Can you tell me the time?,Can you tell me the time?,,,keep,Reviewed: retain the single canonical translation.
+3199776,"הוא הביט בי ואמר: ""שלום!""","He looked at me and said: ""Hello!""","He looked at me and said: ""Hello!""",,,keep,Reviewed: retain the single canonical translation.
+3199798,הארץ הזאת היא הבית שלי.,This land is my home.,This land is my home.,,,keep,Reviewed: retain the single canonical translation.
+3199815,התחלתי ולכן אסיים.,I started so I'll finish.,I started so I'll finish.,,,keep,Reviewed: retain the single canonical translation.
+3200244,המורה החדשה נמצאת בכיתה.,The new teacher is in the class.,The new teacher is in the classroom.,,,corrected,Use the natural location reading of נמצאת בכיתה.
+3200529,"זה סיפור מעניין, מצחיק ואפילו מרגש.","This story is interesting, funny and even moving.","This story is interesting, funny and even moving.",,,keep,Reviewed: retain the single canonical translation.
+3202452,"הוא הרים את ידו, וכך גם תומר.",He raised his hand and so did Tomer.,He raised his hand and so did Tomer.,,,keep,Reviewed: retain the single canonical translation.
+3205481,אני נולדתי בישראל.,I was born in Israel.,I was born in Israel.,,,keep,Reviewed: retain the single canonical translation.
+3205505,הוא הניח כתר על ראשו של המלך.,He put a crown on the king's head.,He put a crown on the king's head.,,,keep,Reviewed: retain the single canonical translation.
+3205508,עוד כמה שעות המסיבה מתחילה?,How many more hours will it be until the party begins?,How many more hours will it be until the party begins?,,,keep,Reviewed: retain the single canonical translation.
+3205634,היא מבינה אנגלית ואף כותבת באנגלית.,She understands English and even writes in English.,She understands English and even writes in English.,,,keep,Reviewed: retain the single canonical translation.
+3206265,לא ידעתי שהייתה כאן בריכה.,I didn't know that there was a swimming pool here.,I didn't know that there was a swimming pool here.,,,keep,Reviewed: retain the single canonical translation.
+3206272,נולדתי בישראל בשנת 2002.,I was born in Israel in 2002.,I was born in Israel in 2002.,,,keep,Reviewed: retain the single canonical translation.
+3206325,אני בטוחה שאם תתאמץ אז תצליח.,I'm certain that if you try hard you will succeed.,I'm certain that if you try hard you will succeed.,,,keep,Reviewed: retain the single canonical translation.
+3206393,יש לה שכן שהגיע מיפן.,She has a neighbor who arrived from Japan.,She has a neighbor who arrived from Japan.,,,keep,Reviewed: retain the single canonical translation.
+3211147,החדר בסוף המסדרון.,The room is at the end of the hall.,The room is at the end of the hall.,,,keep,Reviewed: retain the single canonical translation.
+3214168,מה אתם רוצים להיות כשתהיו גדולים?,What do you want to be when you grow up?,What do you want to be when you grow up?,,,keep,Reviewed: retain the single canonical translation.
+3217052,כמה חברות קרובות יש לך?,How many close friends do you have?,How many close friends do you have?,,,keep,Reviewed: retain the single canonical translation.
+3220649,תום נוהג בזהירות.,Tom drives safely.,Tom drives safely.,,,keep,Reviewed: retain the single canonical translation.
+3225883,מילה זו אינה נפוצה.,This word is not in common use.,This word is not in common use.,,,keep,Reviewed: retain the single canonical translation.
+3228741,כמה הברות יש למילה הזו?,How many syllables does this word have?,How many syllables does this word have?,,,keep,Reviewed: retain the single canonical translation.
+3240492,אימא וגם אבא הלכו לעבודה.,Both mom and dad went to work.,Both mom and dad went to work.,,,keep,Reviewed: retain the single canonical translation.
+3240502,מהם חמשת החושים?,What are the five senses?,What are the five senses?,,,keep,Reviewed: retain the single canonical translation.
+3241952,השמש המיסה את השלג.,The sun melted the snow.,The sun melted the snow.,,,keep,Reviewed: retain the single canonical translation.
+3244620,מספיק ודי!,Enough is enough!,Enough is enough!,,,keep,Reviewed: retain the single canonical translation.
+3244828,היה כיף לחגוג יחד.,It was fun to celebrate together.,It was fun to celebrate together.,,,keep,Reviewed: retain the single canonical translation.
+3280258,הילד רץ אל אמו.,The child ran to his mother.,The child ran to his mother.,,,keep,Reviewed: retain the single canonical translation.
+3451721,אני רוצה לאכול משהו.,I want something to eat.,I want something to eat.,,,keep,Reviewed: retain the single canonical translation.
+3505670,היא הצטננה אתמול בלילה.,She caught a cold last night.,She caught a cold last night.,,,keep,Reviewed: retain the single canonical translation.
+3505744,הוא רגיל לטפס על הרים.,He's used to climbing mountains.,He's used to climbing mountains.,,,keep,Reviewed: retain the single canonical translation.
+3505762,תשאיר את הדלת פתוחה.,Keep the door open.,Keep the door open.,,,keep,Reviewed: retain the single canonical translation.
+3506838,"היא הביטה בי ואמרה: ""שלום!""","She looked at me and said ""Hi!""","She looked at me and said ""Hi!""",,,keep,Reviewed: retain the single canonical translation.
+3506954,תום עובד עבור הממשלה.,Tom works for the government.,Tom works for the government.,,,keep,Reviewed: retain the single canonical translation.
+3507206,אני משחקת עכשיו כדור עף.,I am playing volleyball now.,I am playing volleyball now.,,,keep,Reviewed: retain the single canonical translation.
+3507264,הם נראו מאוד מאושרים.,They looked very happy.,They looked very happy.,,,keep,Reviewed: retain the single canonical translation.
+3507274,תשחזר את צעדיך ואולי תמצא את המפתחות שלך.,Retrace your steps and maybe you'll find your keys.,Retrace your steps and maybe you'll find your keys.,,,keep,Reviewed: retain the single canonical translation.
+3508724,האם את יודעת לאן הוא הלך?,Do you know where he went?,Do you know where he went?,,,keep,Reviewed: retain the single canonical translation.
+3508899,היא שמה את המפתח בתיק שלה.,She put the key in her bag.,She put the key in her bag.,,,keep,Reviewed: retain the single canonical translation.
+3508993,מה יש שמה?,What is over there?,What is over there?,,,keep,Reviewed: retain the single canonical translation.
+3509025,ראיתי מספר נשים רוכבות על האופניים שלהן.,I saw several women riding their bicycles.,I saw several women riding their bicycles.,,,keep,Reviewed: retain the single canonical translation.
+3509042,אולם הספורט החדש גדול ויפה.,The new sports complex is nice and big.,The new gym is big and beautiful.,,,corrected,"אולם הספורט is a gym/sports hall, not a whole sports complex."
+3509221,"אני שומע אותך, אולם אני לא יכול לראות אותך.","I can hear you, but I can't see you.","I can hear you, but I can't see you.",,,keep,Reviewed: retain the single canonical translation.
+3509932,תשים עין על התיקים.,Keep an eye on the bags.,Keep an eye on the bags.,Watch the bags.,,alternative,Direct instruction alongside keep an eye on.
+3509969,הייתה לו עמדה חזקה בנושא.,He had a strong stance on the subject.,He had a strong stance on the subject.,,,keep,Reviewed: retain the single canonical translation.
+3510041,אני אוהבת לאכול תמר עם שקדים.,I like to eat a date with almonds.,I like to eat a date with almonds.,,,keep,Reviewed: retain the single canonical translation.
+3512584,הנעליים שלי קטנות מדי. אני צריך נעליים חדשות.,My shoes are too small. I need new ones.,My shoes are too small. I need new ones.,,,keep,Reviewed: retain the single canonical translation.
+3512595,יש לה מספיק כוח רצון.,She has enough willpower.,She has enough willpower.,,,keep,Reviewed: retain the single canonical translation.
+3512603,הכלב השחור רץ.,The black dog ran.,The black dog ran.,,,keep,Reviewed: retain the single canonical translation.
+3512743,אפשר לדבר עם מרת בראון?,May I talk to Ms. Brown?,May I talk to Ms. Brown?,,,keep,Reviewed: retain the single canonical translation.
+3514353,הם הלכו לקניון ושם אכלו וראו סרט.,"They went to the mall, where they ate and watched a movie.","They went to the mall, where they ate and watched a movie.",,,keep,Reviewed: retain the single canonical translation.
+3514370,האם ישנם כוכבים שבהם חיים אחרים?,Are there stars with other forms of life on them?,Are there stars with other forms of life on them?,,,keep,Reviewed: retain the single canonical translation.
+3514451,היא רצתה לקנות את הספר.,She wanted to buy the book.,She wanted to buy the book.,,,keep,Reviewed: retain the single canonical translation.
+3514577,היא ראתה אותו אוכל כריך.,She saw him eating a sandwich.,She saw him eating a sandwich.,,,keep,Reviewed: retain the single canonical translation.
+3514612,אין עשן בלא אש.,There is no smoke without fire.,There is no smoke without fire.,,,keep,Reviewed: retain the single canonical translation.
+3514875,חדר המורים ואולם הספורט בשיפוצים.,The teachers' room and the gym are under renovation.,The teachers' room and the gym are under renovation.,,,keep,Reviewed: retain the single canonical translation.
+3514891,אבא ואמא הלכו למסיבה.,Mom and Dad went to a party.,Mom and Dad went to a party.,,,keep,Reviewed: retain the single canonical translation.
+3515398,הוא פנה בעניין למורה.,"Interested, he turned to the teacher.",He approached the teacher about the matter.,,,corrected,"בעניין refers to the matter being raised, not to being interested."
+3516176,הם היו נחמדים אחד כלפי השני.,They were nice to each other.,They were nice to each other.,,,keep,Reviewed: retain the single canonical translation.
+3516178,שרטט קו ישר.,Draw a straight line.,Draw a straight line.,,,keep,Reviewed: retain the single canonical translation.
+3516185,אנא השאר את המחברות על השולחן כמו שהן.,Please leave the notebooks on the table as they are.,Please leave the notebooks on the table as they are.,,,keep,Reviewed: retain the single canonical translation.
+3516188,הוא שאף להיות שחקן מפורסם.,He aspired to be a famous actor.,He aspired to be a famous actor.,,,keep,Reviewed: retain the single canonical translation.
+3516196,יותר בריא לעלות במדרגות.,It is healthier to climb the stairs.,It is healthier to climb the stairs.,,,keep,Reviewed: retain the single canonical translation.
+3516202,אתמול נפגשנו עם שר החינוך.,Yesterday we met with the Minister of Education.,Yesterday we met with the Minister of Education.,,,keep,Reviewed: retain the single canonical translation.
+3516901,האם תרצי לרקוד אתי?,Would you like to dance with me?,Would you like to dance with me?,,,keep,Reviewed: retain the single canonical translation.
+3517001,הם מקיימים מצוות הכנסת אורחים.,They are fulfilling the commandment to host guests.,They are fulfilling the commandment to host guests.,They are observing the mitzvah of hospitality.,,alternative,Established cultural term alongside the explanatory commandment-to-host-guests rendering.
+3517004,הכנסת מונה 120 חברים.,The Knesset numbers 120 members.,The Knesset numbers 120 members.,,,keep,Reviewed: retain the single canonical translation.
+3517014,הוא קשר את הכלב לעץ.,He tied the dog to a tree.,He tied the dog to a tree.,,,keep,Reviewed: retain the single canonical translation.
+3517135,ישנם צמחים שלא יכולים להתאים את עצמם לקור.,Some plants cannot adapt themselves to the cold.,Some plants cannot adapt themselves to the cold.,,,keep,Reviewed: retain the single canonical translation.
+3519439,היא הכניסה את הספר לתוך התיק.,She put the book in the bag.,She put the book in the bag.,,,keep,Reviewed: retain the single canonical translation.
+3522547,אנשים ידעו כבר אז שכדור הארץ עגול.,People in those days already knew that the earth is round.,People in those days already knew that the earth is round.,,,keep,Reviewed: retain the single canonical translation.
+3537116,אנא מלא את הבקבוק במים.,Please fill up the bottle with water.,Please fill up the bottle with water.,,,keep,Reviewed: retain the single canonical translation.
+3544500,האם אי פעם ראית לווייתן?,Have you ever seen a whale?,Have you ever seen a whale?,,,keep,Reviewed: retain the single canonical translation.
+3544594,הזמן עבר מאוד מהר.,Time has passed very fast.,Time has passed very fast.,,,keep,Reviewed: retain the single canonical translation.
+3544698,נראה לי שיש לי חום.,I seem to have a temperature.,I seem to have a temperature.,I think I have a fever.,,alternative,Same fever/temperature alternatives as sentence 1236596.
+3544806,הוא הבטיח לא לאחר שוב.,He promised not to be late again.,He promised not to be late again.,,,keep,Reviewed: retain the single canonical translation.
+3544818,הצ'יטה היא בעל החיים המהיר בעולם.,The cheetah is the fastest animal in the world.,The cheetah is the fastest animal in the world.,,,keep,Reviewed: retain the single canonical translation.
+3544822,"ניצחתי, אני במקום ראשון!",I've won first prize!,I won. I'm in first place!,,,corrected,First place does not specify a first prize; consistent with sentence 1708988.
+3544849,עשיתי זאת מתוך סקרנות.,I did it out of curiosity.,I did it out of curiosity.,,,keep,Reviewed: retain the single canonical translation.
+3544872,"בעצם, זה מה שאני חשבתי.","Actually, that's what I thought.","Actually, that's what I thought.",,,keep,Reviewed: retain the single canonical translation.
+3544907,כבר חלפו חמש שנים מאז שהם שבו מיפן.,It's already been five years since they returned from Japan.,It's already been five years since they returned from Japan.,,,keep,Reviewed: retain the single canonical translation.
+3550813,"ודעי, הדברים האלה נכונים.","And know this, these things are true.","And know this, these things are true.",,,keep,Reviewed: retain the single canonical translation.
+3778171,טום משחק בחוץ.,Tom is playing outside.,Tom is playing outside.,,,keep,Reviewed: retain the single canonical translation.
+3780830,אני צריך לעזור לטום לנקות את חדרו.,I have to help Tom clean his room.,I have to help Tom clean his room.,,,keep,Reviewed: retain the single canonical translation.
+3788977,תודיע לי מיד כשמשהו קורה.,Let me know as soon as anything happens.,Let me know as soon as anything happens.,,,keep,Reviewed: retain the single canonical translation.
+3790495,מי נתן לך את הכינוי שלך?,Who gave you your nickname?,Who gave you your nickname?,,,keep,Reviewed: retain the single canonical translation.
+3795020,אתה חייב לפעול לפי הכללים.,You must follow the rules.,You must follow the rules.,,,keep,Reviewed: retain the single canonical translation.
+3795083,אני ממש רוצה לדעת מה קורה כאן.,I really want to know what's going on here.,I really want to know what's going on here.,,,keep,Reviewed: retain the single canonical translation.
+3817854,טום מקשיב לאייפוד שלו.,Tom is listening to his iPod.,Tom is listening to his iPod.,,,keep,Reviewed: retain the single canonical translation.
+3817856,בני כמה היו הילדים שלך כשעברת לבוסטון?,How old were your kids when you moved to Boston?,How old were your kids when you moved to Boston?,,,keep,Reviewed: retain the single canonical translation.
+3839662,לטום יש סוד.,Tom has a secret.,Tom has a secret.,,,keep,Reviewed: retain the single canonical translation.
+3839663,לטום יש חברה חמודה.,Tom has a cute girlfriend.,Tom has a cute girlfriend.,,,keep,Reviewed: retain the single canonical translation.
+3839664,"סלח לי, אתה יודע מה השעה?","Excuse me, do you know what time it is?","Excuse me, do you know what time it is?",,,keep,Reviewed: retain the single canonical translation.
+3839665,"סלחי לי, את יודעת מה השעה?","Excuse me, do you know what time it is?","Excuse me, do you know what time it is?",,,keep,Reviewed: retain the single canonical translation.
+3839668,"חם, אז אני רוצה לאכול משהו קר.","It's hot, so I want to eat something cold.","It's hot, so I want to eat something cold.",,,keep,Reviewed: retain the single canonical translation.
+3839677,אני רוצה לשחק איתך טניס ביום כלשהו.,I want to play tennis with you someday.,I want to play tennis with you someday.,,,keep,Reviewed: retain the single canonical translation.
+3851992,תום מאזין לאייפוד שלו.,Tom is listening to his iPod.,Tom is listening to his iPod.,,,keep,Reviewed: retain the single canonical translation.
+3852009,את ותום חוזרים אחד אל השני?,Are you and Tom getting back together?,Are you and Tom getting back together?,,,keep,Reviewed: retain the single canonical translation.

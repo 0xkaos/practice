@@ -3,3 +3,10 @@ dist/
 __pycache__/
 *.pyc
 .~lock.*#
+.firebase/
+*-debug.log
+*-debug.*.log
+test-results/
+playwright-report/
+.env.local
+.env.*.local

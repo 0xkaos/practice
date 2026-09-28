@@ -29,11 +29,14 @@ body {
     linear-gradient(180deg, #f7f2e9 0%, #f2ede3 100%);
 }
 
-button {
+button,
+textarea {
   font: inherit;
 }
 
-button:focus-visible {
+button:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
   outline: 3px solid rgba(220, 107, 68, 0.42);
   outline-offset: 3px;
 }
@@ -326,6 +329,97 @@ h1 {
   text-transform: uppercase;
 }
 
+button:disabled {
+  opacity: 0.55;
+  cursor: default;
+  transform: none;
+}
+
+.account-panel {
+  margin-top: 22px;
+}
+
+.account-row,
+.answer-actions,
+.result-topline,
+.history-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.account-row p {
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  overflow-wrap: anywhere;
+}
+
+.account-row button { flex-shrink: 0; }
+.practice-help { color: var(--ink-soft); font-size: 0.76rem; line-height: 1.6; }
+.intro-help { max-width: 780px; margin: 16px 0 0; }
+.error-message { color: #9a392b; font-size: 0.85rem; }
+
+.answer-form {
+  margin-top: 22px;
+}
+
+.answer-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink-soft);
+  font-size: 0.77rem;
+  font-weight: 650;
+}
+
+.answer-form textarea {
+  display: block;
+  width: 100%;
+  min-height: 82px;
+  resize: vertical;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.52);
+  color: var(--ink);
+  padding: 12px 14px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.answer-form textarea::placeholder { color: #738580; }
+.answer-form textarea:read-only { background: transparent; }
+.answer-actions { margin-top: 10px; }
+.answer-actions button { flex-shrink: 0; }
+
+.answer-result {
+  margin-top: 18px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: rgba(23, 63, 58, 0.035);
+}
+
+.answer-result.is-perfect { border-color: rgba(23, 100, 70, 0.25); background: rgba(23, 100, 70, 0.06); }
+.result-topline { margin-bottom: 18px; }
+.result-topline strong { font-size: 1.35rem; }
+.result-topline strong span { font-size: 0.76rem; margin-left: 6px; }
+.result-topline > span { font-size: 0.72rem; color: var(--ink-soft); }
+.answer-diff { margin: 7px 0 15px; font-family: Georgia, "Times New Roman", serif; font-size: 1.1rem; line-height: 1.65; overflow-wrap: anywhere; }
+.answer-diff mark { color: #78321f; background: #f7dbc9; border-bottom: 1px solid #c95c38; border-radius: 2px; }
+.save-status { margin: 0; font-size: 0.72rem; line-height: 1.6; color: var(--ink-soft); }
+.text-button { border: 0; padding: 3px; background: transparent; color: var(--ink); text-decoration: underline; cursor: pointer; font-size: inherit; }
+
+.practice-history { margin-top: 22px; padding: 16px; border: 1px solid var(--line); border-radius: 6px; font-size: 0.85rem; }
+.practice-history summary { cursor: pointer; font-weight: 700; line-height: 1.7; }
+.practice-history summary span { display: inline-block; margin-left: 12px; color: var(--ink-soft); font-size: 0.75rem; font-weight: 400; }
+.history-list { margin: 18px 0 0; padding: 0; list-style: none; max-height: 540px; overflow-y: auto; }
+.history-list li { padding: 16px 6px; border-top: 1px solid var(--line); }
+.history-list p { margin: 8px 0 0; overflow-wrap: anywhere; }
+.history-topline { font-size: 0.72rem; color: var(--ink-soft); }
+.history-list .history-hebrew { font-family: "Arial Hebrew", "Noto Sans Hebrew", Arial, sans-serif; font-size: 1.2rem; }
+
 @media (max-width: 650px) {
   .app-shell {
     width: min(100% - 24px, 1000px);
@@ -376,6 +470,13 @@ h1 {
   .session-footer p {
     text-align: center;
   }
+
+  .account-row,
+  .answer-actions { align-items: stretch; flex-direction: column; }
+  .account-row button { align-self: flex-start; }
+  .answer-actions .audio-button { flex: none; }
+  .practice-history summary span { display: block; margin-left: 0; }
+  .result-topline { flex-wrap: wrap; }
 }
 
 @media (prefers-reduced-motion: reduce) {

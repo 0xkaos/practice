@@ -1,0 +1,60 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Existing AI application rules, preserved from the live project.
+    match /audioCache/{docId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+    match /user_profiles/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      match /usageStats/{monthId} {
+        allow read: if request.auth != null && request.auth.uid == userId;
+        allow write: if false;
+      }
+    }
+    match /users/{userId}/cache/{vocabCardId} {
+      allow read, write, delete: if request.auth != null && request.auth.uid == userId;
+    }
+    match /users/{userId}/saved_contexts/{contextId} {
+      allow read, write, delete: if request.auth != null && request.auth.uid == userId;
+    }
+    match /saved_contexts/{userId}/{contextId} {
+      allow read, write, delete: if request.auth != null && request.auth.uid == userId;
+    }
+    match /users/{userId}/chat_prompts/{promptDocId} {
+      allow read, write, delete: if request.auth != null && request.auth.uid == userId;
+    }
+    match /usage/{userId}/monthlyUsage/{monthId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow write: if false;
+    }
+
+    // BEGIN phrases-practice (managed by the practice repository)
+    match /phrasePractice/{userId}/attempts/{attemptId} {
+      function ownsPractice() {
+        return request.auth != null && request.auth.uid == userId;
+      }
+      function validAttempt() {
+        let data = request.resource.data;
+        return data.keys().hasAll(['sentenceId', 'answer', 'score', 'exact', 'referenceIndex', 'assisted', 'translationVersion', 'gradingVersion', 'createdAt'])
+          && data.keys().hasOnly(['sentenceId', 'answer', 'score', 'exact', 'referenceIndex', 'assisted', 'translationVersion', 'gradingVersion', 'createdAt'])
+          && attemptId.matches('^[a-f0-9-]{36}$')
+          && data.sentenceId is string && data.sentenceId.matches('^[0-9]{1,12}$')
+          && data.answer is string && data.answer.size() > 0 && data.answer.size() <= 500
+          && data.score is int && data.score >= 0 && data.score <= 100
+          && data.exact is bool && data.exact == (data.score == 100)
+          && data.referenceIndex is int && data.referenceIndex >= 0 && data.referenceIndex <= 2
+          && data.assisted is bool
+          && data.translationVersion == 'canonical-v1'
+          && data.gradingVersion == 'ordered-v1'
+          && data.createdAt == request.time;
+      }
+      allow read: if ownsPractice();
+      allow create: if ownsPractice() && validAttempt();
+      allow update: if false;
+      allow delete: if ownsPractice();
+    }
+    // END phrases-practice
+  }
+}
