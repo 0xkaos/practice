@@ -32,6 +32,17 @@ test('capitalization and punctuation are ignored', () => {
   }
 })
 
+test('common contractions and expanded forms are interchangeable', () => {
+  for (const [contracted, expanded] of [
+    ["We're ready.", 'We are ready.'], ["I'm ready.", 'I am ready.'], ["They've arrived.", 'They have arrived.'],
+    ["She'll go.", 'She will go.'], ["I'd go.", 'I would go.'], ["It's finished.", 'It is finished.'],
+    ["Let's go.", 'Let us go.'], ["We don't know.", 'We do not know.'], ["She can't swim.", 'She cannot swim.'],
+  ]) {
+    assert.equal(scoreTranslation(contracted, [expanded]).score, 100)
+    assert.equal(scoreTranslation(expanded, [contracted]).score, 100)
+  }
+})
+
 test('missing, extra, substituted, and reordered words receive partial credit', () => {
   for (const answer of ["I feel like going out today.", "I don't really feel like going out today.", "Today out going like feel don't I."]) {
     const result = scoreTranslation(answer, alternatives)

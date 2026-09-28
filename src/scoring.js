@@ -1,4 +1,4 @@
-export const GRADING_VERSION = 'ordered-v3'
+export const GRADING_VERSION = 'ordered-v4'
 export const MAX_ANSWER_LENGTH = 500
 const REORDERED_SCORE_CAP = 0.67
 
@@ -28,6 +28,29 @@ function tokenize(text) {
 const weight = (token) => token.word ? 1 : 0
 const letters = (token) => token.text.replace(/['’]/gu, '')
 const comparable = (token) => token.word ? letters(token).toLowerCase() : ''
+const CONTRACTIONS = new Map([
+  ["i'm", [['i', 'am']]], ["you're", [['you', 'are']]], ["we're", [['we', 'are']]], ["they're", [['they', 'are']]],
+  ["he's", [['he', 'is'], ['he', 'has']]], ["she's", [['she', 'is'], ['she', 'has']]], ["it's", [['it', 'is'], ['it', 'has']]],
+  ["that's", [['that', 'is'], ['that', 'has']]], ["there's", [['there', 'is'], ['there', 'has']]], ["here's", [['here', 'is']]],
+  ["what's", [['what', 'is'], ['what', 'has']]], ["where's", [['where', 'is'], ['where', 'has']]], ["who's", [['who', 'is'], ['who', 'has']]],
+  ["when's", [['when', 'is']]], ["why's", [['why', 'is']]], ["how's", [['how', 'is'], ['how', 'has']]], ["let's", [['let', 'us']]],
+  ["i've", [['i', 'have']]], ["you've", [['you', 'have']]], ["we've", [['we', 'have']]], ["they've", [['they', 'have']]],
+  ["could've", [['could', 'have']]], ["should've", [['should', 'have']]], ["would've", [['would', 'have']]], ["might've", [['might', 'have']]], ["must've", [['must', 'have']]],
+  ["i'll", [['i', 'will']]], ["you'll", [['you', 'will']]], ["he'll", [['he', 'will']]], ["she'll", [['she', 'will']]], ["we'll", [['we', 'will']]], ["they'll", [['they', 'will']]], ["it'll", [['it', 'will']]], ["that'll", [['that', 'will']]], ["there'll", [['there', 'will']]], ["who'll", [['who', 'will']]],
+  ["i'd", [['i', 'would'], ['i', 'had']]], ["you'd", [['you', 'would'], ['you', 'had']]], ["he'd", [['he', 'would'], ['he', 'had']]], ["she'd", [['she', 'would'], ['she', 'had']]], ["we'd", [['we', 'would'], ['we', 'had']]], ["they'd", [['they', 'would'], ['they', 'had']]], ["it'd", [['it', 'would'], ['it', 'had']]], ["that'd", [['that', 'would'], ['that', 'had']]], ["there'd", [['there', 'would'], ['there', 'had']]],
+  ["aren't", [['are', 'not']]], ["isn't", [['is', 'not']]], ["wasn't", [['was', 'not']]], ["weren't", [['were', 'not']]], ["don't", [['do', 'not']]], ["doesn't", [['does', 'not']]], ["didn't", [['did', 'not']]], ["haven't", [['have', 'not']]], ["hasn't", [['has', 'not']]], ["hadn't", [['had', 'not']]], ["won't", [['will', 'not']]], ["wouldn't", [['would', 'not']]], ["shouldn't", [['should', 'not']]], ["couldn't", [['could', 'not']]], ["mightn't", [['might', 'not']]], ["mustn't", [['must', 'not']]], ["shan't", [['shall', 'not']]], ["can't", [['cannot']]],
+])
+
+function contractionExpansions(token) {
+  return CONTRACTIONS.get(token.text.toLowerCase().replace(/’/gu, "'")) || []
+}
+
+function matchesExpansion(tokens, end, words) {
+  return end >= words.length && words.every((word, index) => {
+    const token = tokens[end - words.length + index]
+    return token.word && comparable(token) === word
+  })
+}
 
 function replacement(actual, expected) {
   if (!actual.word && !expected.word) return { cost: 0, kind: 'equal' }
@@ -50,6 +73,12 @@ function compare(answer, reference) {
         { cost: matrix[i - 1][j].cost + weight(actual[i - 1]), operation: 'extra' },
         { cost: matrix[i][j - 1].cost + weight(expected[j - 1]), operation: 'missing' },
       ]
+      for (const words of contractionExpansions(actual[i - 1])) {
+        if (matchesExpansion(expected, j, words)) choices.push({ cost: matrix[i - 1][j - words.length].cost, operation: 'actual contraction', length: words.length, kind: 'equal' })
+      }
+      for (const words of contractionExpansions(expected[j - 1])) {
+        if (matchesExpansion(actual, i, words)) choices.push({ cost: matrix[i - words.length][j - 1].cost, operation: 'expected contraction', length: words.length, kind: 'equal' })
+      }
       matrix[i][j] = choices.reduce((best, next) => next.cost < best.cost - 1e-9 ? next : best)
     }
   }
@@ -63,6 +92,12 @@ function compare(answer, reference) {
     if (cell.operation === 'pair') {
       actualParts.unshift({ ...actual[--i], kind: cell.kind })
       expectedParts.unshift({ ...expected[--j], kind: cell.kind })
+    } else if (cell.operation === 'actual contraction') {
+      actualParts.unshift({ ...actual[--i], kind: cell.kind })
+      for (let count = 0; count < cell.length; count++) expectedParts.unshift({ ...expected[--j], kind: cell.kind })
+    } else if (cell.operation === 'expected contraction') {
+      expectedParts.unshift({ ...expected[--j], kind: cell.kind })
+      for (let count = 0; count < cell.length; count++) actualParts.unshift({ ...actual[--i], kind: cell.kind })
     } else if (cell.operation === 'extra') {
       actualParts.unshift({ ...actual[--i], kind: 'extra' })
     } else {
