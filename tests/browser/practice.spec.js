@@ -120,15 +120,15 @@ test('revisited phrases show latest previous score, including zero, without repl
   await expect(page.getByTestId('accuracy')).toHaveText('50%')
 })
 
-test('case and punctuation still affect the score without instructional text', async ({ page }) => {
+test('case and punctuation are ignored without instructional text', async ({ page }) => {
   await openPractice(page)
   const { card, sentence } = await firstSentence(page)
   const answer = sentence.english.toLowerCase().replace(/[.!?]$/u, '')
   const expected = scoreTranslation(answer, sentence.translations).score
-  expect(expected).toBeLessThan(100)
+  expect(expected).toBe(100)
   await answerCard(card, answer)
   await expect(card.getByRole('status')).toContainText(`${expected}%`)
-  await expect(card.locator('mark').first()).toBeVisible()
+  await expect(card.locator('mark')).toHaveCount(0)
   await expect(page.getByTestId('points')).toHaveText(String(expected))
   await expect(page.getByTestId('accuracy')).toHaveText(`${expected}%`)
 })
@@ -225,7 +225,7 @@ test('all-time totals include older history and latest saved score appears on th
       await saveAttempt(auth.currentUser.uid, {
         id: crypto.randomUUID(), sentenceId: phrase.id, answer: phrase.english,
         score, exact: score === 100, referenceIndex: 0, assisted: false,
-        translationVersion: phrase.translationVersion, gradingVersion: 'ordered-v2',
+        translationVersion: phrase.translationVersion, gradingVersion: 'ordered-v3',
       })
     }
   }, sentence)

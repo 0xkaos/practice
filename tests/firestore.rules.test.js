@@ -14,13 +14,14 @@ before(async () => {
 beforeEach(async () => { await environment.clearFirestore() })
 after(async () => { await environment?.cleanup() })
 
-const valid = () => ({ sentenceId: '556413', answer: 'I wonder if it will rain tomorrow.', score: 100, exact: true, referenceIndex: 0, assisted: false, translationVersion: 'canonical-v1', gradingVersion: 'ordered-v2', createdAt: serverTimestamp() })
+const valid = () => ({ sentenceId: '556413', answer: 'I wonder if it will rain tomorrow.', score: 100, exact: true, referenceIndex: 0, assisted: false, translationVersion: 'canonical-v1', gradingVersion: 'ordered-v3', createdAt: serverTimestamp() })
 const target = (db, uid = 'alice', id = randomUUID()) => doc(db, 'phrasePractice', uid, 'attempts', id)
 
 test('owner can save, read, list, and delete their results', async () => {
   const db = environment.authenticatedContext('alice').firestore()
   const reference = target(db)
   await assertSucceeds(setDoc(reference, valid()))
+  await assertSucceeds(setDoc(target(db), { ...valid(), gradingVersion: 'ordered-v2' }))
   await assertSucceeds(getDoc(reference))
   await assertSucceeds(getDocs(query(collection(db, 'phrasePractice', 'alice', 'attempts'), orderBy('createdAt', 'desc'), limit(20))))
   await assertSucceeds(deleteDoc(reference))

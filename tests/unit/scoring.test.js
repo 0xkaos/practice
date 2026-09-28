@@ -24,11 +24,11 @@ test('does not combine fragments of alternatives into a perfect answer', () => {
   }
 })
 
-test('capitalization, missing punctuation, punctuation changes and apostrophe styles all count', () => {
+test('capitalization and punctuation are ignored', () => {
   for (const answer of ["i don't feel like going out today.", "I don't feel like going out today", "I don't feel like going out today!", 'I don’t feel like going out today.', 'I dont feel like going out today.']) {
     const result = scoreTranslation(answer, alternatives)
-    assert.ok(result.score < 100)
-    assert.ok(result.score > scoreTranslation("I don't feel like staying out today.", alternatives).score)
+    assert.equal(result.score, 100)
+    assert.equal(result.exact, true)
   }
 })
 
@@ -83,11 +83,10 @@ test('invisible clipboard formatting is removed before trimming and tokenization
   }
 })
 
-test('invisible formatting cannot mask visible spelling, case or punctuation differences', () => {
+test('invisible formatting cannot mask visible spelling differences', () => {
   const reference = 'What languages are spoken in Canada?'
-  for (const answer of ['what languages are spoken in Canada?', 'What languages are spoken in Canada',
-    'What languages are spoken in Canada!', 'What language are spoken in Canada?',
-    'What languagés are spoken in Canada?', 'What languages-are spoken in Canada?']) {
+  for (const answer of ['What language are spoken in Canada?',
+    'What languagés are spoken in Canada?']) {
     const plain = scoreTranslation(answer, [reference])
     assert.ok(plain.score < 100)
     assert.equal(scoreTranslation(`\u200F${answer}\u200B`, [reference]).score, plain.score)
@@ -114,14 +113,17 @@ test('alignment reconstructs both texts, preserving punctuation and case', () =>
   assert.ok(scoreTranslation("I don't really feel like going out today.", alternatives).actualParts.some((part) => part.kind === 'extra'))
 })
 
-test('a tiny difference cannot round up to a perfect score', () => {
+test('punctuation-only differences earn a perfect score', () => {
   const reference = `${'word '.repeat(90)}end.`
-  assert.equal(scoreTranslation(reference.slice(0, -1), [reference]).score, 99)
+  assert.equal(scoreTranslation(reference.slice(0, -1), [reference]).score, 100)
 })
 
-test('apostrophe positions are significant and an exact later alternative wins', () => {
-  assert.ok(scoreTranslation("d'ont", ["do'nt"]).score < 100)
-  assert.equal(scoreTranslation("do'nt", ["d'ont", "do'nt"]).referenceIndex, 1)
+test('apostrophe positions are ignored', () => {
+  assert.equal(scoreTranslation("d'ont", ["do'nt"]).score, 100)
+})
+
+test('an exact later alternative wins', () => {
+  assert.equal(scoreTranslation('right', ['wrong', 'right']).referenceIndex, 1)
 })
 
 const sentences = JSON.parse(readFileSync(new URL('../../src/data/sentences.json', import.meta.url)))

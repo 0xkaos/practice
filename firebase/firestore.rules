@@ -47,7 +47,7 @@ service cloud.firestore {
           && data.referenceIndex is int && data.referenceIndex >= 0 && data.referenceIndex <= 2
           && data.assisted is bool
           && data.translationVersion == 'canonical-v1'
-          && data.gradingVersion == 'ordered-v2'
+          && data.gradingVersion in ['ordered-v2', 'ordered-v3']
           && data.createdAt == request.time;
       }
       allow read: if ownsPractice();

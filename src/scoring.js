@@ -1,4 +1,4 @@
-export const GRADING_VERSION = 'ordered-v2'
+export const GRADING_VERSION = 'ordered-v3'
 export const MAX_ANSWER_LENGTH = 500
 const REORDERED_SCORE_CAP = 0.67
 
@@ -25,19 +25,13 @@ function tokenize(text) {
   })
 }
 
-const weight = (token) => token.word ? 1 : 0.15
+const weight = (token) => token.word ? 1 : 0
 const letters = (token) => token.text.replace(/['’]/gu, '')
+const comparable = (token) => token.word ? letters(token).toLowerCase() : ''
 
 function replacement(actual, expected) {
-  if (actual.text === expected.text) return { cost: 0, kind: 'equal' }
-  if (actual.word && expected.word && letters(actual).toLowerCase() === letters(expected).toLowerCase()) {
-    const caseChanged = letters(actual) !== letters(expected)
-    const punctuationChanged = actual.text.toLowerCase() !== expected.text.toLowerCase()
-    return {
-      cost: (caseChanged ? 0.2 : 0) + (punctuationChanged ? 0.15 : 0),
-      kind: caseChanged && punctuationChanged ? 'case and punctuation' : caseChanged ? 'capitalization' : 'punctuation',
-    }
-  }
+  if (!actual.word && !expected.word) return { cost: 0, kind: 'equal' }
+  if (actual.word && expected.word && comparable(actual) === comparable(expected)) return { cost: 0, kind: 'equal' }
   return { cost: Math.max(weight(actual), weight(expected)), kind: !actual.word && !expected.word ? 'punctuation' : 'wording' }
 }
 
@@ -78,7 +72,7 @@ function compare(answer, reference) {
 
   const distance = matrix[actual.length][expected.length].cost
   const denominator = Math.max(actual.reduce((sum, token) => sum + weight(token), 0), expected.reduce((sum, token) => sum + weight(token), 0))
-  const exact = answer === reference
+  const exact = distance === 0
   const similarity = answer ? Math.max(0, 1 - distance / denominator) : 0
   return {
     score: exact ? 100 : Math.min(99, Math.round(similarity * 100)),
@@ -94,22 +88,32 @@ function compareReordered(answer, reference) {
   const actual = tokenize(answer)
   const expected = tokenize(reference)
   const available = new Map()
-  for (const token of expected) available.set(token.text, (available.get(token.text) || 0) + 1)
+  for (const token of expected.filter((token) => token.word)) {
+    const key = comparable(token)
+    available.set(key, (available.get(key) || 0) + 1)
+  }
   let matchedWeight = 0
   const actualParts = actual.map((token) => {
-    const count = available.get(token.text) || 0
+    if (!token.word) return { ...token, kind: 'equal' }
+    const key = comparable(token)
+    const count = available.get(key) || 0
     if (!count) return { ...token, kind: 'extra' }
-    available.set(token.text, count - 1)
+    available.set(key, count - 1)
     matchedWeight += weight(token)
     return { ...token, kind: 'equal' }
   })
 
   const actualAvailable = new Map()
-  for (const token of actual) actualAvailable.set(token.text, (actualAvailable.get(token.text) || 0) + 1)
+  for (const token of actual.filter((token) => token.word)) {
+    const key = comparable(token)
+    actualAvailable.set(key, (actualAvailable.get(key) || 0) + 1)
+  }
   const expectedParts = expected.map((token) => {
-    const count = actualAvailable.get(token.text) || 0
+    if (!token.word) return { ...token, kind: 'equal' }
+    const key = comparable(token)
+    const count = actualAvailable.get(key) || 0
     if (!count) return { ...token, kind: 'missing' }
-    actualAvailable.set(token.text, count - 1)
+    actualAvailable.set(key, count - 1)
     return { ...token, kind: 'equal' }
   })
 

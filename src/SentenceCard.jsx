@@ -17,7 +17,7 @@ function EyeIcon({ open }) {
 }
 
 function AnswerDiff({ parts }) {
-  return parts.map((part, index) => <span key={index}>{part.leading}{part.kind === 'equal' ? part.text : <mark title={part.kind}>{part.text}</mark>}</span>)
+  return parts.map((part, index) => <span key={index}>{part.leading}{part.kind === 'equal' || !part.word ? part.text : <mark title={part.kind}>{part.text}</mark>}</span>)
 }
 
 export default function SentenceCard({ sentence, number, playing, onPlay, user, accountReady, previousAttempt, onAttempt, onSaveState }) {
@@ -110,7 +110,7 @@ export default function SentenceCard({ sentence, number, playing, onPlay, user, 
       <div id={`answer-panel-${sentence.id}`}>
         {mode === 'translate' && !result && <form className="answer-form" onSubmit={check} dir="ltr">
           <label htmlFor={`answer-${sentence.id}`} className="sr-only">Your English translation</label>
-          <textarea id={`answer-${sentence.id}`} value={answer} onChange={(event) => setAnswer(event.target.value)} maxLength={MAX_ANSWER_LENGTH} rows={2} spellCheck={false} autoCorrect="off" autoCapitalize="off" autoFocus lang="en" dir="ltr" placeholder="Your translation…" />
+          <textarea id={`answer-${sentence.id}`} value={answer} onChange={(event) => setAnswer(event.target.value)} maxLength={MAX_ANSWER_LENGTH} rows={2} autoFocus lang="en" dir="ltr" placeholder="Your translation…" />
           <div className="answer-actions"><button className="audio-button" type="submit" disabled={!normalizedAnswer || !accountReady}>Check</button></div>
         </form>}
       </div>
