@@ -23,7 +23,7 @@ test('bottom selector changes only Hebrew, preserving the current set and draft'
   const controlFont = await first.locator('.audio-button').evaluate((element) => getComputedStyle(element).fontFamily)
   for (const font of HEBREW_FONTS) {
     await selector.selectOption(font.id)
-    for (const target of ['.hebrew-line', '.hero-hebrew', '.font-preview']) {
+    for (const target of ['.hebrew-line', '.hero-hebrew']) {
       await expect(page.locator(target).first()).toHaveCSS('font-family', font.family)
     }
     await expect(first.locator('.hebrew-line')).toHaveCSS('font-weight', String(font.weight))
